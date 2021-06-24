@@ -82,7 +82,7 @@ header .navigation__bar .navbar .container-fluid .navbar-toggler-icon {
 }
 
 header .navigation__bar .navbar .navbar-toggler {
-  color: cadetblue;
+  background-color: #000000;
 }
 
 header .navigation__bar .navbar .collapse {
@@ -131,7 +131,7 @@ header .navigation__bar .navbar .navbar-nav .nav-item .nav-link:hover {
   color: #ffffff;
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 1.5em;
-  background-color: #3b3d49;
+  background-color: #000000;
 }
 
 .hero-text .btn:hover {
@@ -228,7 +228,7 @@ footer .main-footer p {
     color: #ffffff;
   }
   .navbar-toggler {
-    background-color: gray;
+    background-color: #000000;
   }
   .navigation__bar {
     display: -webkit-box;
@@ -255,7 +255,7 @@ footer .main-footer p {
     color: #ffffff;
   }
   .navbar-toggler {
-    background-color: gray;
+    background-color: #000000;
   }
   .navigation__bar {
     display: -webkit-box;
@@ -308,7 +308,7 @@ footer .main-footer p {
   }
   .navigation__bar .navbar .navbar-toggler {
     margin-top: 10px;
-    background-color: gray;
+    background-color: #000000;
   }
   .hero-text {
     position: absolute;
@@ -329,7 +329,7 @@ footer .main-footer p {
   .hero-text .btn {
     width: 200px;
     height: 40px;
-    color: #ffffff;
+    color: #000000;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1em;
     background-color: #3b3d49;
@@ -396,7 +396,7 @@ footer .main-footer p {
   }
   .navigation__bar .navbar .navbar-toggler {
     margin-top: 10px;
-    background-color: gray;
+    background-color: #000000;
   }
   .hero-text {
     position: absolute;
@@ -417,7 +417,7 @@ footer .main-footer p {
   .hero-text .btn {
     width: 200px;
     height: 40px;
-    color: #ffffff;
+    color: #000000;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1em;
     background-color: #3b3d49;
@@ -504,7 +504,7 @@ footer .main-footer p {
   }
   .navigation__bar .navbar .navbar-toggler {
     margin-top: 10px;
-    background-color: gray;
+    background-color: #000000;
   }
   .hero-text {
     position: absolute;
@@ -528,7 +528,7 @@ footer .main-footer p {
     color: #ffffff;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1em;
-    background-color: #3b3d49;
+    background-color: #000000;
   }
   .hero-text .btn:hover {
     -webkit-transform: translateY(-5px);
