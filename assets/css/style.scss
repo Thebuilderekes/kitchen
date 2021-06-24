@@ -101,7 +101,8 @@ header {
 
        .navbar-toggler {
           
-           color: black;
+           color: cadetblue;
+           
            
        }
 
@@ -160,10 +161,9 @@ header {
       }
 
     .btn {
-        width: 500px;
+        width: 350px;
         height: 50px;
        color: $primary-color;
-
        font-family: 'Archivo Narrow', sans-serif;
        font-size: $medium-size;
        background-color: $secondary-color;
@@ -328,9 +328,54 @@ footer {
         display: flex;
         justify-content: space-around;
         align-items: center;
+
+
+        .navbar {
+            margin-top: 100px;
+            
+
+            .navbar-toggler {
+                margin-top: 10px;
+                background-color: gray;
+                    
+                }
+        }
+
 }
 }
 
+
+.hero-text {
+    position: absolute;
+    top:30%;
+    left: 10%;
+
+    
+
+    h2 {
+    
+        color: #F1EFE3;
+        font-size: $large-size;
+        font-weight: 700;
+        font-family: 'Archivo Black', sans-serif;
+
+       
+    }
+
+    
+    
+    p{
+        color: $primary-color;
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: $medium-size;
+
+      }
+
+
+
+   
+
+}
 
 
 
@@ -383,7 +428,7 @@ footer {
           }
     
         .btn {
-            width: 120px;
+            width: 200px;
             height: 40px;
            color: $primary-color;
            font-family: 'Archivo Narrow', sans-serif;
@@ -393,6 +438,11 @@ footer {
            &:hover {
                transform: translateY(-5px);
     
+           }
+
+
+           span {
+               display: none;
            }
         }
     

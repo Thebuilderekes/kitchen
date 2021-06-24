@@ -81,7 +81,7 @@ header .navigation__bar .navbar .container-fluid .navbar-toggler-icon {
 }
 
 header .navigation__bar .navbar .navbar-toggler {
-  color: black;
+  color: cadetblue;
 }
 
 header .navigation__bar .navbar .collapse {
@@ -125,7 +125,7 @@ header .navigation__bar .navbar .navbar-nav .nav-item .nav-link:hover {
 }
 
 .hero-text .btn {
-  width: 500px;
+  width: 350px;
   height: 50px;
   color: #ffffff;
   font-family: 'Archivo Narrow', sans-serif;
@@ -266,6 +266,32 @@ footer .main-footer p {
         -ms-flex-align: center;
             align-items: center;
   }
+  .navigation__bar .navbar {
+    margin-top: 100px;
+  }
+  .navigation__bar .navbar .navbar-toggler {
+    margin-top: 10px;
+    background-color: gray;
+  }
+}
+
+.hero-text {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+.hero-text h2 {
+  color: #F1EFE3;
+  font-size: 2.5em;
+  font-weight: 700;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.hero-text p {
+  color: #ffffff;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 1.5em;
 }
 
 @media screen and (min-width: 360px) and (max-width: 375px) {
@@ -300,7 +326,7 @@ footer .main-footer p {
     font-size: 1.5em;
   }
   .hero-text .btn {
-    width: 120px;
+    width: 200px;
     height: 40px;
     color: #ffffff;
     font-family: 'Archivo Narrow', sans-serif;
@@ -310,6 +336,9 @@ footer .main-footer p {
   .hero-text .btn:hover {
     -webkit-transform: translateY(-5px);
             transform: translateY(-5px);
+  }
+  .hero-text .btn span {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
