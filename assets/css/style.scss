@@ -7,6 +7,7 @@
 
     $primary-color: #ffffff;
     $comp-color: #f8e056;
+    $button-color: #000000;
     $secondary-color: #3b3d49;
     $extralarge-size: 3.75em; // 60px
     $large-size: 2.5em; // 40px
@@ -86,7 +87,7 @@ header {
               text-decoration: none;
               font-size: $medium-size;
               font-weight: 700;
-              color: #000000;
+              color: $button-color;
               font-family: 'Archivo Narrow', sans-serif;
           }
       }
@@ -106,7 +107,7 @@ header {
 
        .navbar-toggler {
           
-           background-color: #000000;
+           background-color: $button-color;
            
            
        }
@@ -168,10 +169,11 @@ header {
     .btn {
         width: 350px;
         height: 50px;
-       color: $primary-color;
+       color: $button-color;
        font-family: 'Archivo Narrow', sans-serif;
        font-size: $medium-size;
-       background-color: #000000;
+       background-color: $comp-color;
+       font-weight: 700;
             
     border-radius: 10px;
 
@@ -257,6 +259,22 @@ footer {
             font-family: 'Archivo Narrow', sans-serif;
         }
 
+
+        .order-now {
+            margin: auto;
+            padding: 5px 0;
+            text-align: center;
+            width: 150px;
+            height: 40px;
+            background-color: $comp-color;
+            color: $button-color;
+            font-weight: 700;
+
+            &:hover {
+                transform: translateY(-5px);
+            }
+        }
+
         .order {
             font-size: $extralarge-size;
             font-family: 'Archivo Narrow', sans-serif;
@@ -296,7 +314,7 @@ footer {
 
     .navbar-toggler {
       
-    background-color:  #000000;
+    background-color:  $button-color;
         
     }
 
@@ -331,7 +349,7 @@ footer {
 
     .navbar-toggler {
       
-    background-color: #000000;
+    background-color: $button-color;
         
     }
 
@@ -414,7 +432,7 @@ footer {
             text-decoration: none;
             font-size: $normal-size;
             font-weight: 700;
-            color: #000000;
+            color: $button-color;
             font-family: 'Archivo Narrow', sans-serif;
         }
     }
@@ -426,7 +444,7 @@ footer {
 
             .navbar-toggler {
                 margin-top: 10px;
-                background-color:#000000;
+                background-color:$button-color;
                     
                 }
         }
@@ -464,12 +482,13 @@ footer {
         .btn {
             width: 200px;
             height: 40px;
-            background-color: #000000;
+            background-color: $comp-color;
            font-family: 'Archivo Narrow', sans-serif;
            font-size: $normal-size;
-           background-color: $secondary-color;
+           color: $button-color;
     
            &:hover {
+
                transform: translateY(-5px);
     
            }
@@ -537,7 +556,7 @@ footer {
                     text-decoration: none;
                     font-size: 1.2em;
                     font-weight: 700;
-                    color: #000000;
+                    color: $button-color;
                     font-family: 'Archivo Narrow', sans-serif;
                 }
             }
@@ -558,7 +577,7 @@ footer {
 
             .navbar-toggler {
                 margin-top: 10px;
-                background-color: #000000;
+                background-color: $button-color;
                     
                 }
         }
@@ -596,10 +615,10 @@ footer {
         .btn {
             width: 200px;
             height: 40px;
-           color: $primary-color;
+           color: $button-color;
            font-family: 'Archivo Narrow', sans-serif;
            font-size: $normal-size;
-           background-color: #000000;
+           background-color: $comp-color;
     
            &:hover {
                transform: translateY(-5px);
@@ -690,7 +709,7 @@ footer {
                     text-decoration: none;
                     font-size: 1.2em;
                     font-weight: 700;
-                    color: #000000;
+                    color: $button-color;
                     font-family: 'Archivo Narrow', sans-serif;
                 }
             }
@@ -714,7 +733,7 @@ footer {
              
             .navbar-toggler {
                 margin-top: 10px;
-                background-color: #000000;
+                background-color: $button-color;
                     
                 }
         }
@@ -752,10 +771,10 @@ footer {
         .btn {
             width: 200px;
             height: 40px;
-           color: $primary-color;
+           color: $button-color;
            font-family: 'Archivo Narrow', sans-serif;
            font-size: $normal-size;
-           background-color: #000000;
+           background-color: $comp-color;
            &:hover {
                transform: translateY(-5px);
     
