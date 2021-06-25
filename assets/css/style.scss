@@ -86,11 +86,7 @@ header {
               text-decoration: none;
               font-size: $medium-size;
               font-weight: 700;
-              background: rgb(0,0,0);
-              background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(224,202,28,1) 46%, rgba(0,0,0,1) 100%); 
-              width: 100%;
-              background-clip: text;
-              -webkit-text-fill-color: transparent;
+              color: #000000;
               font-family: 'Archivo Narrow', sans-serif;
           }
       }
@@ -418,11 +414,7 @@ footer {
             text-decoration: none;
             font-size: $normal-size;
             font-weight: 700;
-            background: rgb(0,0,0);
-            background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(231, 51, 19) 46%, rgba(0,0,0,1) 100%); 
-            width: 100%;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: #000000;
             font-family: 'Archivo Narrow', sans-serif;
         }
     }
@@ -545,12 +537,7 @@ footer {
                     text-decoration: none;
                     font-size: 1.2em;
                     font-weight: 700;
-                    background: rgb(0,0,0);
-                    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(224,202,28,1) 46%, rgba(0,0,0,1) 100%); 
-                    width: 100%;
-                    background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                    width: 100%;
+                    color: #000000;
                     font-family: 'Archivo Narrow', sans-serif;
                 }
             }
@@ -703,12 +690,7 @@ footer {
                     text-decoration: none;
                     font-size: 1.2em;
                     font-weight: 700;
-                    background: rgb(0,0,0);
-                    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(224,202,28,1) 46%, rgba(0,0,0,1) 100%); 
-                    width: 100%;
-                    background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                    width: 100%;
+                    color: #000000;
                     font-family: 'Archivo Narrow', sans-serif;
                 }
             }

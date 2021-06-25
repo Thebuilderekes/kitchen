@@ -73,12 +73,7 @@ header .navigation__bar--logo a {
   text-decoration: none;
   font-size: 1.5em;
   font-weight: 700;
-  background: black;
-  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(46%, #e0ca1c), to(black));
-  background: linear-gradient(90deg, black 0%, #e0ca1c 46%, black 100%);
-  width: 100%;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #000000;
   font-family: 'Archivo Narrow', sans-serif;
 }
 
@@ -322,12 +317,7 @@ footer .main-footer .copyright {
     text-decoration: none;
     font-size: 1em;
     font-weight: 700;
-    background: black;
-    background: -webkit-gradient(linear, left top, right top, from(black), color-stop(46%, #e73313), to(black));
-    background: linear-gradient(90deg, black 0%, #e73313 46%, black 100%);
-    width: 100%;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #000000;
     font-family: 'Archivo Narrow', sans-serif;
   }
   .navigation__bar .navbar {
@@ -407,13 +397,7 @@ footer .main-footer .copyright {
     text-decoration: none;
     font-size: 1.2em;
     font-weight: 700;
-    background: black;
-    background: -webkit-gradient(linear, left top, right top, from(black), color-stop(46%, #e0ca1c), to(black));
-    background: linear-gradient(90deg, black 0%, #e0ca1c 46%, black 100%);
-    width: 100%;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    width: 100%;
+    color: #000000;
     font-family: 'Archivo Narrow', sans-serif;
   }
   .navigation__bar {
@@ -517,13 +501,7 @@ footer .main-footer .copyright {
     text-decoration: none;
     font-size: 1.2em;
     font-weight: 700;
-    background: black;
-    background: -webkit-gradient(linear, left top, right top, from(black), color-stop(46%, #e0ca1c), to(black));
-    background: linear-gradient(90deg, black 0%, #e0ca1c 46%, black 100%);
-    width: 100%;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    width: 100%;
+    color: #000000;
     font-family: 'Archivo Narrow', sans-serif;
   }
   .navigation__bar {
