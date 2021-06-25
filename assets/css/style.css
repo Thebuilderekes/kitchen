@@ -13,6 +13,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  width: 100%;
+}
+
 h3 {
   font-size: 1.5em;
   font-family: 'Archivo Narrow', sans-serif;
@@ -41,6 +45,7 @@ header .main-header {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.534)), color-stop(35%, rgba(0, 0, 0, 0.514)), to(rgba(0, 0, 0, 0.527))), url(../img/back-img.jpg);
   background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header .navigation__bar {
@@ -66,10 +71,14 @@ header .navigation__bar {
 header .navigation__bar--logo a {
   padding: 0 10px;
   text-decoration: none;
-  font-size: 2.5em;
+  font-size: 1.5em;
   font-weight: 700;
-  color: #000000;
+  background: black;
+  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(46%, #e0ca1c), to(black));
+  background: linear-gradient(90deg, black 0%, #e0ca1c 46%, black 100%);
   width: 100%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: 'Archivo Narrow', sans-serif;
 }
 
@@ -103,7 +112,7 @@ header .navigation__bar .navbar .navbar-nav .nav-item .nav-link {
 }
 
 header .navigation__bar .navbar .navbar-nav .nav-item .nav-link:hover {
-  color: #3b3d49;
+  color: #f8e056;
 }
 
 /*Hero-section */
@@ -113,8 +122,8 @@ header .navigation__bar .navbar .navbar-nav .nav-item .nav-link:hover {
   left: 10%;
 }
 
-.hero-text h2 {
-  color: #F1EFE3;
+.hero-text h1 {
+  color: #f8e056;
   font-size: 3.75em;
   font-weight: 700;
   font-family: 'Archivo Black', sans-serif;
@@ -122,7 +131,7 @@ header .navigation__bar .navbar .navbar-nav .nav-item .nav-link:hover {
 
 .hero-text p {
   color: #ffffff;
-  font-size: 1.5em;
+  font-size: 2.5em;
 }
 
 .hero-text .btn {
@@ -132,6 +141,7 @@ header .navigation__bar .navbar .navbar-nav .nav-item .nav-link:hover {
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 1.5em;
   background-color: #000000;
+  border-radius: 10px;
 }
 
 .hero-text .btn:hover {
@@ -212,6 +222,10 @@ footer .main-footer p {
   color: #ffffff;
 }
 
+footer .main-footer .copyright {
+  font-size: 1em;
+}
+
 /*----------------------------------------------------------------*/
 /*----------------------MEDIA QUERIES------------------*/
 /*---------------------------------------------------------------*/
@@ -245,7 +259,7 @@ footer .main-footer p {
 @media screen and (max-width: 768px) {
   .main-header {
     width: 100%;
-    height: 70vh;
+    height: 100vh;
     padding: 0;
   }
   .container-fluid {
@@ -274,34 +288,47 @@ footer .main-footer p {
     margin-top: 10px;
     background-color: gray;
   }
+  .hero-text {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+  .hero-text h1 {
+    color: #f8e056;
+    font-size: 2.5em;
+    font-weight: 700;
+    font-family: 'Archivo Black', sans-serif;
+  }
+  .hero-text p {
+    color: #ffffff;
+  }
+  .about h2 {
+    font-family: 'Archivo Black', sans-serif;
+    padding: 1.5em 0;
+    font-weight: 700;
+  }
 }
 
-.hero-text {
-  position: absolute;
-  top: 30%;
-  left: 10%;
-}
-
-.hero-text h2 {
-  color: #F1EFE3;
-  font-size: 2.5em;
-  font-weight: 700;
-  font-family: 'Archivo Black', sans-serif;
-}
-
-.hero-text p {
-  color: #ffffff;
-  font-family: 'Archivo Narrow', sans-serif;
-  font-size: 1.5em;
-}
-
-@media screen and (min-width: 376px) and (max-width: 414px) {
+@media screen and (min-width: 414px) and (max-width: 500px) {
   .navigation__bar {
     width: 100%;
     height: 100px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .navigation__bar--logo a {
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 700;
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, from(black), color-stop(46%, #e73313), to(black));
+    background: linear-gradient(90deg, black 0%, #e73313 46%, black 100%);
+    width: 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Archivo Narrow', sans-serif;
   }
   .navigation__bar .navbar {
     margin-top: 100px;
@@ -315,8 +342,8 @@ footer .main-footer p {
     top: 30%;
     left: 10%;
   }
-  .hero-text h2 {
-    color: #F1EFE3;
+  .hero-text h1 {
+    color: #f8e056;
     font-size: 2.5em;
     font-weight: 700;
     font-family: 'Archivo Black', sans-serif;
@@ -329,7 +356,7 @@ footer .main-footer p {
   .hero-text .btn {
     width: 200px;
     height: 40px;
-    color: #000000;
+    background-color: #000000;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1em;
     background-color: #3b3d49;
@@ -380,7 +407,12 @@ footer .main-footer p {
     text-decoration: none;
     font-size: 1.2em;
     font-weight: 700;
-    color: #000000;
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, from(black), color-stop(46%, #e0ca1c), to(black));
+    background: linear-gradient(90deg, black 0%, #e0ca1c 46%, black 100%);
+    width: 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     width: 100%;
     font-family: 'Archivo Narrow', sans-serif;
   }
@@ -403,8 +435,8 @@ footer .main-footer p {
     top: 30%;
     left: 10%;
   }
-  .hero-text h2 {
-    color: #F1EFE3;
+  .hero-text h1 {
+    color: #f8e056;
     font-size: 2.5em;
     font-weight: 700;
     font-family: 'Archivo Black', sans-serif;
@@ -417,10 +449,10 @@ footer .main-footer p {
   .hero-text .btn {
     width: 200px;
     height: 40px;
-    color: #000000;
+    color: #ffffff;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1em;
-    background-color: #3b3d49;
+    background-color: #000000;
   }
   .hero-text .btn:hover {
     -webkit-transform: translateY(-5px);
@@ -485,7 +517,12 @@ footer .main-footer p {
     text-decoration: none;
     font-size: 1.2em;
     font-weight: 700;
-    color: #000000;
+    background: black;
+    background: -webkit-gradient(linear, left top, right top, from(black), color-stop(46%, #e0ca1c), to(black));
+    background: linear-gradient(90deg, black 0%, #e0ca1c 46%, black 100%);
+    width: 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     width: 100%;
     font-family: 'Archivo Narrow', sans-serif;
   }
@@ -511,8 +548,8 @@ footer .main-footer p {
     top: 30%;
     left: 10%;
   }
-  .hero-text h2 {
-    color: #F1EFE3;
+  .hero-text h1 {
+    color: #f8e056;
     font-size: 2.5em;
     font-weight: 700;
     font-family: 'Archivo Black', sans-serif;

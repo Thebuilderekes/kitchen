@@ -6,6 +6,7 @@
 }
 
     $primary-color: #ffffff;
+    $comp-color: #f8e056;
     $secondary-color: #3b3d49;
     $extralarge-size: 3.75em; // 60px
     $large-size: 2.5em; // 40px
@@ -21,7 +22,9 @@ body{
     background-color: rgb(246, 243, 243);
     overflow-x: hidden;
 }
-
+html {
+    width: 100%;
+}
 h3 {
     font-size: $medium-size;
     font-family: 'Archivo Narrow', sans-serif;
@@ -49,6 +52,7 @@ header {
        height: 100vh;
       background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img.jpg);
       background-repeat: no-repeat;
+      background-size: cover;
 
 
       
@@ -80,10 +84,13 @@ header {
           a{
               padding: 0 10px;
               text-decoration: none;
-              font-size: $large-size;
+              font-size: $medium-size;
               font-weight: 700;
-              color: #000000;
+              background: rgb(0,0,0);
+              background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(224,202,28,1) 46%, rgba(0,0,0,1) 100%); 
               width: 100%;
+              background-clip: text;
+              -webkit-text-fill-color: transparent;
               font-family: 'Archivo Narrow', sans-serif;
           }
       }
@@ -127,7 +134,7 @@ header {
 
            &:hover {
 
-            color: $secondary-color;
+            color: $comp-color;
            }
        
            }
@@ -145,9 +152,9 @@ header {
 
     
 
-    h2 {
+    h1 {
     
-        color: #F1EFE3;
+        color: $comp-color;
         font-size: $extralarge-size;
         font-weight: 700;
         font-family: 'Archivo Black', sans-serif;
@@ -159,7 +166,7 @@ header {
     
     p{
         color: $primary-color;
-        font-size: $medium-size;
+        font-size: $large-size;
       }
 
     .btn {
@@ -169,6 +176,8 @@ header {
        font-family: 'Archivo Narrow', sans-serif;
        font-size: $medium-size;
        background-color: #000000;
+            
+    border-radius: 10px;
 
        &:hover {
            transform: translateY(-5px);
@@ -260,6 +269,10 @@ footer {
             font-size: $medium-size;
             color: $primary-color;
         }
+
+        .copyright {
+            font-size: $normal-size;
+        }
     }
 }
 
@@ -301,12 +314,12 @@ footer {
 
 
 
-@media screen  and (max-width: 768px)  {
+@media screen and (max-width: 768px)  {
 
     .main-header {
 
         width: 100%;
-         height: 70vh;
+         height: 100vh;
          padding: 0;
    
     }
@@ -344,7 +357,7 @@ footer {
         }
 
 }
-}
+
 
 
 .hero-text {
@@ -354,9 +367,9 @@ footer {
 
     
 
-    h2 {
+    h1 {
     
-        color: #F1EFE3;
+        color: $comp-color;
         font-size: $large-size;
         font-weight: 700;
         font-family: 'Archivo Black', sans-serif;
@@ -364,28 +377,56 @@ footer {
        
     }
 
-    
-    
-    p{
+
+    p {
         color: $primary-color;
-        font-family: 'Archivo Narrow', sans-serif;
-        font-size: $medium-size;
+    }
+    
+}
+    
+.about {
 
-      }
+       
+    h2 {
+        font-family: 'Archivo Black', sans-serif;
+        padding: $medium-size 0;
+   font-weight: 700;
 
+   
+   
+ }
 
+}
 
    
 
 }
 
-@media screen  and (min-width:376px) and (max-width:414px) {
+@media screen  and (min-width:414px) and (max-width:500px) {
 
 
     .navigation__bar {
       width: 100%;
       height: 100px;
        display: flex;
+
+
+       
+    &--logo {
+        a{
+            padding: 0 10px;
+            text-decoration: none;
+            font-size: $normal-size;
+            font-weight: 700;
+            background: rgb(0,0,0);
+            background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(231, 51, 19) 46%, rgba(0,0,0,1) 100%); 
+            width: 100%;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-family: 'Archivo Narrow', sans-serif;
+        }
+    }
+
         
         .navbar {
             margin-top: 100px;
@@ -409,9 +450,9 @@ footer {
     
         
     
-        h2 {
+        h1 {
         
-            color: #F1EFE3;
+            color: $comp-color;
             font-size: $large-size;
             font-weight: 700;
             font-family: 'Archivo Black', sans-serif;
@@ -431,7 +472,7 @@ footer {
         .btn {
             width: 200px;
             height: 40px;
-           color: #000000;
+            background-color: #000000;
            font-family: 'Archivo Narrow', sans-serif;
            font-size: $normal-size;
            background-color: $secondary-color;
@@ -504,7 +545,11 @@ footer {
                     text-decoration: none;
                     font-size: 1.2em;
                     font-weight: 700;
-                    color: #000000;
+                    background: rgb(0,0,0);
+                    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(224,202,28,1) 46%, rgba(0,0,0,1) 100%); 
+                    width: 100%;
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
                     width: 100%;
                     font-family: 'Archivo Narrow', sans-serif;
                 }
@@ -542,9 +587,9 @@ footer {
     
         
     
-        h2 {
+        h1 {
         
-            color: #F1EFE3;
+            color: $comp-color;
             font-size: $large-size;
             font-weight: 700;
             font-family: 'Archivo Black', sans-serif;
@@ -564,10 +609,10 @@ footer {
         .btn {
             width: 200px;
             height: 40px;
-           color: #000000;
+           color: $primary-color;
            font-family: 'Archivo Narrow', sans-serif;
            font-size: $normal-size;
-           background-color: $secondary-color;
+           background-color: #000000;
     
            &:hover {
                transform: translateY(-5px);
@@ -658,7 +703,11 @@ footer {
                     text-decoration: none;
                     font-size: 1.2em;
                     font-weight: 700;
-                    color: #000000;
+                    background: rgb(0,0,0);
+                    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(224,202,28,1) 46%, rgba(0,0,0,1) 100%); 
+                    width: 100%;
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
                     width: 100%;
                     font-family: 'Archivo Narrow', sans-serif;
                 }
@@ -699,9 +748,9 @@ footer {
     
         
     
-        h2 {
+        h1 {
         
-            color: #F1EFE3;
+            color: $comp-color;
             font-size: $large-size;
             font-weight: 700;
             font-family: 'Archivo Black', sans-serif;
@@ -725,7 +774,6 @@ footer {
            font-family: 'Archivo Narrow', sans-serif;
            font-size: $normal-size;
            background-color: #000000;
-    
            &:hover {
                transform: translateY(-5px);
     
