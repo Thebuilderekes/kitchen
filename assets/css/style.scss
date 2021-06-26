@@ -257,7 +257,17 @@ footer {
             color: $primary-color;
             font-family: 'Archivo Narrow', sans-serif;
         }
-
+         .social-icons{
+            text-align: center;
+            list-style: none;
+             display: flex;
+             justify-content: center;
+             
+            li{
+               
+                padding: 0 $normal-size;
+            }
+        }
 
         .order-now {
             margin: auto;
@@ -281,6 +291,7 @@ footer {
         p{
             font-size: $medium-size;
             color: $primary-color;
+            font-family: 'Archivo Narrow', sans-serif;
         }
 
         .copyright {
