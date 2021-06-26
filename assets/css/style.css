@@ -154,6 +154,7 @@ header .navigation__bar .navbar .navbar-nav .nav-item .nav-link:hover {
 
 /*Menu section*/
 .menu-section {
+  background-color: #f8e056;
   padding-bottom: 3.75em;
 }
 
