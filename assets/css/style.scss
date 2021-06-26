@@ -343,8 +343,12 @@ footer {
     .main-header {
 
         width: 100%;
-         height: 100vh;
-         padding: 0;
+        height: 100vh;
+       background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+ 
+ 
    
     }
 
@@ -427,6 +431,60 @@ footer {
 }
 
 @media screen  and (min-width:414px) and (max-width:500px) {
+    
+    header {
+        position: relative;
+        width: 100%;
+        height: 100%;
+       
+        .main-header {
+            width: 100%;
+            height: 100vh;
+           background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+     
+     
+      
+            
+       
+          }
+        
+         
+       
+            /*Navigation section */
+         .navigation__bar{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          position: fixed;
+          box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
+          -webkit-box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
+          -moz-box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
+          z-index:999;
+          background-color: $primary-color;
+          width: 100%;
+          height: 60px;
+      
+      
+      
+         
+      
+      
+          &--logo {
+                a{
+                    padding: 0 10px;
+                    text-decoration: none;
+                    font-size: 1.2em;
+                    font-weight: 700;
+                    color: $button-color;
+                    font-family: 'Archivo Narrow', sans-serif;
+                }
+            }
+      
+        }
+        
+    }
 
 
     .navigation__bar {
@@ -528,12 +586,13 @@ footer {
         height: 100%;
        
         .main-header {
-      
             width: 100%;
-             height: 100vh;
-            background-image: url(../img/back-img.jpg);
-            background-repeat: no-repeat;
-      
+            height: 100vh;
+           background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+     
+     
       
             
        
@@ -683,9 +742,12 @@ footer {
         .main-header {
       
             width: 100%;
-             height: 100vh;
-            background-image: url(../img/back-img.jpg);
-            background-repeat: no-repeat;
+            height: 100vh;
+           background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+     
+     
       
       
             
