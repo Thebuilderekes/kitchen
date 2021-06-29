@@ -120,8 +120,11 @@ header .navigation__bar .navbar .navbar-nav .nav-item .nav-link:hover {
 .hero-text h1 {
   color: #f8e056;
   font-size: 3.75em;
-  font-weight: 700;
+  max-width: 40rem;
+  padding-bottom: 10px;
   font-family: 'Archivo Black', sans-serif;
+  text-transform: uppercase;
+  line-height: 1.2;
 }
 
 .hero-text p {
@@ -137,12 +140,11 @@ header .navigation__bar .navbar .navbar-nav .nav-item .nav-link:hover {
   font-size: 1.5em;
   background-color: #f8e056;
   font-weight: 700;
-  border-radius: 10px;
 }
 
 .hero-text .btn:hover {
-  -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
+  -webkit-transform: translateY(-6px);
+          transform: translateY(-6px);
 }
 
 /* About section */

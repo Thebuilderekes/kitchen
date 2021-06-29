@@ -153,8 +153,12 @@ header {
     
         color: $comp-color;
         font-size: $extralarge-size;
-        font-weight: 700;
+        max-width: 40rem; 
+        padding-bottom: 10px;
         font-family: 'Archivo Black', sans-serif;
+        text-transform: uppercase;
+        line-height: 1.2;
+        
 
        
     }
@@ -175,10 +179,10 @@ header {
        background-color: $comp-color;
        font-weight: 700;
             
-    border-radius: 10px;
+
 
        &:hover {
-           transform: translateY(-5px);
+           transform: translateY(-6px);
 
        }
     }
