@@ -96,6 +96,7 @@ header .navigation__bar .navbar .collapse {
 
 header .navigation__bar .navbar .navbar-nav {
   background-color: #ffffff;
+  float: right;
 }
 
 header .navigation__bar .navbar .navbar-nav .nav-item .nav-link {
