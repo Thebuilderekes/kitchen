@@ -23,10 +23,6 @@ h3 {
   color: #ffffff;
 }
 
-.section-header {
-  font-family: 'Archivo Black', sans-serif;
-}
-
 a {
   text-decoration: none;
 }
@@ -147,10 +143,14 @@ header .navigation__bar .navbar .navbar-nav .nav-item .nav-link:hover {
           transform: translateY(-6px);
 }
 
-/* About section */
-.about h2 {
+.section-header {
   font-family: 'Archivo Black', sans-serif;
-  padding: 1.5em 0;
+  padding: 2.5em 0 1em 0;
+}
+
+/* about-section */
+.about-section h2 {
+  font-family: 'Archivo Black', sans-serif;
   font-weight: 700;
 }
 
@@ -162,7 +162,6 @@ header .navigation__bar .navbar .navbar-nav .nav-item .nav-link:hover {
 
 .menu-section h2 {
   font-weight: 700;
-  padding: 1.5em 0;
 }
 
 .menu-section article {
@@ -184,6 +183,10 @@ header .navigation__bar .navbar .navbar-nav .nav-item .nav-link:hover {
 .menu-section article p {
   color: #ffffff;
   font-size: 1.5em;
+}
+
+.about-section, .menu-section {
+  padding-bottom: 2.5em;
 }
 
 /* Footer section */
@@ -336,7 +339,7 @@ footer .main-footer .copyright {
   .hero-text p {
     color: #ffffff;
   }
-  .about h2 {
+  .about-section h2 {
     font-family: 'Archivo Black', sans-serif;
     padding: 1.5em 0;
     font-weight: 700;
