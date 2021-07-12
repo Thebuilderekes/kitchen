@@ -106,6 +106,13 @@ header .navigation__bar .navbar .navbar-nav .nav-item .nav-link:hover {
   color: #f8e056;
 }
 
+header .whatsapp-chat {
+  float: right;
+  position: fixed;
+  top: 80%;
+  left: 90%;
+}
+
 /*Hero-section */
 .hero-text {
   position: absolute;
@@ -404,6 +411,13 @@ footer .main-footer .copyright {
     color: #000000;
     font-family: 'Archivo Narrow', sans-serif;
   }
+  header .whatsapp-chat {
+    float: right;
+    position: fixed;
+    top: 80%;
+    left: 80%;
+    z-index: 999;
+  }
   .navigation__bar {
     width: 100%;
     height: 100px;
@@ -500,6 +514,13 @@ footer .main-footer .copyright {
     font-weight: 700;
     color: #000000;
     font-family: 'Archivo Narrow', sans-serif;
+  }
+  header .whatsapp-chat {
+    float: right;
+    position: fixed;
+    top: 80%;
+    left: 80%;
+    z-index: 999;
   }
   .navigation__bar {
     width: 100%;
@@ -606,6 +627,13 @@ footer .main-footer .copyright {
     font-weight: 700;
     color: #000000;
     font-family: 'Archivo Narrow', sans-serif;
+  }
+  header .whatsapp-chat {
+    float: right;
+    position: fixed;
+    top: 80%;
+    left: 80%;
+    z-index: 999;
   }
   .navigation__bar {
     width: 100%;
