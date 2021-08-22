@@ -58,13 +58,13 @@ header .navigation__bar {
           align-items: center;
   position: fixed;
   z-index: 999;
-  background-color: #1d1e24;
+  background-color: #000000;
   width: 100%;
   height: 90px;
 }
 
 header .navigation__bar--logo a {
-  padding: 0 10px;
+  padding: 0 0 0 70px;
   text-decoration: none;
   font-size: 1.5em;
   font-weight: 700;
@@ -86,7 +86,7 @@ header .navigation__bar .navbar .navbar-toggler {
 
 header .navigation__bar .navbar .collapse {
   width: 100%;
-  background-color: #1d1e24;
+  background-color: #000000;
 }
 
 header .navigation__bar .navbar .navbar-nav .nav-item .nav-link {
@@ -99,7 +99,7 @@ header .navigation__bar .navbar .navbar-nav .nav-item .nav-link {
 }
 
 header .navigation__bar .navbar .navbar-nav .nav-item .nav-link:hover {
-  color: #fbea86;
+  color: #fbf485;
 }
 
 header .whatsapp-chat {
@@ -136,13 +136,14 @@ header .call-to-order-bar #call-to-order {
 }
 
 .hero-text h1 {
-  color: #fbea86;
+  color: #fbf485;
   font-size: 3.75em;
   max-width: 40rem;
   padding-bottom: 10px;
   font-family: 'Archivo Black', sans-serif;
   text-transform: uppercase;
   line-height: 1.2;
+  text-align: center;
 }
 
 .hero-text p {
@@ -155,7 +156,7 @@ header .call-to-order-bar #call-to-order {
   height: 50px;
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 1.5em;
-  background-color: #fbea86;
+  background-color: #fbf485;
   font-weight: 700;
   position: absolute;
   top: 95%;
@@ -206,7 +207,7 @@ header .call-to-order-bar #call-to-order {
 }
 
 .custom-shape-divider-bottom-1629652111 .shape-fill {
-  fill: #fbea86;
+  fill: #fbf485;
 }
 
 .custom-shape-divider-bottom-1629649744 {
@@ -284,12 +285,12 @@ header .call-to-order-bar #call-to-order {
 }
 
 .custom-shape-divider-bottom-1629650781 .shape-fill {
-  fill: #fbea86;
+  fill: #fbf485;
 }
 
 /*Menu section*/
 .menu-section {
-  background-color: #fbea86;
+  background-color: #fbf485;
   padding-bottom: 3.75em;
 }
 
@@ -368,7 +369,7 @@ footer .main-footer .order-now {
   text-align: center;
   width: 150px;
   height: 40px;
-  background-color: #fbea86;
+  background-color: #fbf485;
   color: #000000;
   font-weight: 700;
 }
@@ -396,7 +397,7 @@ footer .main-footer .copyright {
 /*----------------------------------------------------------------*/
 /*----------------------MEDIA QUERIES------------------*/
 /*---------------------------------------------------------------*/
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 767px) and (max-width: 1024px) {
   .main-header {
     width: 100%;
     height: 80vh;
@@ -423,6 +424,9 @@ footer .main-footer .copyright {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    background-color: #000000;
+    width: 100%;
+    height: 90px;
   }
   .navigation__bar .navbar {
     margin-top: 100px;
@@ -440,7 +444,7 @@ footer .main-footer .copyright {
   }
   .hero-text h1 {
     width: 100;
-    color: #fbea86;
+    color: #fbf485;
     font-size: 2.5em;
     font-weight: 700;
     font-family: 'Archivo Black', sans-serif;
@@ -468,6 +472,14 @@ footer .main-footer .copyright {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .main-header .main-header .whatsapp-chat {
+    margin-right: 500px;
+    float: right;
+    position: fixed;
+    top: 80%;
+    left: 30%;
+    z-index: 999;
+  }
   .container-fluid {
     padding: 0;
   }
@@ -486,27 +498,32 @@ footer .main-footer .copyright {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    background-color: #000000;
+    width: 100%;
+    height: 90px;
   }
   .navigation__bar .navbar {
     margin-top: 100px;
   }
   .navigation__bar .navbar .navbar-toggler {
     margin-top: 10px;
+    margin-right: 30px;
     background-color: gray;
   }
   .hero-text {
     position: absolute;
-    top: 50%;
-    left: 60%;
+    top: 30%;
+    left: 5%;
     width: 100%;
     text-align: center;
   }
   .hero-text h1 {
     width: 100;
-    color: #fbea86;
+    color: #fbf485;
     font-size: 2.5em;
     font-weight: 700;
     font-family: 'Archivo Black', sans-serif;
+    color: #fbf485;
   }
   .hero-text p {
     color: #ffffff;
@@ -522,7 +539,7 @@ footer .main-footer .copyright {
   }
 }
 
-@media screen and (min-width: 601px) and (max-width: 767px) {
+@media screen and (min-width: 601px) and (max-width: 766px) {
   .main-header {
     width: 100%;
     height: 80vh;
@@ -549,6 +566,9 @@ footer .main-footer .copyright {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    background-color: #000000;
+    width: 100%;
+    height: 90px;
   }
   .navigation__bar .navbar {
     margin-top: 100px;
@@ -566,7 +586,7 @@ footer .main-footer .copyright {
   }
   .hero-text h1 {
     width: 100;
-    color: #fbea86;
+    color: #fbf485;
     font-size: 2.5em;
     font-weight: 700;
     font-family: 'Archivo Black', sans-serif;
@@ -622,9 +642,9 @@ footer .main-footer .copyright {
     -webkit-box-shadow: 3px 10px 5px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 3px 10px 5px -7px rgba(0, 0, 0, 0.75);
     z-index: 999;
-    background-color: #1d1e24;
+    background-color: #000000;
     width: 100%;
-    height: 60px;
+    height: 90px;
   }
   header .navigation__bar--logo a {
     padding: 0 10px;
@@ -647,6 +667,7 @@ footer .main-footer .copyright {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    background-color: #000000;
   }
   .navigation__bar--logo a {
     padding: 0 10px;
@@ -671,7 +692,7 @@ footer .main-footer .copyright {
             transform: translate(-50%, -50%);
   }
   .hero-text h1 {
-    color: #fbea86;
+    color: #fbf485;
     font-size: 2.5em;
     font-weight: 700;
     font-family: 'Archivo Black', sans-serif;
@@ -684,7 +705,7 @@ footer .main-footer .copyright {
   .hero-text .btn {
     width: 120px;
     height: 40px;
-    background-color: #fbea86;
+    background-color: #fbf485;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1em;
     color: #000000;
@@ -733,9 +754,9 @@ footer .main-footer .copyright {
     -webkit-box-shadow: 3px 10px 5px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 3px 10px 5px -7px rgba(0, 0, 0, 0.75);
     z-index: 999;
-    background-color: #1d1e24;
+    background-color: #000000;
     width: 100%;
-    height: 60px;
+    height: 90px;
   }
   header .navigation__bar--logo a {
     padding: 0 10px;
@@ -758,6 +779,9 @@ footer .main-footer .copyright {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    background-color: #000000;
+    width: 100%;
+    height: 90px;
   }
   .navigation__bar--logo a {
     padding: 0 10px;
@@ -782,7 +806,7 @@ footer .main-footer .copyright {
             transform: translate(-50%, -50%);
   }
   .hero-text h1 {
-    color: #fbea86;
+    color: #fbf485;
     font-size: 2.5em;
     font-weight: 700;
     font-family: 'Archivo Black', sans-serif;
@@ -795,7 +819,7 @@ footer .main-footer .copyright {
   .hero-text .btn {
     width: 120px;
     height: 40px;
-    background-color: #fbea86;
+    background-color: #fbf485;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1em;
     color: #000000;
@@ -839,9 +863,9 @@ footer .main-footer .copyright {
     -webkit-box-shadow: 3px 10px 5px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 3px 10px 5px -7px rgba(0, 0, 0, 0.75);
     z-index: 999;
-    background-color: #1d1e24;
+    background-color: #000000;
     width: 100%;
-    height: 60px;
+    height: 90px;
   }
   header .navigation__bar--logo a {
     padding: 0 10px;
@@ -864,6 +888,7 @@ footer .main-footer .copyright {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    background-color: #000000;
   }
   .navigation__bar .navbar {
     margin-top: 100px;
@@ -880,7 +905,7 @@ footer .main-footer .copyright {
             transform: translate(-50%, -50%);
   }
   .hero-text h1 {
-    color: #fbea86;
+    color: #fbf485;
     font-size: 2.5em;
     font-weight: 700;
     font-family: 'Archivo Black', sans-serif;
@@ -896,7 +921,8 @@ footer .main-footer .copyright {
     color: #000000;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1em;
-    background-color: #fbea86;
+    background-color: #fbf485;
+    margin-left: 20px;
   }
   .hero-text .btn:hover {
     -webkit-transform: translateY(-5px);
@@ -954,9 +980,9 @@ footer .main-footer .copyright {
     -webkit-box-shadow: 3px 10px 5px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 3px 10px 5px -7px rgba(0, 0, 0, 0.75);
     z-index: 999;
-    background-color: #1d1e24;
+    background-color: #000000;
     width: 100%;
-    height: 60px;
+    height: 90px;
   }
   header .navigation__bar--logo a {
     padding: 0 10px;
@@ -979,6 +1005,7 @@ footer .main-footer .copyright {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    background-color: #000000;
   }
   .navigation__bar .navbar {
     margin-top: 100px;
@@ -995,7 +1022,7 @@ footer .main-footer .copyright {
             transform: translate(-50%, -50%);
   }
   .hero-text h1 {
-    color: #fbea86;
+    color: #fbf485;
     font-size: 2.5em;
     font-weight: 700;
     font-family: 'Archivo Black', sans-serif;
@@ -1011,7 +1038,7 @@ footer .main-footer .copyright {
     color: #000000;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1em;
-    background-color: #fbea86;
+    background-color: #fbf485;
   }
   .hero-text .btn:hover {
     -webkit-transform: translateY(-5px);
@@ -1069,9 +1096,9 @@ footer .main-footer .copyright {
     -webkit-box-shadow: 3px 10px 5px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 3px 10px 5px -7px rgba(0, 0, 0, 0.75);
     z-index: 999;
-    background-color: #1d1e24;
+    background-color: #000000;
     width: 100%;
-    height: 60px;
+    height: 90px;
   }
   header .navigation__bar--logo a {
     padding: 0 10px;
@@ -1094,6 +1121,7 @@ footer .main-footer .copyright {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    background-color: #000000;
   }
   .navigation__bar .navbar {
     margin-top: 100px;
@@ -1113,7 +1141,7 @@ footer .main-footer .copyright {
             transform: translate(-50%, -50%);
   }
   .hero-text h1 {
-    color: #fbea86;
+    color: #fbf485;
     font-size: 2.5em;
     font-weight: 700;
     font-family: 'Archivo Black', sans-serif;
@@ -1129,7 +1157,7 @@ footer .main-footer .copyright {
     color: #000000;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1em;
-    background-color: #fbea86;
+    background-color: #fbf485;
   }
   .hero-text .btn:hover {
     -webkit-transform: translateY(-5px);
