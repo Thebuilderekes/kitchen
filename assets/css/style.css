@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +11,7 @@
 body {
   width: 100%;
   height: 100%;
-  background-color: #f6f3f3;
+  background-color: #1a1919;
   overflow-x: hidden;
 }
 
@@ -38,8 +40,8 @@ header {
 header .main-header {
   width: 100%;
   height: 100vh;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.274)), color-stop(35%, rgba(0, 0, 0, 0.294)), to(rgba(0, 0, 0, 0.226))), url(../img/back-img.jpg);
-  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.274) 0%, rgba(0, 0, 0, 0.294) 35%, rgba(0, 0, 0, 0.226) 100%), url(../img/back-img.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(#00000046), color-stop(35%, rgba(0, 0, 0, 0.294)), to(#0000003a)), url(../img/back-img.jpg);
+  background-image: linear-gradient(90deg, #00000046 0%, rgba(0, 0, 0, 0.294) 35%, #0000003a 100%), url(../img/back-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -55,13 +57,10 @@ header .navigation__bar {
       -ms-flex-align: center;
           align-items: center;
   position: fixed;
-  box-shadow: 3px 10px 5px -7px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 3px 10px 5px -7px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 3px 10px 5px -7px rgba(0, 0, 0, 0.75);
   z-index: 999;
-  background-color: #ffffff;
+  background-color: #1d1e24;
   width: 100%;
-  height: 60px;
+  height: 90px;
 }
 
 header .navigation__bar--logo a {
@@ -69,8 +68,8 @@ header .navigation__bar--logo a {
   text-decoration: none;
   font-size: 1.5em;
   font-weight: 700;
-  color: #000000;
-  font-family: 'Archivo Narrow', sans-serif;
+  color: #ffffff;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 header .navigation__bar .navbar .container-fluid {
@@ -87,23 +86,20 @@ header .navigation__bar .navbar .navbar-toggler {
 
 header .navigation__bar .navbar .collapse {
   width: 100%;
-  background-color: #ffffff;
-}
-
-header .navigation__bar .navbar .navbar-nav {
-  background-color: #ffffff;
+  background-color: #1d1e24;
 }
 
 header .navigation__bar .navbar .navbar-nav .nav-item .nav-link {
-  font-size: 18px;
+  font: 18px;
+  font-weight: 700;
   text-decoration: none;
-  font-family: 'Archivo Narrow', sans-serif;
-  color: black;
+  font-family: 'Julius Sans One', sans-serif;
+  color: #ffffff;
   padding: 0 1.5em;
 }
 
 header .navigation__bar .navbar .navbar-nav .nav-item .nav-link:hover {
-  color: #f8e056;
+  color: #fbea86;
 }
 
 header .whatsapp-chat {
@@ -111,17 +107,36 @@ header .whatsapp-chat {
   position: fixed;
   top: 80%;
   left: 90%;
+  z-index: 999;
+}
+
+header .call-to-order-bar {
+  width: 100%;
+  height: 50px;
+  background-color: #019e16;
+  position: -webkit-sticky;
+  position: sticky;
+  display: none;
+}
+
+header .call-to-order-bar #call-to-order {
+  color: #ffffff;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5em;
 }
 
 /*Hero-section */
 .hero-text {
   position: absolute;
   top: 30%;
-  left: 10%;
+  left: 5%;
 }
 
 .hero-text h1 {
-  color: #f8e056;
+  color: #fbea86;
   font-size: 3.75em;
   max-width: 40rem;
   padding-bottom: 10px;
@@ -138,11 +153,15 @@ header .whatsapp-chat {
 .hero-text .btn {
   width: 200px;
   height: 50px;
-  color: #000000;
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 1.5em;
-  background-color: #f8e056;
+  background-color: #fbea86;
   font-weight: 700;
+  position: absolute;
+  top: 95%;
+  left: 30%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .hero-text .btn:hover {
@@ -156,14 +175,65 @@ header .whatsapp-chat {
 }
 
 /* about-section */
+.about-section {
+  height: 500px;
+  background-color: #ffffff;
+}
+
 .about-section h2 {
   font-family: 'Archivo Black', sans-serif;
   font-weight: 700;
 }
 
+.about-section .wave-wrapper {
+  position: relative;
+}
+
+.custom-shape-divider-bottom-1629652111 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1629652111 svg {
+  position: relative;
+  display: block;
+  width: calc(101% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1629652111 .shape-fill {
+  fill: #fbea86;
+}
+
+.custom-shape-divider-bottom-1629649744 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1629649744 svg {
+  position: relative;
+  display: block;
+  width: calc(101% + 1.3px);
+  height: 100px;
+}
+
+.custom-shape-divider-bottom-1629649744 .shape-fill {
+  fill: #ffffff;
+}
+
 .opening-hours {
   width: 100%;
+  height: 500px;
   background-color: #3b3d49;
+  position: relative;
 }
 
 .opening-hours #opening-hours__header {
@@ -177,9 +247,49 @@ header .whatsapp-chat {
   padding-bottom: 2.5em;
 }
 
+.custom-shape-divider-bottom-1629652476 {
+  position: absolute;
+  bottom: 500px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1629652476 svg {
+  position: relative;
+  display: block;
+  width: calc(101% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1629652476 .shape-fill {
+  fill: #3b3d49;
+}
+
+.custom-shape-divider-bottom-1629650781 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1629650781 svg {
+  position: relative;
+  display: block;
+  width: calc(101% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1629650781 .shape-fill {
+  fill: #fbea86;
+}
+
 /*Menu section*/
 .menu-section {
-  background-color: #f8e056;
+  background-color: #fbea86;
   padding-bottom: 3.75em;
 }
 
@@ -258,7 +368,7 @@ footer .main-footer .order-now {
   text-align: center;
   width: 150px;
   height: 40px;
-  background-color: #f8e056;
+  background-color: #fbea86;
   color: #000000;
   font-weight: 700;
 }
@@ -286,11 +396,14 @@ footer .main-footer .copyright {
 /*----------------------------------------------------------------*/
 /*----------------------MEDIA QUERIES------------------*/
 /*---------------------------------------------------------------*/
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .main-header {
     width: 100%;
-    height: 70vh;
-    padding: 0;
+    height: 80vh;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.534)), color-stop(35%, rgba(0, 0, 0, 0.514)), to(rgba(0, 0, 0, 0.527))), url(../img/back-img-small.jpg);
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img-small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .container-fluid {
     padding: 0;
@@ -311,12 +424,45 @@ footer .main-footer .copyright {
         -ms-flex-align: center;
             align-items: center;
   }
+  .navigation__bar .navbar {
+    margin-top: 100px;
+  }
+  .navigation__bar .navbar .navbar-toggler {
+    margin-top: 10px;
+    background-color: gray;
+  }
+  .hero-text {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 100%;
+    text-align: center;
+  }
+  .hero-text h1 {
+    width: 100;
+    color: #fbea86;
+    font-size: 2.5em;
+    font-weight: 700;
+    font-family: 'Archivo Black', sans-serif;
+  }
+  .hero-text p {
+    color: #ffffff;
+  }
+  .hero-text .btn:hover {
+    -webkit-transform: translateY(-6px);
+            transform: translateY(-6px);
+  }
+  .about-section h2 {
+    font-family: 'Archivo Black', sans-serif;
+    padding: 1.5em 0;
+    font-weight: 700;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .main-header {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.534)), color-stop(35%, rgba(0, 0, 0, 0.514)), to(rgba(0, 0, 0, 0.527))), url(../img/back-img.jpg);
     background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img.jpg);
     background-repeat: no-repeat;
@@ -350,17 +496,24 @@ footer .main-footer .copyright {
   }
   .hero-text {
     position: absolute;
-    top: 30%;
-    left: 10%;
+    top: 50%;
+    left: 60%;
+    width: 100%;
+    text-align: center;
   }
   .hero-text h1 {
-    color: #f8e056;
+    width: 100;
+    color: #fbea86;
     font-size: 2.5em;
     font-weight: 700;
     font-family: 'Archivo Black', sans-serif;
   }
   .hero-text p {
     color: #ffffff;
+  }
+  .hero-text .btn:hover {
+    -webkit-transform: translateY(-6px);
+            transform: translateY(-6px);
   }
   .about-section h2 {
     font-family: 'Archivo Black', sans-serif;
@@ -369,7 +522,77 @@ footer .main-footer .copyright {
   }
 }
 
-@media screen and (min-width: 414px) and (max-width: 500px) {
+@media screen and (min-width: 601px) and (max-width: 767px) {
+  .main-header {
+    width: 100%;
+    height: 80vh;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.534)), color-stop(35%, rgba(0, 0, 0, 0.514)), to(rgba(0, 0, 0, 0.527))), url(../img/back-img-small.jpg);
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img-small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container-fluid {
+    padding: 0;
+  }
+  .container-fluid .navbar-toggler-icon {
+    color: #ffffff;
+  }
+  .navbar-toggler {
+    background-color: #000000;
+  }
+  .navigation__bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navigation__bar .navbar {
+    margin-top: 100px;
+  }
+  .navigation__bar .navbar .navbar-toggler {
+    margin-top: 10px;
+    background-color: gray;
+  }
+  .hero-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .hero-text h1 {
+    width: 100;
+    color: #fbea86;
+    font-size: 2.5em;
+    font-weight: 700;
+    font-family: 'Archivo Black', sans-serif;
+  }
+  .hero-text p {
+    color: #ffffff;
+  }
+  .hero-text .btn {
+    position: absolute;
+    top: 95%;
+    left: 33%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .hero-text .btn:hover {
+    -webkit-transform: translateY(-6px);
+            transform: translateY(-6px);
+  }
+  .about-section h2 {
+    font-family: 'Archivo Black', sans-serif;
+    padding: 1.5em 0;
+    font-weight: 700;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 600px) {
   header {
     position: relative;
     width: 100%;
@@ -379,8 +602,8 @@ footer .main-footer .copyright {
   header .main-header {
     width: 100%;
     height: 100vh;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.534)), color-stop(35%, rgba(0, 0, 0, 0.514)), to(rgba(0, 0, 0, 0.527))), url(../img/back-img.jpg);
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.534)), color-stop(35%, rgba(0, 0, 0, 0.514)), to(rgba(0, 0, 0, 0.527))), url(../img/back-img-small.jpg);
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img-small.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -399,7 +622,7 @@ footer .main-footer .copyright {
     -webkit-box-shadow: 3px 10px 5px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 3px 10px 5px -7px rgba(0, 0, 0, 0.75);
     z-index: 999;
-    background-color: #ffffff;
+    background-color: #1d1e24;
     width: 100%;
     height: 60px;
   }
@@ -408,8 +631,8 @@ footer .main-footer .copyright {
     text-decoration: none;
     font-size: 1.2em;
     font-weight: 700;
-    color: #000000;
-    font-family: 'Archivo Narrow', sans-serif;
+    color: #ffffff;
+    font-family: 'Julius Sans One', sans-serif;
   }
   header .whatsapp-chat {
     float: right;
@@ -430,8 +653,8 @@ footer .main-footer .copyright {
     text-decoration: none;
     font-size: 1em;
     font-weight: 700;
-    color: #000000;
-    font-family: 'Archivo Narrow', sans-serif;
+    color: #ffffff;
+    font-family: 'Julius Sans One', sans-serif;
   }
   .navigation__bar .navbar {
     margin-top: 100px;
@@ -442,11 +665,13 @@ footer .main-footer .copyright {
   }
   .hero-text {
     position: absolute;
-    top: 30%;
-    left: 10%;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
   .hero-text h1 {
-    color: #f8e056;
+    color: #fbea86;
     font-size: 2.5em;
     font-weight: 700;
     font-family: 'Archivo Black', sans-serif;
@@ -459,10 +684,15 @@ footer .main-footer .copyright {
   .hero-text .btn {
     width: 120px;
     height: 40px;
-    background-color: #f8e056;
+    background-color: #fbea86;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1em;
     color: #000000;
+    position: absolute;
+    top: 95%;
+    left: 40%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
   .hero-text .btn:hover {
     -webkit-transform: translateY(-5px);
@@ -473,7 +703,7 @@ footer .main-footer .copyright {
   }
 }
 
-@media screen and (min-width: 360px) and (max-width: 375px) {
+@media screen and (min-width: 414px) and (max-width: 500px) {
   header {
     position: relative;
     width: 100%;
@@ -483,8 +713,8 @@ footer .main-footer .copyright {
   header .main-header {
     width: 100%;
     height: 100vh;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.534)), color-stop(35%, rgba(0, 0, 0, 0.514)), to(rgba(0, 0, 0, 0.527))), url(../img/back-img.jpg);
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.534)), color-stop(35%, rgba(0, 0, 0, 0.514)), to(rgba(0, 0, 0, 0.527))), url(../img/back-img-small.jpg);
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img-small.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -503,7 +733,7 @@ footer .main-footer .copyright {
     -webkit-box-shadow: 3px 10px 5px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 3px 10px 5px -7px rgba(0, 0, 0, 0.75);
     z-index: 999;
-    background-color: #ffffff;
+    background-color: #1d1e24;
     width: 100%;
     height: 60px;
   }
@@ -512,8 +742,114 @@ footer .main-footer .copyright {
     text-decoration: none;
     font-size: 1.2em;
     font-weight: 700;
-    color: #000000;
+    color: #ffffff;
+    font-family: 'Julius Sans One', sans-serif;
+  }
+  header .whatsapp-chat {
+    float: right;
+    position: fixed;
+    top: 80%;
+    left: 80%;
+    z-index: 999;
+  }
+  .navigation__bar {
+    width: 100%;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navigation__bar--logo a {
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Julius Sans One', sans-serif;
+  }
+  .navigation__bar .navbar {
+    margin-top: 100px;
+  }
+  .navigation__bar .navbar .navbar-toggler {
+    margin-top: 10px;
+    background-color: #000000;
+  }
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .hero-text h1 {
+    color: #fbea86;
+    font-size: 2.5em;
+    font-weight: 700;
+    font-family: 'Archivo Black', sans-serif;
+  }
+  .hero-text p {
+    color: #ffffff;
     font-family: 'Archivo Narrow', sans-serif;
+    font-size: 1.5em;
+  }
+  .hero-text .btn {
+    width: 120px;
+    height: 40px;
+    background-color: #fbea86;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 1em;
+    color: #000000;
+  }
+  .hero-text .btn:hover {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+  .hero-text .btn span {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 413px) {
+  header {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*Navigation section */
+  }
+  header .main-header {
+    width: 100%;
+    height: 100vh;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.534)), color-stop(35%, rgba(0, 0, 0, 0.514)), to(rgba(0, 0, 0, 0.527))), url(../img/back-img-small.jpg);
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img-small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  header .navigation__bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    box-shadow: 3px 10px 5px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 3px 10px 5px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 10px 5px -7px rgba(0, 0, 0, 0.75);
+    z-index: 999;
+    background-color: #1d1e24;
+    width: 100%;
+    height: 60px;
+  }
+  header .navigation__bar--logo a {
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Julius Sans One', sans-serif;
   }
   header .whatsapp-chat {
     float: right;
@@ -538,11 +874,13 @@ footer .main-footer .copyright {
   }
   .hero-text {
     position: absolute;
-    top: 30%;
-    left: 10%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
   .hero-text h1 {
-    color: #f8e056;
+    color: #fbea86;
     font-size: 2.5em;
     font-weight: 700;
     font-family: 'Archivo Black', sans-serif;
@@ -558,7 +896,122 @@ footer .main-footer .copyright {
     color: #000000;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1em;
-    background-color: #f8e056;
+    background-color: #fbea86;
+  }
+  .hero-text .btn:hover {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+  .hero-text .btn span {
+    display: none;
+  }
+  footer .main-footer {
+    width: 100%;
+    height: 700px;
+    background-color: #3b3d49;
+  }
+  footer .main-footer h4 {
+    color: #ffffff;
+    font-family: 'Archivo Narrow', sans-serif;
+  }
+  footer .main-footer order {
+    font-size: 2.5em;
+    font-family: 'Archivo Narrow', sans-serif;
+  }
+  footer .main-footer p {
+    font-size: 1em;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 375px) {
+  header {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*Navigation section */
+  }
+  header .main-header {
+    width: 100%;
+    height: 100vh;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.534)), color-stop(35%, rgba(0, 0, 0, 0.514)), to(rgba(0, 0, 0, 0.527))), url(../img/back-img-small.jpg);
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img-small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  header .navigation__bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    box-shadow: 3px 10px 5px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 3px 10px 5px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 10px 5px -7px rgba(0, 0, 0, 0.75);
+    z-index: 999;
+    background-color: #1d1e24;
+    width: 100%;
+    height: 60px;
+  }
+  header .navigation__bar--logo a {
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Julius Sans One', sans-serif;
+  }
+  header .whatsapp-chat {
+    float: right;
+    position: fixed;
+    top: 80%;
+    left: 80%;
+    z-index: 999;
+  }
+  .navigation__bar {
+    width: 100%;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navigation__bar .navbar {
+    margin-top: 100px;
+  }
+  .navigation__bar .navbar .navbar-toggler {
+    margin-top: 10px;
+    background-color: #000000;
+  }
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .hero-text h1 {
+    color: #fbea86;
+    font-size: 2.5em;
+    font-weight: 700;
+    font-family: 'Archivo Black', sans-serif;
+  }
+  .hero-text p {
+    color: #ffffff;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 1.5em;
+  }
+  .hero-text .btn {
+    width: 120px;
+    height: 40px;
+    color: #000000;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 1em;
+    background-color: #fbea86;
   }
   .hero-text .btn:hover {
     -webkit-transform: translateY(-5px);
@@ -596,8 +1049,8 @@ footer .main-footer .copyright {
   header .main-header {
     width: 100%;
     height: 100vh;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.534)), color-stop(35%, rgba(0, 0, 0, 0.514)), to(rgba(0, 0, 0, 0.527))), url(../img/back-img.jpg);
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.534)), color-stop(35%, rgba(0, 0, 0, 0.514)), to(rgba(0, 0, 0, 0.527))), url(../img/back-img-small.jpg);
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img-small.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -616,7 +1069,7 @@ footer .main-footer .copyright {
     -webkit-box-shadow: 3px 10px 5px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 3px 10px 5px -7px rgba(0, 0, 0, 0.75);
     z-index: 999;
-    background-color: #ffffff;
+    background-color: #1d1e24;
     width: 100%;
     height: 60px;
   }
@@ -625,8 +1078,8 @@ footer .main-footer .copyright {
     text-decoration: none;
     font-size: 1.2em;
     font-weight: 700;
-    color: #000000;
-    font-family: 'Archivo Narrow', sans-serif;
+    color: #ffffff;
+    font-family: 'Julius Sans One', sans-serif;
   }
   header .whatsapp-chat {
     float: right;
@@ -654,11 +1107,13 @@ footer .main-footer .copyright {
   }
   .hero-text {
     position: absolute;
-    top: 30%;
-    left: 10%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
   .hero-text h1 {
-    color: #f8e056;
+    color: #fbea86;
     font-size: 2.5em;
     font-weight: 700;
     font-family: 'Archivo Black', sans-serif;
@@ -674,7 +1129,7 @@ footer .main-footer .copyright {
     color: #000000;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1em;
-    background-color: #f8e056;
+    background-color: #fbea86;
   }
   .hero-text .btn:hover {
     -webkit-transform: translateY(-5px);

@@ -4,9 +4,13 @@
     box-sizing: border-box;
 
 }
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
 
     $primary-color: #ffffff;
-    $comp-color: #f8e056;
+    $comp-color: #fbea86;
     $button-color: #000000;
     $secondary-color: #3b3d49;
     $extralarge-size: 3.75em; // 60px
@@ -20,8 +24,9 @@
 body{
     width: 100%;
     height: 100%;
-    background-color: rgb(246, 243, 243);
+    background-color: rgb(26, 25, 25);
     overflow-x: hidden;
+    
 }
 html {
     width: 100%;
@@ -49,14 +54,11 @@ header {
 
       width: 100%;
        height: 100vh;
-      background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.274) 0%, rgba(0, 0, 0, 0.294) 35%, rgba(0, 0, 0, 0.226) 100%), url(../img/back-img.jpg);
+      background-image: linear-gradient( 90deg, #00000046 0%, rgba(0, 0, 0, 0.294) 35%, #0000003a 100%), url(../img/back-img.jpg);
       background-repeat: no-repeat;
       background-size: cover;
 
-
-      
- 
-    }
+}
   
    
  
@@ -66,13 +68,13 @@ header {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
-    -moz-box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
+    // box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
+    // -webkit-box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
+    // -moz-box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
     z-index:999;
-    background-color: $primary-color;
+    background-color: #1d1e24;
     width: 100%;
-    height: 60px;
+    height: 90px;
 
 
 
@@ -85,8 +87,8 @@ header {
               text-decoration: none;
               font-size: $medium-size;
               font-weight: 700;
-              color: $button-color;
-              font-family: 'Archivo Narrow', sans-serif;
+              color: $primary-color;
+              font-family: 'Julius Sans One', sans-serif;
           }
       }
 
@@ -112,19 +114,20 @@ header {
 
        .collapse {
            width: 100%;
-           background-color: $primary-color;
+           background-color: #1d1e24;
     
       
        }
        .navbar-nav{
-           background-color: $primary-color;
+         
            .nav-item{
            
            .nav-link {
-               font-size: 18px;
-               text-decoration: none;
-               font-family: 'Archivo Narrow', sans-serif;
-             color: black;
+             font: 18px;
+             font-weight: 700;
+             text-decoration: none;
+             font-family: 'Julius Sans One', sans-serif;
+             color:$primary-color;
              padding: 0 $medium-size;
 
            &:hover {
@@ -144,6 +147,24 @@ header {
      position: fixed;
      top: 80%;
      left: 90%;
+     z-index: 999;
+ }
+
+
+ .call-to-order-bar {
+     width: 100%;
+     height: 50px;
+     background-color: rgb(1, 158, 22);
+  position: sticky;
+display: none;
+
+    #call-to-order {
+        color: $primary-color;
+       text-align: center;
+        align-items: center;
+        font-size: $medium-size
+      
+     }
  }
  }
 
@@ -151,7 +172,8 @@ header {
   .hero-text {
     position: absolute;
     top:30%;
-    left: 10%;
+    left: 5%;
+
 
     
 
@@ -179,11 +201,16 @@ header {
     .btn {
         width: 200px;
         height: 50px;
-       color: $button-color;
+      
        font-family: 'Archivo Narrow', sans-serif;
        font-size: $medium-size;
        background-color: $comp-color;
        font-weight: 700;
+       position: absolute;
+    top:95%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
             
     &:hover {
            transform: translateY(-6px);
@@ -205,7 +232,10 @@ header {
 /* about-section */
 
 .about-section{
-    
+    height: 500px;
+    background-color: $primary-color;
+
+ 
   
     h2 {
         font-family: 'Archivo Black', sans-serif;
@@ -213,38 +243,121 @@ header {
         font-weight: 700;
 }
 
-
+.wave-wrapper {
+    position: relative;
+}
 
 }
 
-
-.opening-hours {
-
+.custom-shape-divider-bottom-1629652111 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    background-color:$secondary-color;
+    overflow: hidden;
+    line-height: 0;
+}
 
+.custom-shape-divider-bottom-1629652111 svg {
+    position: relative;
+    display: block;
+    width: calc(101% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1629652111 .shape-fill {
+    fill: $comp-color;
+}
+
+
+.custom-shape-divider-bottom-1629649744 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1629649744 svg {
+    position: relative;
+    display: block;
+    width: calc(101% + 1.3px);
+    height: 100px;
+}
+
+.custom-shape-divider-bottom-1629649744 .shape-fill {
+    fill: #ffffff;
+}
+.opening-hours {
+    width: 100%;
+    height: 500px;
+    background-color:$secondary-color;
+    position: relative;
 
 
     #opening-hours__header {
-
-        color: $primary-color ;
+       color: $primary-color ;
     }
 
  
     p {
-
         color: $primary-color;
         font-size: $medium-size;
         font-weight: 600;
         padding-bottom: $large-size;
     }
 
+}
 
+.custom-shape-divider-bottom-1629652476 {
+    position: absolute;
+    bottom: 500px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1629652476 svg {
+    position: relative;
+    display: block;
+    width: calc(101% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1629652476 .shape-fill {
+    fill: $secondary-color;
+}
+
+
+
+
+.custom-shape-divider-bottom-1629650781 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1629650781 svg {
+    position: relative;
+    display: block;
+    width: calc(101% + 1.3px);
+    height: 150px;
+   
+}
+
+.custom-shape-divider-bottom-1629650781 .shape-fill {
+    fill: $comp-color;
 }
 
 /*Menu section*/
 
 .menu-section {
+    
    background-color: $comp-color;
     padding-bottom: $extralarge-size;
 
@@ -351,12 +464,16 @@ footer {
 /*----------------------MEDIA QUERIES------------------*/
 /*---------------------------------------------------------------*/
 
-@media screen  and (max-width: 1024px)  {
+@media screen  and (min-width : 769px) and (max-width: 1024px)  {
     .main-header {
 
         width: 100%;
-         height: 70vh;
-         padding: 0;
+        height: 80vh;
+       background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img-small.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+ 
+ 
    
     }
 
@@ -371,7 +488,7 @@ footer {
 
     .navbar-toggler {
       
-    background-color:  $button-color;
+    background-color: $button-color;
         
     }
 
@@ -379,7 +496,74 @@ footer {
         display: flex;
         justify-content: space-around;
         align-items: center;
+
+
+        .navbar {
+            margin-top: 100px;
+            
+
+            .navbar-toggler {
+                margin-top: 10px;
+                background-color: gray;
+                    
+                }
+        }
+
 }
+
+
+.hero-text {
+    position: absolute;
+    top:30%;
+    left: 5%;
+    width: 100%;
+    text-align: center;
+    
+
+    h1 {
+        width: 100;
+        color: $comp-color;
+        font-size: $large-size;
+        font-weight: 700;
+        font-family: 'Archivo Black', sans-serif;
+
+       
+    }
+
+
+    p {
+        color: $primary-color;
+    }
+
+
+    .btn {
+
+
+            
+    &:hover {
+           transform: translateY(-6px);
+
+       }
+    }
+
+    
+}
+    
+.about-section{
+
+       
+    h2 {
+        font-family: 'Archivo Black', sans-serif;
+        padding: $medium-size 0;
+   font-weight: 700;
+
+   
+   
+ }
+
+}
+
+
 
 }
 
@@ -390,7 +574,7 @@ footer {
     .main-header {
 
         width: 100%;
-        height: 100vh;
+        height: 80vh;
        background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img.jpg);
        background-repeat: no-repeat;
        background-size: cover;
@@ -437,13 +621,14 @@ footer {
 
 .hero-text {
     position: absolute;
-    top:30%;
-    left: 10%;
-
+    top:50%;
+    left: 60%;
+    width: 100%;
+    text-align: center;
     
 
     h1 {
-    
+        width: 100;
         color: $comp-color;
         font-size: $large-size;
         font-weight: 700;
@@ -456,6 +641,18 @@ footer {
     p {
         color: $primary-color;
     }
+
+
+    .btn {
+
+
+            
+    &:hover {
+           transform: translateY(-6px);
+
+       }
+    }
+
     
 }
     
@@ -472,12 +669,114 @@ footer {
  }
 
 }
+}
 
+@media screen and (min-width: 601px) and (max-width:767px)  {
+
+    .main-header {
+
+        width: 100%;
+        height: 80vh;
+       background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img-small.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+ 
+ 
    
+    }
+
+
+    .container-fluid {
+        padding:0;
+
+        .navbar-toggler-icon {
+           color: $primary-color;
+       }
+}
+
+    .navbar-toggler {
+      
+    background-color: $button-color;
+        
+    }
+
+    .navigation__bar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+
+        .navbar {
+            margin-top: 100px;
+            
+
+            .navbar-toggler {
+                margin-top: 10px;
+                background-color: gray;
+                    
+                }
+        }
 
 }
 
-@media screen  and (min-width:414px) and (max-width:500px) {
+
+
+.hero-text {
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+    h1 {
+        width: 100;
+        color: $comp-color;
+        font-size: $large-size;
+        font-weight: 700;
+        font-family: 'Archivo Black', sans-serif;
+
+       
+    }
+
+
+    p {
+        color: $primary-color;
+    }
+
+
+    .btn {
+
+        position: absolute;
+        top: 95%;
+        left: 33%;
+        transform: translate(-50%, -50%);
+    
+            
+    &:hover {
+           transform: translateY(-6px);
+
+       }
+    }
+
+    
+}
+    
+.about-section{
+
+       
+    h2 {
+        font-family: 'Archivo Black', sans-serif;
+        padding: $medium-size 0;
+   font-weight: 700;
+
+   
+   
+ }
+
+}
+}
+
+@media screen  and (min-width:501px) and (max-width:600px) {
     
     header {
         position: relative;
@@ -487,7 +786,7 @@ footer {
         .main-header {
             width: 100%;
             height: 100vh;
-           background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img.jpg);
+           background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img-small.jpg);
            background-repeat: no-repeat;
            background-size: cover;
      
@@ -509,7 +808,7 @@ footer {
           -webkit-box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
           -moz-box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
           z-index:999;
-          background-color: $primary-color;
+          background-color: #1d1e24;
           width: 100%;
           height: 60px;
       
@@ -524,8 +823,8 @@ footer {
                     text-decoration: none;
                     font-size: 1.2em;
                     font-weight: 700;
-                    color: $button-color;
-                    font-family: 'Archivo Narrow', sans-serif;
+                    color: $primary-color;
+                    font-family: 'Julius Sans One', sans-serif;
                 }
             }
       
@@ -557,8 +856,9 @@ footer {
             text-decoration: none;
             font-size: $normal-size;
             font-weight: 700;
-            color: $button-color;
-            font-family: 'Archivo Narrow', sans-serif;
+            color: $primary-color;
+            font-family: 'Julius Sans One', sans-serif;
+
         }
     }
 
@@ -580,10 +880,168 @@ footer {
 
     .hero-text {
         position: absolute;
-        top:30%;
-        left: 10%;
+        top:40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+        h1 {
+        
+            color: $comp-color;
+            font-size: $large-size;
+            font-weight: 700;
+            font-family: 'Archivo Black', sans-serif;
+    
+           
+        }
     
         
+        
+        p{
+            color: $primary-color;
+            font-family: 'Archivo Narrow', sans-serif;
+            font-size: $medium-size;
+
+          }
+    
+        .btn {
+            width: 120px;
+            height: 40px;
+            background-color: $comp-color;
+           font-family: 'Archivo Narrow', sans-serif;
+           font-size: $normal-size;
+           color: $button-color;
+           position: absolute;
+           top:95%;
+           left: 40%;
+           transform: translate(-50%, -50%);
+       
+           &:hover {
+
+               transform: translateY(-5px);
+    
+           }
+
+
+           span {
+               display: none;
+           }
+        }
+    
+    
+       
+    
+    }
+    
+
+  }
+
+
+@media screen  and (min-width:414px) and (max-width:500px) {
+    
+    header {
+        position: relative;
+        width: 100%;
+        height: 100%;
+       
+        .main-header {
+            width: 100%;
+            height: 100vh;
+           background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img-small.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+     
+     
+      
+            
+       
+          }
+        
+         
+       
+            /*Navigation section */
+         .navigation__bar{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          position: fixed;
+          box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
+          -webkit-box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
+          -moz-box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
+          z-index:999;
+          background-color: #1d1e24;
+          width: 100%;
+          height: 60px;
+      
+      
+      
+         
+      
+      
+          &--logo {
+                a{
+                    padding: 0 10px;
+                    text-decoration: none;
+                    font-size: 1.2em;
+                    font-weight: 700;
+                    color: $primary-color;
+                    font-family: 'Julius Sans One', sans-serif;
+                }
+            }
+      
+        }
+        
+        .whatsapp-chat {
+            float: right;
+            position: fixed;
+            top: 80%;
+            left: 80%;
+            z-index: 999;
+
+        }
+
+
+    }
+
+
+    .navigation__bar {
+      width: 100%;
+      height: 100px;
+       display: flex;
+
+
+       
+    &--logo {
+        a{
+            padding: 0 10px;
+            text-decoration: none;
+            font-size: $normal-size;
+            font-weight: 700;
+            color:$primary-color;
+            font-family: 'Julius Sans One', sans-serif;
+        }
+    }
+
+        
+        .navbar {
+            margin-top: 100px;
+            
+
+            .navbar-toggler {
+                margin-top: 10px;
+                background-color:$button-color;
+                    
+                }
+        }
+    
+    }
+
+
+
+    .hero-text {
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     
         h1 {
         
@@ -632,9 +1090,7 @@ footer {
 
   }
 
-
-
-  @media screen  and (min-width:360px) and (max-width:375px) {
+  @media screen  and (min-width:375px) and (max-width:413px) {
 
     
     header {
@@ -645,7 +1101,7 @@ footer {
         .main-header {
             width: 100%;
             height: 100vh;
-           background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img.jpg);
+           background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img-small.jpg);
            background-repeat: no-repeat;
            background-size: cover;
      
@@ -667,7 +1123,7 @@ footer {
           -webkit-box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
           -moz-box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
           z-index:999;
-          background-color: $primary-color;
+          background-color: #1d1e24;
           width: 100%;
           height: 60px;
       
@@ -682,8 +1138,8 @@ footer {
                     text-decoration: none;
                     font-size: 1.2em;
                     font-weight: 700;
-                    color: $button-color;
-                    font-family: 'Archivo Narrow', sans-serif;
+                    color: $primary-color;
+                    font-family: 'Julius Sans One', sans-serif;
                 }
             }
       
@@ -723,9 +1179,174 @@ footer {
 
     .hero-text {
         position: absolute;
-        top:30%;
-        left: 10%;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
     
+        h1 {
+        
+            color: $comp-color;
+            font-size: $large-size;
+            font-weight: 700;
+            font-family: 'Archivo Black', sans-serif;
+    
+           
+        }
+    
+        
+        
+        p{
+            color: $primary-color;
+            font-family: 'Archivo Narrow', sans-serif;
+            font-size: $medium-size;
+
+          }
+    
+        .btn {
+            width: 120px;
+            height: 40px;
+           color: $button-color;
+           font-family: 'Archivo Narrow', sans-serif;
+           font-size: $normal-size;
+           background-color: $comp-color;
+    
+           &:hover {
+               transform: translateY(-5px);
+    
+           }
+
+
+           span {
+               display: none;
+           }
+        }  
+    
+    }
+    
+
+
+    footer {
+        .main-footer {
+            width: 100%;
+            height: 700px;
+            background-color: $secondary-color;
+            h4 {
+                color: $primary-color;
+                font-family: 'Archivo Narrow', sans-serif;
+            }
+
+
+            order {
+                font-size: $large-size;
+                font-family: 'Archivo Narrow', sans-serif;
+            }
+            p{
+                font-size: $normal-size;
+                color: $primary-color;
+            }
+        }
+    }
+ }
+
+
+
+
+
+
+
+  @media screen  and (min-width:360px) and (max-width:375px) {
+
+    
+    header {
+        position: relative;
+        width: 100%;
+        height: 100%;
+       
+        .main-header {
+            width: 100%;
+            height: 100vh;
+           background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img-small.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+     
+     
+      
+            
+       
+          }
+        
+         
+       
+            /*Navigation section */
+         .navigation__bar{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          position: fixed;
+          box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
+          -webkit-box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
+          -moz-box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
+          z-index:999;
+          background-color: #1d1e24;
+          width: 100%;
+          height: 60px;
+      
+      
+      
+         
+      
+      
+          &--logo {
+                a{
+                    padding: 0 10px;
+                    text-decoration: none;
+                    font-size: 1.2em;
+                    font-weight: 700;
+                    color: $primary-color;
+                    font-family: 'Julius Sans One', sans-serif;
+                }
+            }
+      
+        }
+        
+
+        .whatsapp-chat {
+            float: right;
+            position: fixed;
+            top: 80%;
+            left: 80%;
+            z-index: 999;
+
+        }
+    }
+
+
+    .navigation__bar {
+      width: 100%;
+      height: 100px;
+       display: flex;
+        
+        .navbar {
+            margin-top: 100px;
+            
+
+            .navbar-toggler {
+                margin-top: 10px;
+                background-color: $button-color;
+                    
+                }
+        }
+    
+    }
+
+
+
+    .hero-text {
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         
     
         h1 {
@@ -809,7 +1430,7 @@ footer {
       
             width: 100%;
             height: 100vh;
-           background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img.jpg);
+           background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img-small.jpg);
            background-repeat: no-repeat;
            background-size: cover;
      
@@ -832,7 +1453,7 @@ footer {
           -webkit-box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
           -moz-box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
           z-index:999;
-          background-color: $primary-color;
+          background-color: #1d1e24;
           width: 100%;
           height: 60px;
       
@@ -847,8 +1468,8 @@ footer {
                     text-decoration: none;
                     font-size: 1.2em;
                     font-weight: 700;
-                    color: $button-color;
-                    font-family: 'Archivo Narrow', sans-serif;
+                    color: $primary-color;
+                    font-family: 'Julius Sans One', sans-serif;
                 }
             }
       
@@ -892,9 +1513,9 @@ footer {
 
     .hero-text {
         position: absolute;
-        top:30%;
-        left: 10%;
-    
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         
     
         h1 {
