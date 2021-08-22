@@ -507,13 +507,13 @@ footer .main-footer .copyright {
   }
   .navigation__bar .navbar .navbar-toggler {
     margin-top: 10px;
-    margin-right: 30px;
+    margin-right: 65px;
     background-color: gray;
   }
   .hero-text {
     position: absolute;
     top: 30%;
-    left: 5%;
+    left: 12%;
     width: 100%;
     text-align: center;
   }
@@ -528,7 +528,14 @@ footer .main-footer .copyright {
   .hero-text p {
     color: #ffffff;
   }
-  .hero-text .btn:hover {
+  .hero-text a .btn {
+    position: absolute;
+    top: 95%;
+    left: 25%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .hero-text a .btn:hover {
     -webkit-transform: translateY(-6px);
             transform: translateY(-6px);
   }
@@ -823,6 +830,7 @@ footer .main-footer .copyright {
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1em;
     color: #000000;
+    margin-left: 20px;
   }
   .hero-text .btn:hover {
     -webkit-transform: translateY(-5px);

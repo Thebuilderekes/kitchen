@@ -632,7 +632,7 @@ footer {
             .navbar-toggler {
                 margin-top: 10px;
 
-                margin-right: 30px;
+                margin-right: 65px;
                 background-color: gray;
                     
                 }
@@ -645,7 +645,7 @@ footer {
 .hero-text {
     position: absolute;
     top:30%;
-    left: 5%;
+    left: 12%;
     width: 100%;
     text-align: center;
     
@@ -666,9 +666,13 @@ footer {
     }
 
 
-    .btn {
+    a .btn {
 
-
+        position: absolute;
+        top: 95%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+    
             
     &:hover {
            transform: translateY(-6px);
@@ -1098,7 +1102,7 @@ footer {
            font-family: 'Archivo Narrow', sans-serif;
            font-size: $normal-size;
            color: $button-color;
-    
+            margin-left: 20px;
            &:hover {
 
                transform: translateY(-5px);
