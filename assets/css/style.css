@@ -509,6 +509,9 @@ footer .main-footer .copyright {
   .navigation__bar .navbar {
     margin-top: 100px;
   }
+  .navigation__bar .navbar .container-fluid .collapse .navbar-nav .nav-item {
+    padding: 7px 0;
+  }
   .navigation__bar .navbar .navbar-toggler {
     margin-top: 10px;
     margin-right: 65px;
