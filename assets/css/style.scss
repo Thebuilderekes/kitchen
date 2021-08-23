@@ -233,7 +233,7 @@ display: none;
 /* about-section */
 
 .about-section{
-    margin-top: -50px;
+
     height: 500px;
     background-color: $primary-color;
 
@@ -274,7 +274,8 @@ display: none;
 
 .custom-shape-divider-bottom-1629649744 {
     position: absolute;
-    bottom: 0;
+    bottom: -10px;
+    
     left: 0;
     width: 100%;
     overflow: hidden;

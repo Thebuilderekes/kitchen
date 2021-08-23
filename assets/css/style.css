@@ -177,7 +177,6 @@ header .call-to-order-bar #call-to-order {
 
 /* about-section */
 .about-section {
-  margin-top: -50px;
   height: 500px;
   background-color: #ffffff;
 }
@@ -213,7 +212,7 @@ header .call-to-order-bar #call-to-order {
 
 .custom-shape-divider-bottom-1629649744 {
   position: absolute;
-  bottom: 0;
+  bottom: -10px;
   left: 0;
   width: 100%;
   overflow: hidden;
