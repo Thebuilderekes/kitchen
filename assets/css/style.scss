@@ -127,7 +127,7 @@ header {
              font-weight: 700;
              text-decoration: none;
              font-family: 'Julius Sans One', sans-serif;
-             color:$primary-color;
+             color: $primary-color;
              padding: 0 $medium-size;
 
            &:hover {
@@ -155,8 +155,8 @@ header {
      width: 100%;
      height: 50px;
      background-color: rgb(1, 158, 22);
-  position: sticky;
-display: none;
+    position: sticky;
+     display: none;
 
     #call-to-order {
         color: $primary-color;
@@ -171,28 +171,22 @@ display: none;
 /*Hero-section */
   .hero-text {
     position: absolute;
-    top:30%;
+    top:35%;
     left: 5%;
 
 
-    
-
-    h1 {
+  h1 {
     
         color: $comp-color;
-        font-size: $extralarge-size;
+        font-size: $large-size;
         max-width: 40rem; 
         padding-bottom: 10px;
         font-family: 'Archivo Black', sans-serif;
-        text-transform: uppercase;
+     
         line-height: 1.2;
         text-align: center;
-        
+ }
 
-       
-    }
-
-    
     
     p{
         color: $primary-color;
@@ -220,8 +214,6 @@ display: none;
     }
 
 
-   
-
 }
 
 
@@ -237,14 +229,16 @@ display: none;
     height: 500px;
     background-color: $primary-color;
 
- 
-  
-    h2 {
+   h2 {
         font-family: 'Archivo Black', sans-serif;
        
         font-weight: 700;
 }
 
+
+p {
+    font-size: 18px;
+}
 .wave-wrapper {
     position: relative;
 }
@@ -292,6 +286,7 @@ display: none;
 .custom-shape-divider-bottom-1629649744 .shape-fill {
     fill: #ffffff;
 }
+
 .opening-hours {
     width: 100%;
     height: 500px;
@@ -299,13 +294,17 @@ display: none;
     position: relative;
 
 
-    #opening-hours__header {
+ #opening-hours__header {
+    
        color: $primary-color ;
     }
 
- 
+    h2 {
+        margin-top: -50px;
+    }
     p {
-        color: $primary-color;
+        margin-top: -20px;
+         color: $primary-color;
         font-size: $medium-size;
         font-weight: 600;
         padding-bottom: $large-size;
@@ -360,7 +359,7 @@ display: none;
 /*Menu section*/
 
 .menu-section {
-    
+    margin-top: -100px;
    background-color: $comp-color;
     padding-bottom: $extralarge-size;
 
@@ -432,7 +431,7 @@ footer {
             }
         }
 
-        .order-now {
+        .order-now-btn {
             margin: auto;
             padding: 5px 0;
             text-align: center;
@@ -1140,7 +1139,7 @@ footer {
            font-family: 'Archivo Narrow', sans-serif;
            font-size: $normal-size;
            color: $button-color;
-            margin-left: 20px;
+            margin-left: 22px;
            &:hover {
 
                transform: translateY(-5px);
@@ -1232,6 +1231,7 @@ footer {
       height: 100px;
        display: flex;
          background-color: #000000;
+
         .navbar {
             margin-top: 100px;
           
@@ -1248,8 +1248,6 @@ footer {
               }
 
               }
-
-
             }
 
             .navbar-toggler {
@@ -1478,7 +1476,7 @@ footer {
            font-family: 'Archivo Narrow', sans-serif;
            font-size: $normal-size;
            background-color: $comp-color;
-           margin-left: 12px;
+           margin-left: 18px;
            &:hover {
                transform: translateY(-5px);
     
