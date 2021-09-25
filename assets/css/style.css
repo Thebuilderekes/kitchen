@@ -11,7 +11,7 @@
 body {
   width: 100%;
   height: 100%;
-  background-color: #1a1919;
+  background-color: #f5f3f3;
   overflow-x: hidden;
 }
 
@@ -22,7 +22,7 @@ html {
 h3 {
   font-size: 1.5em;
   font-family: 'Archivo Narrow', sans-serif;
-  color: #ffffff;
+  color: #f5f3f3;
 }
 
 a {
@@ -68,7 +68,7 @@ header .navigation__bar--logo a {
   text-decoration: none;
   font-size: 1.5em;
   font-weight: 700;
-  color: #ffffff;
+  color: #f5f3f3;
   font-family: 'Julius Sans One', sans-serif;
 }
 
@@ -77,7 +77,7 @@ header .navigation__bar .navbar .container-fluid {
 }
 
 header .navigation__bar .navbar .container-fluid .navbar-toggler-icon {
-  color: #ffffff;
+  color: #f5f3f3;
 }
 
 header .navigation__bar .navbar .navbar-toggler {
@@ -94,7 +94,7 @@ header .navigation__bar .navbar .navbar-nav .nav-item .nav-link {
   font-weight: 700;
   text-decoration: none;
   font-family: 'Julius Sans One', sans-serif;
-  color: #ffffff;
+  color: #f5f3f3;
   padding: 0 1.5em;
 }
 
@@ -120,7 +120,7 @@ header .call-to-order-bar {
 }
 
 header .call-to-order-bar #call-to-order {
-  color: #ffffff;
+  color: #f5f3f3;
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -146,7 +146,7 @@ header .call-to-order-bar #call-to-order {
 }
 
 .hero-text p {
-  color: #ffffff;
+  color: #f5f3f3;
   font-size: 2.5em;
 }
 
@@ -176,8 +176,9 @@ header .call-to-order-bar #call-to-order {
 
 /* about-section */
 .about-section {
-  height: 500px;
-  background-color: #ffffff;
+  height: 100%;
+  margin-bottom: 100px;
+  background-color: #f5f3f3;
 }
 
 .about-section h2 {
@@ -241,7 +242,7 @@ header .call-to-order-bar #call-to-order {
 }
 
 .opening-hours #opening-hours__header {
-  color: #ffffff;
+  color: #f5f3f3;
 }
 
 .opening-hours h2 {
@@ -250,7 +251,7 @@ header .call-to-order-bar #call-to-order {
 
 .opening-hours p {
   margin-top: -20px;
-  color: #ffffff;
+  color: #f5f3f3;
   font-size: 1.5em;
   font-weight: 600;
   padding-bottom: 2.5em;
@@ -293,13 +294,13 @@ header .call-to-order-bar #call-to-order {
 }
 
 .custom-shape-divider-bottom-1629650781 .shape-fill {
-  fill: #fbf485;
+  fill: #f5f3f3;
 }
 
 /*Menu section*/
 .menu-section {
   margin-top: -100px;
-  background-color: #fbf485;
+  background-color: #f5f3f3;
   padding-bottom: 3.75em;
 }
 
@@ -324,7 +325,7 @@ header .call-to-order-bar #call-to-order {
 }
 
 .menu-section article p {
-  color: #ffffff;
+  color: #f5f3f3;
   font-size: 1.5em;
 }
 
@@ -353,7 +354,7 @@ footer .main-footer {
 }
 
 footer .main-footer h4 {
-  color: #ffffff;
+  color: #f5f3f3;
   font-family: 'Archivo Narrow', sans-serif;
 }
 
@@ -395,7 +396,7 @@ footer .main-footer .order {
 
 footer .main-footer p {
   font-size: 1.5em;
-  color: #ffffff;
+  color: #f5f3f3;
   font-family: 'Archivo Narrow', sans-serif;
 }
 
@@ -419,7 +420,7 @@ footer .main-footer .copyright {
     padding: 0;
   }
   .container-fluid .navbar-toggler-icon {
-    color: #ffffff;
+    color: #f5f3f3;
   }
   .navbar-toggler {
     background-color: #000000;
@@ -459,7 +460,7 @@ footer .main-footer .copyright {
     font-family: 'Archivo Black', sans-serif;
   }
   .hero-text p {
-    color: #ffffff;
+    color: #f5f3f3;
   }
   .hero-text .btn:hover {
     -webkit-transform: translateY(-6px);
@@ -497,7 +498,7 @@ footer .main-footer .copyright {
     padding: 0;
   }
   .container-fluid .navbar-toggler-icon {
-    color: #ffffff;
+    color: #f5f3f3;
   }
   .navbar-toggler {
     background-color: #000000;
@@ -541,7 +542,7 @@ footer .main-footer .copyright {
     color: #fbf485;
   }
   .hero-text p {
-    color: #ffffff;
+    color: #f5f3f3;
   }
   .hero-text .btn {
     position: absolute;
@@ -574,7 +575,7 @@ footer .main-footer .copyright {
     padding: 0;
   }
   .container-fluid .navbar-toggler-icon {
-    color: #ffffff;
+    color: #f5f3f3;
   }
   .navbar-toggler {
     background-color: #000000;
@@ -614,7 +615,7 @@ footer .main-footer .copyright {
     font-family: 'Archivo Black', sans-serif;
   }
   .hero-text p {
-    color: #ffffff;
+    color: #f5f3f3;
   }
   .hero-text .btn {
     position: absolute;
@@ -673,7 +674,7 @@ footer .main-footer .copyright {
     text-decoration: none;
     font-size: 1.2em;
     font-weight: 700;
-    color: #ffffff;
+    color: #f5f3f3;
     font-family: 'Julius Sans One', sans-serif;
   }
   header .whatsapp-chat {
@@ -696,7 +697,7 @@ footer .main-footer .copyright {
     text-decoration: none;
     font-size: 1em;
     font-weight: 700;
-    color: #ffffff;
+    color: #f5f3f3;
     font-family: 'Julius Sans One', sans-serif;
   }
   .navigation__bar .navbar {
@@ -720,7 +721,7 @@ footer .main-footer .copyright {
     font-family: 'Archivo Black', sans-serif;
   }
   .hero-text p {
-    color: #ffffff;
+    color: #f5f3f3;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1.5em;
   }
@@ -785,7 +786,7 @@ footer .main-footer .copyright {
     text-decoration: none;
     font-size: 1.2em;
     font-weight: 700;
-    color: #ffffff;
+    color: #f5f3f3;
     font-family: 'Julius Sans One', sans-serif;
   }
   header .whatsapp-chat {
@@ -810,7 +811,7 @@ footer .main-footer .copyright {
     text-decoration: none;
     font-size: 1em;
     font-weight: 700;
-    color: #ffffff;
+    color: #f5f3f3;
     font-family: 'Julius Sans One', sans-serif;
   }
   .navigation__bar .navbar {
@@ -838,7 +839,7 @@ footer .main-footer .copyright {
     font-family: 'Archivo Black', sans-serif;
   }
   .hero-text p {
-    color: #ffffff;
+    color: #f5f3f3;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1.5em;
   }
@@ -899,7 +900,7 @@ footer .main-footer .copyright {
     text-decoration: none;
     font-size: 1.2em;
     font-weight: 700;
-    color: #ffffff;
+    color: #f5f3f3;
     font-family: 'Julius Sans One', sans-serif;
   }
   header .whatsapp-chat {
@@ -932,6 +933,7 @@ footer .main-footer .copyright {
     position: absolute;
     top: 50%;
     left: 50%;
+    padding: 0 20px;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
   }
@@ -942,7 +944,7 @@ footer .main-footer .copyright {
     font-family: 'Archivo Black', sans-serif;
   }
   .hero-text p {
-    color: #ffffff;
+    color: #f5f3f3;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1.5em;
   }
@@ -968,7 +970,7 @@ footer .main-footer .copyright {
     background-color: #3b3d49;
   }
   footer .main-footer h4 {
-    color: #ffffff;
+    color: #f5f3f3;
     font-family: 'Archivo Narrow', sans-serif;
   }
   footer .main-footer order {
@@ -977,7 +979,7 @@ footer .main-footer .copyright {
   }
   footer .main-footer p {
     font-size: 1em;
-    color: #ffffff;
+    color: #f5f3f3;
   }
 }
 
@@ -1020,7 +1022,7 @@ footer .main-footer .copyright {
     text-decoration: none;
     font-size: 1.2em;
     font-weight: 700;
-    color: #ffffff;
+    color: #f5f3f3;
     font-family: 'Julius Sans One', sans-serif;
   }
   header .whatsapp-chat {
@@ -1053,6 +1055,7 @@ footer .main-footer .copyright {
     position: absolute;
     top: 50%;
     left: 50%;
+    padding: 0 20px;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
   }
@@ -1063,7 +1066,7 @@ footer .main-footer .copyright {
     font-family: 'Archivo Black', sans-serif;
   }
   .hero-text p {
-    color: #ffffff;
+    color: #f5f3f3;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1.5em;
   }
@@ -1089,7 +1092,7 @@ footer .main-footer .copyright {
     background-color: #3b3d49;
   }
   footer .main-footer h4 {
-    color: #ffffff;
+    color: #f5f3f3;
     font-family: 'Archivo Narrow', sans-serif;
   }
   footer .main-footer order {
@@ -1098,7 +1101,7 @@ footer .main-footer .copyright {
   }
   footer .main-footer p {
     font-size: 1em;
-    color: #ffffff;
+    color: #f5f3f3;
   }
 }
 
@@ -1141,7 +1144,7 @@ footer .main-footer .copyright {
     text-decoration: none;
     font-size: 1.2em;
     font-weight: 700;
-    color: #ffffff;
+    color: #f5f3f3;
     font-family: 'Julius Sans One', sans-serif;
   }
   header .whatsapp-chat {
@@ -1183,7 +1186,7 @@ footer .main-footer .copyright {
     font-family: 'Archivo Black', sans-serif;
   }
   .hero-text p {
-    color: #ffffff;
+    color: #f5f3f3;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1.5em;
   }
