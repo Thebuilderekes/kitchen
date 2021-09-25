@@ -294,7 +294,7 @@ p {
     background-color:$secondary-color;
     position: relative;
 
-
+  
  #opening-hours__header {
     
        color: $primary-color ;
@@ -303,12 +303,16 @@ p {
     h2 {
         margin-top: -50px;
     }
+
+  
     p {
+        padding: 10px 80px;
         margin-top: -20px;
          color: $primary-color;
         font-size: $medium-size;
-        font-weight: 600;
-        padding-bottom: $large-size;
+        font-weight: 400;
+        font-family: 'Archivo Narrow', sans-serif;
+        
     }
 
 }
@@ -718,6 +722,14 @@ footer {
  }
 
 }
+
+.opening-hours {
+
+    p{
+        padding: 0;
+    }
+}
+
 }
 
 @media screen and (min-width: 601px) and (max-width:766px)  {
@@ -984,6 +996,12 @@ footer {
     
     }
     
+    .opening-hours {
+
+        p{
+            padding: 0;
+        }
+    }
 
   }
 
@@ -1158,6 +1176,13 @@ footer {
     
     }
     
+    .opening-hours {
+
+        p{
+            padding: 0;
+        }
+    }
+
 
   }
 
@@ -1310,6 +1335,13 @@ footer {
     
     }
     
+
+    .opening-hours {
+
+        p{
+            padding: 0;
+        }
+    }
 
 
     footer {
@@ -1506,7 +1538,7 @@ footer {
             }
 
 
-            order {
+            .order {
                 font-size: $large-size;
                 font-family: 'Archivo Narrow', sans-serif;
             }
@@ -1516,6 +1548,14 @@ footer {
             }
         }
     }
+
+    .opening-hours {
+
+        p{
+            padding: 0;
+        }
+    }
+
  }
 
  
@@ -1661,6 +1701,15 @@ footer {
         }
 
     }
+
+
+    .opening-hours {
+
+        p{
+            padding: 0;
+        }
+    }
+
     
   }
 

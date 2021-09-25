@@ -250,11 +250,12 @@ header .call-to-order-bar #call-to-order {
 }
 
 .opening-hours p {
+  padding: 10px 80px;
   margin-top: -20px;
   color: #f5f3f3;
   font-size: 1.5em;
-  font-weight: 600;
-  padding-bottom: 2.5em;
+  font-weight: 400;
+  font-family: 'Archivo Narrow', sans-serif;
 }
 
 .custom-shape-divider-bottom-1629652476 {
@@ -560,6 +561,9 @@ footer .main-footer .copyright {
     padding: 1.5em 0;
     font-weight: 700;
   }
+  .opening-hours p {
+    padding: 0;
+  }
 }
 
 @media screen and (min-width: 601px) and (max-width: 766px) {
@@ -745,6 +749,9 @@ footer .main-footer .copyright {
   .hero-text .btn span {
     display: none;
   }
+  .opening-hours p {
+    padding: 0;
+  }
 }
 
 @media screen and (min-width: 414px) and (max-width: 500px) {
@@ -859,6 +866,9 @@ footer .main-footer .copyright {
   .hero-text .btn span {
     display: none;
   }
+  .opening-hours p {
+    padding: 0;
+  }
 }
 
 @media screen and (min-width: 375px) and (max-width: 413px) {
@@ -963,6 +973,9 @@ footer .main-footer .copyright {
   }
   .hero-text .btn span {
     display: none;
+  }
+  .opening-hours p {
+    padding: 0;
   }
   footer .main-footer {
     width: 100%;
@@ -1095,13 +1108,16 @@ footer .main-footer .copyright {
     color: #f5f3f3;
     font-family: 'Archivo Narrow', sans-serif;
   }
-  footer .main-footer order {
+  footer .main-footer .order {
     font-size: 2.5em;
     font-family: 'Archivo Narrow', sans-serif;
   }
   footer .main-footer p {
     font-size: 1em;
     color: #f5f3f3;
+  }
+  .opening-hours p {
+    padding: 0;
   }
 }
 
@@ -1204,6 +1220,9 @@ footer .main-footer .copyright {
   }
   .hero-text .btn span {
     display: none;
+  }
+  .opening-hours p {
+    padding: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
