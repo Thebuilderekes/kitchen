@@ -1,9 +1,40 @@
 /**
-* Template Name: Medicio - v3.0.0
-* Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+
 */
+
+
+
+const openMenu = document.getElementById("open-menu");
+const closeMenu = document.getElementById("close-menu");
+const ulEl = document.getElementById("ul-el");
+
+if(openMenu.style.display = "block" ){
+   ulEl.style.display = "none";
+  closeMenu.style.display = "none"
+}
+
+function openNav(){
+    openMenu.style.display = "none";
+    ulEl.style.display = "block";
+     closeMenu.style.display = "block";
+}
+
+function closeNav(){
+  openMenu.style.display = "block";
+  ulEl.style.display = "none";
+ closeMenu.style.display = "none";
+  
+}
+
+
+
+
+
+
+
+
+
+
 !(function($) {
   "use strict";
 
@@ -224,3 +255,8 @@
   });
 
 })(jQuery);
+
+
+
+
+

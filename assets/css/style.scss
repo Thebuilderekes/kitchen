@@ -67,119 +67,123 @@ header {
       background-repeat: no-repeat;
       background-size: cover;
 
-}
+
   
    
  
       /*Navigation section */
-   .navigation__bar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-
-    z-index:999;
-    background-color:$secondary-color;
- 
-    width: 100%;
-    height: 80px;
-
-
-
-   
-
-
-    &--logo {
-          a{
-              padding: 0 0 0 70px;
-              text-decoration: none;
-              font-size: $medium-size;
-              font-weight: 700;
-              color: $primary-color;
-              font-family: 'Julius Sans One', sans-serif;
-          }
-      }
-
-    
-.navbar {
-
-           
-    .container-fluid {
-          
-           
-          
-             .navbar-toggler-icon {
-                color: #000000;
-                border: none;
-                outline: none;
-            }
-     }
-        
+      .wrapper {
 
      
 
-       .collapse {
-           width: 100%;
-           background-color: $secondary-color;
+        .btn-logo {
+            padding: 10px 30px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            background-color: $secondary-color;
+            position: fixed;
+            z-index: 20;
+
+            .show {
+                animation: smooth 1s ease;
+                width: 50px;
+                height: 50px;
+               
+            }
+          
+      }
+      
+  
+      
+      nav {
+        width: 100%;
+        display: block;
+        position: relative;
+        z-index: 1;
+
+                ul {
+                    /* margin-top: 50px;  */
+                    width: 100%;
+                    // margin-top: 90px;
+                    top: 12%;
+                    text-decoration: none;
+                    list-style: none;
+                    background-color: $secondary-color;
+                    position: fixed;
+                    animation: smooth 1s ease;
+            
+                
+                        li {
+
+                            text-align: center;
+                            padding: 10px 0;
+                            &:not(:last-child){
+                                border-bottom: 1px solid #41434b;
+                            }
+                                    a{
+                                    text-decoration: none;
+                                    color: $primary-color;
+                             
+                                    font-family: 'Open Sans', sans-serif;
+                                    font-size: $medium-size;
+                                  
+                                    &:hover {
+                                        color: goldenrod;
+                                    }
+                                 
+                                    }
+
+                              
+                                }
+                        }
+                }
+      }
+      
+      
     
       
-       }
-       .navbar-nav{
-        
-           .nav-item{
-           
-           .nav-link {
-             font: 18px;
-             font-weight: 700;
-             text-decoration: none;
-             font-family: 'Julius Sans One', sans-serif;
-             color: $primary-color;
-             padding: 0 $medium-size;
       
-
-           &:hover {
-
-            color: #000000;
-           }
-       
-           }
-        }
-       }   
-   }  
+      @keyframes smooth {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+      }
+      
+      
+      
+     
  }
 
 
  .whatsapp-chat {
+
      float: right;
      position: fixed;
      top: 80%;
      left: 90%;
-     z-index: 999;
- }
+     z-index: 10;
 
 
- .call-to-order-bar {
-     width: 100%;
-     height: 50px;
-     background-color: rgb(1, 158, 22);
-    position: sticky;
-     display: none;
+     .whatsapp {
+        width: 80px;
+        height: 80px;
 
-    #call-to-order {
-        color: $primary-color;
-       text-align: center;
-        align-items: center;
-        font-size: $medium-size
-      
      }
  }
- }
+
+
+ 
 
 /*Hero-section */
   .hero-text {
     position: absolute;
     top:35%;
     left: 5%;
+ 
 
 
   h1 {
@@ -192,6 +196,8 @@ header {
      
         line-height: 1.2;
         text-align: left;
+        z-index: -1;
+     
  }
 
     
@@ -212,7 +218,7 @@ header {
        color: #000000;
        background-color: #0DF94E;
        font-weight: 700;
-    transform: translate(-50%, -50%);
+    
 
             
     &:hover {
@@ -250,6 +256,9 @@ header {
 
 }
 
+  }
+
+
 
 .section-header {
     font-family: 'Archivo Black', sans-serif;
@@ -272,7 +281,7 @@ header {
 
 
 p {
-    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: left;
     font-size: 18px;
 }
@@ -350,14 +359,13 @@ p {
 
   
     p {
-        padding: 10px 250px;
+        padding: 10px 150px;
         margin: 0 auto;
         text-align: left;
          color: $primary-color;
         font-size: $medium-size;
         font-weight: 400;
-        font-family: 'Archivo Narrow', sans-serif;
-        
+        font-family: 'Open Sans', sans-serif;    
     }
 
 }
@@ -438,7 +446,7 @@ article {
 
 
   
-   img {
+   .food {
       width: 100%;
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
@@ -478,7 +486,7 @@ footer {
        justify-content: center;
        align-items: center;
         width: 100%;
-        height: 500px;
+        height: 600px;
         background-color: $secondary-color;
         h4 {
             color: $primary-color;
@@ -493,6 +501,7 @@ footer {
             li{
                
                 padding: 0 $normal-size;
+                
             }
         }
 
@@ -530,414 +539,14 @@ footer {
     }
 }
 
-/*----------------------------------------------------------------*/
-/*----------------------MEDIA QUERIES------------------*/
-/*---------------------------------------------------------------*/
-
-
-
-
-
-// @media screen  and (min-width:501px) and (max-width:600px) {
-    
-//     header {
-//         position: relative;
-//         width: 100%;
-//         height: 100%;
-       
-//         .main-header {
-//             width: 100%;
-//             height: 100vh;
-//            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img-small.jpg);
-//            background-repeat: no-repeat;
-//            background-size: cover;
-     
-     
-      
-            
-       
-//           }
-        
-         
-       
-//             /*Navigation section */
-//          .navigation__bar{
-//           display: flex;
-//           justify-content: space-between;
-//           align-items: center;
-//           position: fixed;
-//           box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
-//           -webkit-box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
-//           -moz-box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
-//           z-index:999;
-     
-       
-        
-      
-         
-      
-      
-//           &--logo {
-//                 a{
-//                     padding: 0 10px;
-//                     text-decoration: none;
-//                     font-size: 1.2em;
-//                     font-weight: 700;
-//                     color: $primary-color;
-//                     font-family: 'Julius Sans One', sans-serif;
-//                 }
-//             }
-      
-//         }
-        
-//         .whatsapp-chat {
-//             float: right;
-//             position: fixed;
-//             top: 80%;
-//             left: 80%;
-//             z-index: 999;
-
-//         }
-
-
-//     }
-
-
-//     .navigation__bar {
-//       width: 100%;
-//       height: 100px;
-//        display: flex;
-     
-   
-       
-//     &--logo {
-//         a{
-//             padding: 0 10px;
-//             text-decoration: none;
-//             font-size: $normal-size;
-//             font-weight: 700;
-//             color: $primary-color;
-//             font-family: 'Julius Sans One', sans-serif;
-
-//         }
-//     }
-
-        
-//         .navbar {
-//             margin-top: 100px;
-            
-
-//             .navbar-toggler {
-//                 margin-top: 10px;
-//                 background-color: $secondary-color;
-//                 }
-//         }
-    
-//     }
-
-
-
-//     .hero-text {
-//         position: absolute;
-//         top:40%;
-//         left: 50%;
-//         transform: translate(-50%, -50%);
-    
-//         h1 {
-        
-//             color: $comp-color;
-//             font-size: $large-size;
-//             font-weight: 700;
-//             font-family: 'Archivo Black', sans-serif;
-    
-           
-//         }
-    
-        
-        
-//         p{
-//             color: $primary-color;
-//             font-family: 'Archivo Narrow', sans-serif;
-//             font-size: $medium-size;
-
-//           }
-//           .buttons {
-//             display: flex;
-  
-//         }
-//       .btn {
-//           width: 200px;
-//           height: 50px;
-//          margin-right: 20px;
-//          font-family: 'Archivo Narrow', sans-serif;
-//          font-size: $medium-size;
-//          background-color: #0DF94E;;
-//          font-weight: 700;
-//       //    position: absolute;
-//       // top:95%;
-//       // left: 0;
-//       transform: translate(-50%, -50%);
-  
-              
-//       &:hover {
-//              transform: translateY(-6px);
-  
-//          }
-//       }
-  
-//       .btn2 {
-//           width: 200px;
-//           height: 50px;
-//           text-decoration: none;
-//           color: #000000;
-//           display: flex;
-//           justify-items: center;
-//           align-items: center;
-//           padding-left: 40px;
-//           border-radius: 5px;
-          
-//          font-family: 'Archivo Narrow', sans-serif;
-//          font-size: $medium-size;
-//          background-color: #0DF94E;;
-//          font-weight: 700;
-//       //    position: absolute;
-//       // top:95%;
-//       // left: 40%;
-//       // transform: translate(-50%, -50%);
-  
-              
-//       &:hover {
-//              transform: translateY(-6px);
-  
-//          }
-//       }
-  
-    
-    
-       
-    
-//     }
-    
-//     .opening-hours {
-
-//         p{
-//             padding: 0;
-//         }
-//     }
-
-//     .order-now-btn {
-//         width: 150px;
-//         font-size: $normal-size;
-
-//     }
-
-//   }
-
-
-
-
- 
-
-
-// @media screen  and (min-width:320px) and (max-width:359px) {
-
-   
-    
-//     header {
-//         position: relative;
-//         width: 100%;
-//         height: 100%;
-       
-//         .main-header {
-      
-//             width: 100%;
-//             height: 100vh;
-//            background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img-small.jpg);
-//            background-repeat: no-repeat;
-//            background-size: cover;
-     
-     
-      
-      
-            
-       
-//           }
-        
-         
-       
-//             /*Navigation section */
-//          .navigation__bar{
-//           display: flex;
-//           justify-content: space-between;
-//           align-items: center;
-//           position: fixed;
-//           box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
-//           -webkit-box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
-//           -moz-box-shadow: 3px 10px 5px -7px rgba(0,0,0,0.75);
-//           z-index:999;
-     
-     
-//         width: 100%;
-//         height: 80px;
-      
-      
-         
-      
-      
-//           &--logo {
-//                 a{
-//                     padding: 0 10px;
-//                     text-decoration: none;
-//                     font-size: 1.2em;
-//                     font-weight: 700;
-//                     color: $primary-color;
-//                     font-family: 'Julius Sans One', sans-serif;
-//                 }
-//             }
-      
-//         }
-        
-//         .whatsapp-chat {
-//             float: right;
-//             position: fixed;
-//             top: 80%;
-//             left: 80%;
-//             z-index: 999;
-
-//         }
-
-
-//     }
-
-
-//     .navigation__bar {
-//       width: 100%;
-//       height: 100px;
-//        display: flex;
-    
-        
-//         .navbar {
-//             margin-top: 100px;
-            
-//             //  .container-fluid{
-             
-//             //  }
-             
-//             .navbar-toggler {
-//                 margin-top: 10px;
-//                 margin-left: 100px;
-//                 background-color: $secondary-color;
-                    
-//                 }
-//         }
-    
-//     }
-
-
-
-//     .hero-text {
-//         position: absolute;
-//         top:50%;
-//         left: 50%;
-//         transform: translate(-50%, -50%);
-        
-    
-//         h1 {
-        
-//             color: $comp-color;
-//             font-size: $medium-size;
-//             font-weight: 700;
-//             font-family: 'Archivo Black', sans-serif;
-//             text-align: center;
-//             margin: 10px;
-    
-           
-//         }
-    
-        
-        
-//         p{
-//             color: $primary-color;
-//             font-family: 'Archivo Narrow', sans-serif;
-//             font-size: $medium-size;
-
-//           }
-    
-//           .buttons {
-//             display: flex;
-//             padding: 20px;
-  
-//         }
-//       .btn {
-//         padding: 0;
-//         height: 40px;
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//          font-family: 'Archivo Narrow', sans-serif;
-//          font-size: $normal-size;
-//          background-color: #0DF94E;;
-//          font-weight: 700;
-      
-  
-              
-//       &:hover {
-//              transform: translateY(-6px);
-  
-//          }
-//       }
-  
-//       .btn2 {
-//         //   width: 100px;
-//         //   height: 50px;
-//           text-decoration: none;
-//           color: #000000;
-//           height: 40px;
-//           display: flex;
-//           justify-content: center;
-//           align-items: center;
-//           padding-right: 30px;
-//           padding-bottom: 5px;
-//             border-radius: 5px;
-//            font-family: 'Archivo Narrow', sans-serif;
-//          font-size: $normal-size;
-//          background-color: #0DF94E;;
-//          font-weight: 700;
-
-  
-              
-//       &:hover {
-//              transform: translateY(-6px);
-  
-//          }
-//       }
   
 
-//     }
-
-
-//     .opening-hours {
-
-//         p{
-//             padding: 0;
-//         }
-//     }
-
-
-//     .order-now-btn {
-//         font-size: $normal-size;
-
-//     }
-    
-
-    
-//   }
 
 @import "./media-queries/min769";
-@import "./media-queries/min768";
 @import "./media-queries/min601";
 @import "./media-queries/min501";
 @import "./media-queries/min414";
 @import "./media-queries/min375";
 @import "./media-queries/min360";
 @import "./media-queries/min320";
+

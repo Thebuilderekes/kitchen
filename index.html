@@ -14,6 +14,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
     <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
@@ -25,40 +28,33 @@
 <body>
   
     <header>
-        <section class="main-header">
-          <div class="navigation__bar"> 
-            <div class="navigation__bar--logo">
-              <a href="#" class="logo-header"><img src="assets/img/logo2.png"></a>
-           </div>
-         <nav class="navbar navbar-expand-lg ">
-             <div class="container-fluid">
-                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                     <span class="navbar-toggler-icon"><i class="icofont-navigation-menu"></i></span>
-                   </button>
-                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                 <ul class="navbar-nav">
-                   <li class="nav-item">
-                     <a class="nav-link active" aria-current="page" href="#">Home</a>
-                   </li>
-                   <li class="nav-item">
-                     <a class="nav-link" href="#about-section">About</a>
-                   </li>
-                   <li class="nav-item">
-                     <a class="nav-link" href="#menu-section">Menu</a>
-                   </li>
-                   <li class="nav-item">
-                     <a class="nav-link" href="tel:+2349074210029 ">Contact Us</a>
-                   </li>
-                 </ul>
-               </div>
-             </div>
-           </nav>
-          </div>
-     
-        </section>
 
-        <section class="hero-text" >
-                    <h1 class = "hero-header"  data-aos="fade-up" data-aos-delay="250">Place order for your delicious meals online.</h1>
+
+      <div class="main-header">
+      <div class="wrapper">
+
+        <div class="btn-logo">
+         <img class="logo" src="assets/img/logo2.png" alt="logo">
+          <div class="btn">
+            <img id="open-menu" class="show" onclick="openNav()" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAAAlElEQVR4nO3XMQ4CUQxDwT06N/80iNqFwSyakXKAvCq5LgAAAAAAAOAezp8TtEzQMkHLBC0TtEzQsq8HBQAAoOWc87jDrDvFPvV7t607xdahUutOsXWo1LpTbB0qte4UW4dKrTvF1qFS606x8wMnUTLrTgAAAEy93sOPWu/4VYKWCVomaJmgZYKWCQoAAAAAAAC8PQG6KuGD/Y59CgAAAABJRU5ErkJggg=="/>
+
+            <img id="close-menu" class="show" onclick ="closeNav()"src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAABbklEQVR4nO3ZzXGDMBRFYUpICSmFUijFHaQEl+YSUsLNAjSjYfjRA+kRSefbo2uOvTEMAwAAAAAAAAAAAAAggaRJ0vjA7kvSl/duUUvMX81Gx933svlpJuoqpryiRjHVTNSdmMWjbsSsP+pJzGJRD2LWHVXSz8mNZY+aEFOav+Qp16arxBvMErX5mIFH1G5iBiWjdhczKBG125hBzqjdxwxyRCXmyp2oxNxxJSoxT1iiEjORISoxU2WISsy1G1GJuedCVGKeMUQlZgrjr3R8+vP+a8aYRD1yMSZRt9yMSdRYpphEHQbbf3ND+PHp+3qEJabxmv6iXolpvLafqHdiGs9oP2qOmMaz2o2aM6bxzPailohpPLudqCVjGjfqj+oR07hVb1TPmMbNOqNqfrHmFjPaPYv6kfSde9fFQdSiD4cPotYbM9iI6vKkfSNq/TGDKKrra4soajsxgyXq9MDuq7mYAAAAAAAAAAAAAFDMHzEP4pm+pim/AAAAAElFTkSuQmCC"/>        
+      </div>
+    </div>
+
+      
+      <nav>
+          <ul id="ul-el" class="show">
+            <li> <a href="index.html">Home</li></a> 
+            <li> <a href="#menu-section">About</li></a> 
+            <li> <a href="#about-section">Menu</li></a> 
+            <li> <a href="#footer-section">Contact</li></a> 
+          </ul>
+ </nav>
+  
+
+    <section class="hero-text" >
+                    <h1 class = "hero-header"  data-aos="fade-up" data-aos-delay="250">Order for your delicious meals online.</h1>
           <!-- <p>African food from our kitchen to your plate.</p> -->
           <div class="buttons">
             <a href="tel:+2347032903995 " class ="btn" data-aos="fade-in" data-aos-delay="350"  >ORDER NOW</a>
@@ -66,9 +62,12 @@
           </div>
                  
         </section>
-          <div class="whatsapp-chat"><a href="#">
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAADtklEQVR4nO2bz5XyIBDAcxfyUoIlWIIFCKEES7CEdGAJlpASLMESUgJHhIvfwawLBCIkSOJ+M+9x2sWE3zB/mCFFAQICAgICAgICAjJVqgerkKLnUtIblvTx5aNDip6TAkKCNitYWNKRFBKWtFt6QR8YPCWgpRfzkQGAABAAAkAAKHzwUtIbVuSKM0XNNQPiWJErErTZKLarHqxyPbcSbIsFOWJVX/4XQBwJ2viAvJPyTk4pd9fKANVtJdjW94zqwapKsO3Y/1ig/gwgjgU5uoBgSVjvc7hzrmaG9vyNYru5u2kNgDokDnsbDFL07IXiG4pc7d1VPVjVA/5KQNzWfG8acWAGoOrL4P0mQloSEMeSsJ/52q6ZY6qvUUp60x3901zjzW0xQOWdnMz5dZsKjq4EA5Jg2+8ApMhVn5sq4oQ8K7ZutQgg3SljSZhL80jQBgnaJKlQaj4p1tQWAFS3xryh8+Q6wD5Uz95JenTDghxXDOjXMbteFAnaOH47WOMhiul30ToBGZp0hF5Xlhyj8TnPXgEgTYueiOIC1Gt8Xm4kzcgZGhiyAtK7BL4XHAE0ewfpCgr1bVkB6ectb3nCcSZLmCO9uhSh0PMC0h20b9FW3uJJA2YDCn3nrICM/GfESdqH15TdWj2zxgF+bTlA42ZjaDqVk7YXjAPSh6yA9Cjy9mBqmdobpxoKr3tBDzyXZQWkJ4EhuY3dG98otnOYG98ottsotntXly4lvQUCXwaQHmZDna996i8KI0UwSiZF0e8MDygdeOjzMwMaRJG3PsDeebq4yqyv33YEATNIhHVBUvEJPmroi4oqPaj6EtPpcMDv3vx9HYAcpYeweSMmN3yXofkYAUIc9qHPyw9I2ofG+IZfKekNCdq4CvSemnZn5D8R9elFAOnanFvvebai68tIa4gHFOjWBUiPPB+/uqed7aa0gBYBZJjYZ4r1Dywpt/3VlK5JdkB6spbyCGHDsfOjqY2B7IBGkjWOZd0iQZtZNzUUudr5UR+1JikiOyC7Jj12vSXipgbHsm5diePcTm1uQHzKtZbnDiDsd3fVLVL0XN7JyQf36ZDn3xlKQ6eIP4u5FrRRbFfeySnkesvY7/SRMXl5ZJYE+R/rTPUDpI9k3IbpKr/6BInDvgcTYpLrBPRMCgnDqr5EVAk5lnWLVX1BgjbPMglh5Z2ckKDNp78PyQroGwcAAkAACAABoBWPlIC6pRfzgZHug7qUFzDXMtJ/t/p3IPHYJgEICAgICAgICAjIQP4BYZ0ux0XNshYAAAAASUVORK5CYII="/></a>
+          <div class="whatsapp-chat">
+            <a href="#">
+            <box-icon class="whatsapp" name='whatsapp' type='logo' animation='tada' color='#0df94e' ></box-icon></a>
           </div>
+
+        </div>
 
     </header>
 
@@ -115,7 +114,7 @@
           <div class="col-lg-4 col-md-12 col-sm-12" >
                <article class="yampepper-section">
                     <figure class="food-photo">
-                          <img
+                          <img class="food"
                             src="assets/img/yam-pepper-soup.jpg"
                             alt=" yellow soup special"
                           />
@@ -128,7 +127,7 @@
                  </article>
                 <article class="fisherman-section">
                           <figure class="food-photo">
-                        <img src="assets/img/Fisherman-soup.jpg" alt="combo yam pepper soup" />
+                        <img class="food" src="assets/img/Fisherman-soup.jpg" alt="combo yam pepper soup" />
                   </figure>
                         <h3>
                         Fisherman<br />
@@ -143,7 +142,7 @@
           <div class="col-lg-4 col-md-12 col-sm-12">
                 <article class="yellowsoup-section">
                           <figure class="food-photo">
-                                  <img src="assets/img/yellow-soup.jpg" alt="shrimp" />
+                                  <img class="food" src="assets/img/yellow-soup.jpg" alt="shrimp" />
                           </figure>
                           <h3>Yellow <br />soup</h3>
                           <div class="btn-price"> 
@@ -154,7 +153,7 @@
  
                 <article class="fisherman-section">
                           <figure class="food-photo">
-                                  <img src="assets/img/Fisherman-soup.jpg" alt="gizzard" />
+                                  <img class="food" src="assets/img/Fisherman-soup.jpg" alt="gizzard" />
                           </figure>
                           <h3>Fisherman <br /> soup </h3>
                           <div class="btn-price"> 
@@ -166,7 +165,7 @@
        <div class="col-lg-4 col-md-12 col-sm-12">
               <article class="yellowsoup-section">
                       <figure class="food-photo">
-                               <img src="assets/img/yellow-soup.jpg" alt="yellow soup" />
+                               <img class="food" src="assets/img/yellow-soup.jpg" alt="yellow soup" />
                     </figure>
                      <h3> Yellow <br /> soup</h3>
                      <div class="btn-price"> 
@@ -177,7 +176,7 @@
 
                 <article class="fisherman-section">
                       <figure class="food-photo">
-                        <img src="assets/img/Fisherman-soup.jpg" alt="gizzard" />
+                        <img class="food" src="assets/img/Fisherman-soup.jpg" alt="gizzard" />
                     </figure>
                      <h3>  Fisherman <br />   soup</h3>
                      <div class="btn-price"> 
@@ -191,7 +190,7 @@
   </section>
     
   <footer>
-    <section class="main-footer text-center">
+    <section class="main-footer text-center" id="footer-section">
               <div class="container">
                     <div class="row">
                           <a href="tel:+2349074210029" class="order-now-btn">ORDER NOW</a>
