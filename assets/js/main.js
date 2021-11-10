@@ -6,7 +6,12 @@
 
 const openMenu = document.getElementById("open-menu");
 const closeMenu = document.getElementById("close-menu");
+const navLink =   document.querySelectorAll(  ".nav-links");
 const ulEl = document.getElementById("ul-el");
+
+
+
+
 
 if(openMenu.style.display = "block" ){
    ulEl.style.display = "none";
@@ -17,6 +22,7 @@ function openNav(){
     openMenu.style.display = "none";
     ulEl.style.display = "block";
      closeMenu.style.display = "block";
+
 }
 
 function closeNav(){
@@ -25,7 +31,6 @@ function closeNav(){
  closeMenu.style.display = "none";
   
 }
-
 
 
 

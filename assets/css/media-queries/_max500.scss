@@ -1,5 +1,5 @@
 
-@media screen  and (min-width:414px) and (max-width:500px) {
+@media screen and (max-width:500px) {
 
    
     body{
@@ -21,7 +21,7 @@
       
     }
     
-    
+ 
     
     a {
       text-decoration: none;
@@ -116,7 +116,7 @@
        float: right;
        position: fixed;
        top: 80%;
-       left: 90%;
+       left: 70%;
        z-index: 10;
     }
     
@@ -177,7 +177,7 @@
         width: 40%;
         height: 50%;
          margin-right: 5%;
-         padding: 10px 0 10px 20px;
+        //  padding: 10px 0 10px 20px;
           text-decoration: none;
           color: #000000;
           border-radius: 5px;
@@ -219,14 +219,15 @@
       background-color: $primary-color;
     
      h2 {
-          font-family: 'Archivo Black', sans-serif;
-         
-          font-weight: 700;
+      font-size: $large-size;
+      font-family: 'Poiret One', cursive;
+      text-transform: uppercase;
+      font-weight: 700;
     }
     
     
     p {
-      font-family: 'Archivo Narrow', sans-serif;
+      font-family: "Open Sans", sans-serif;
       text-align: left;
       font-size: 18px;
     }
@@ -236,140 +237,54 @@
     
     }
     
-    .custom-shape-divider-bottom-1629652111 {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      overflow: hidden;
-      line-height: 0;
-    }
-    
-    .custom-shape-divider-bottom-1629652111 svg {
-      position: relative;
-      display: block;
-      width: calc(101% + 1.3px);
-      height: 150px;
-    }
-    
-    .custom-shape-divider-bottom-1629652111 .shape-fill {
-      fill: $comp-color;
-    }
-    
-    
-    .custom-shape-divider-bottom-1629649744 {
-      position: absolute;
-      bottom: 0;
-      
-      left: 0;
-      width: 100%;
-      overflow: hidden;
-      line-height: 0;
-    }
-    
-    .custom-shape-divider-bottom-1629649744 svg {
-      position: relative;
-      display: block;
-      width: calc(101% + 1.3px);
-      height: 100px;
-    }
-    
-    .custom-shape-divider-bottom-1629649744 .shape-fill {
-      fill: #ffffff;
-    }
+  
     
     .opening-hours {
       width: 100%;
       height: 500px;
       background-color:$secondary-color;
       position: relative;
-      padding-bottom: 200px;
+     
+      padding-bottom: 100px;
     
     
     #opening-hours__header {
-      
-    
-      &::before {
-          content: " ";
-          background-color: $primary-color;
-          height: 3px;
-          
-      }
-         color: $primary-color ;
+      font-family: 'Poiret One', cursive;
+ 
+         color:$primary-color;
       }
     
       h2 {
-          margin-top: -50px;
+         font-size: $medium-size;
       }
     
     
       p {
        
       margin: 10px;
-          text-align: left;
+          text-align: center;
            color: $primary-color;
           font-size: $medium-size;
           font-weight: 400;
-          font-family: 'Archivo Narrow', sans-serif;
+          font-family: 'Poiret One', cursive;
           
       }
     
     }
-    
-    .custom-shape-divider-bottom-1629652476 {
-      position: absolute;
-      bottom: 500px;
-      left: 0;
-      width: 100%;
-      overflow: hidden;
-      line-height: 0;
-    }
-    
-    .custom-shape-divider-bottom-1629652476 svg {
-      position: relative;
-      display: block;
-      width: calc(101% + 1.3px);
-      height: 150px;
-    }
-    
-    .custom-shape-divider-bottom-1629652476 .shape-fill {
-      fill: $secondary-color;
-    }
-    
-    
-    
-    
-    .custom-shape-divider-bottom-1629650781 {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      overflow: hidden;
-      line-height: 0;
-    }
-    
-    .custom-shape-divider-bottom-1629650781 svg {
-      position: relative;
-      display: block;
-      width: calc(101% + 1.3px);
-      height: 150px;
-     
-    }
-    
-    .custom-shape-divider-bottom-1629650781 .shape-fill {
-      fill: $primary-color;
-    }
-    
+   
     /*Menu section*/
     
     .menu-section {
-      margin-top: -100px;
+
      background-color: $primary-color;
       padding-bottom: $extralarge-size;
     
     
     
     h2{
+      font-size: $large-size;
+      font-family: 'Poiret One', cursive;
+      text-transform: uppercase;
       font-weight: 700;
     
       }
@@ -434,6 +349,9 @@
           width: 100%;
           height: 500px;
           background-color: $secondary-color;
+
+      
+
           h4 {
               color: $primary-color;
               font-family: 'Archivo Narrow', sans-serif;
@@ -467,15 +385,10 @@
               }
           }
     
-          .order {
-              font-size: $extralarge-size;
-      
-              font-family: 'Archivo Narrow', sans-serif;
-          }
           p{
               font-size: $medium-size;
               color: $primary-color;
-              font-family: 'Archivo Narrow', sans-serif;
+       
           }
     
           .copyright {

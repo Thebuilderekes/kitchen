@@ -1,5 +1,5 @@
 
-@media screen  and (min-width:320px) and (max-width:359px) {
+@media screen  and (max-width:360px) {
 
    
   body{
@@ -41,9 +41,6 @@
       background-repeat: no-repeat;
       background-size: cover;
   
-  
-  
-
 
       nav {
     
@@ -106,11 +103,9 @@
           
       }
       
-  
-      
-     
-      
-    
+  /*===============================*/
+     /*============Animation===================*/
+    /*===============================*/
       
       
       @keyframes smooth {
@@ -240,15 +235,16 @@
   /* about-section */
   
   .about-section{
-  
+  width: 100%;
   height: 100%;
   margin-bottom: 100px;
     background-color: $primary-color;
   
    h2 {
-        font-family: 'Archivo Black', sans-serif;
-       
-        font-weight: 700;
+    font-size: $large-size;
+    font-family: 'Poiret One', cursive;
+    text-transform: uppercase;
+    font-weight: 700;
   }
   
   
@@ -263,79 +259,30 @@
   
   }
   
-  .custom-shape-divider-bottom-1629652111 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-  }
-  
-  .custom-shape-divider-bottom-1629652111 svg {
-    position: relative;
-    display: block;
-    width: calc(101% + 1.3px);
-    height: 150px;
-  }
-  
-  .custom-shape-divider-bottom-1629652111 .shape-fill {
-    fill: $comp-color;
-  }
-  
-  
-  .custom-shape-divider-bottom-1629649744 {
-    position: absolute;
-    bottom: 0;
-    
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-  }
-  
-  .custom-shape-divider-bottom-1629649744 svg {
-    position: relative;
-    display: block;
-    width: calc(101% + 1.3px);
-    height: 100px;
-  }
-  
-  .custom-shape-divider-bottom-1629649744 .shape-fill {
-    fill: #ffffff;
-  }
+ 
   
   .opening-hours {
     width: 100%;
-    height: 500px;
+
     background-color:$secondary-color;
     position: relative;
     padding-bottom: 200px;
   
   
   #opening-hours__header {
-    
+    color: $primary-color;
+ 
   
-    &::before {
-        content: " ";
-        background-color: $primary-color;
-        height: 3px;
-        
-    }
-       color: $primary-color ;
     }
   
-    h2 {
-        margin-top: -50px;
-    }
+  
   
   
     p {
      
     margin: 10px;
-        text-align: left;
          color: $primary-color;
-        font-size: $medium-size;
+        font-size: $normal-size;
         font-weight: 400;
         font-family: 'Archivo Narrow', sans-serif;
         
@@ -343,62 +290,22 @@
   
   }
   
-  .custom-shape-divider-bottom-1629652476 {
-    position: absolute;
-    bottom: 500px;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-  }
   
-  .custom-shape-divider-bottom-1629652476 svg {
-    position: relative;
-    display: block;
-    width: calc(101% + 1.3px);
-    height: 150px;
-  }
-  
-  .custom-shape-divider-bottom-1629652476 .shape-fill {
-    fill: $secondary-color;
-  }
-  
-  
-  
-  
-  .custom-shape-divider-bottom-1629650781 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-  }
-  
-  .custom-shape-divider-bottom-1629650781 svg {
-    position: relative;
-    display: block;
-    width: calc(101% + 1.3px);
-    height: 150px;
-   
-  }
-  
-  .custom-shape-divider-bottom-1629650781 .shape-fill {
-    fill: $primary-color;
-  }
   
   /*Menu section*/
   
   .menu-section {
-    margin-top: -100px;
+    
    background-color: $primary-color;
-    padding-bottom: $extralarge-size;
+padding: 1em;
   
   
   
   h2{
+    font-size: $large-size;
+    font-family: 'Poiret One', cursive;
+    text-transform: uppercase;
     font-weight: 700;
-  
     }
   
   
@@ -462,6 +369,7 @@
         width: 100%;
         height: 500px;
         background-color: $secondary-color;
+
         h4 {
             color: $primary-color;
             font-family: 'Archivo Narrow', sans-serif;
@@ -495,13 +403,15 @@
             }
         }
   
-        .order {
-            font-size: $extralarge-size;
+        .follow-us  {
+            font-size: $medium-size;
+            text-transform: uppercase;
+
     
             font-family: 'Archivo Narrow', sans-serif;
         }
         p{
-            font-size: $medium-size;
+            font-size: $normal-size;
             color: $primary-color;
             font-family: 'Archivo Narrow', sans-serif;
         }

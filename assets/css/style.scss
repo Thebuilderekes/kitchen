@@ -47,7 +47,9 @@ h3 {
     
 }
 
-
+ul {
+    padding: 0 !important;
+}
 
 a {
     text-decoration: none;
@@ -66,6 +68,7 @@ header {
       background-image: linear-gradient( 90deg, #00000046 0%, rgba(0, 0, 0, 0.294) 35%, #0000003a 100%), url(../img/back-img.jpg);
       background-repeat: no-repeat;
       background-size: cover;
+    
 
 
   
@@ -260,23 +263,21 @@ header {
 
 
 
-.section-header {
-    font-family: 'Archivo Black', sans-serif;
-    padding: $large-size 0 $normal-size  0;
-}
+
 
 /* about-section */
 
 .about-section{
-
+width: 100%;
   height: 100%;
-  margin-bottom: 100px;
+  padding: 5em 3em 10em 3em;
     background-color: $primary-color;
 
    h2 {
-        font-family: 'Archivo Black', sans-serif;
-       
-        font-weight: 700;
+    font-family: 'Poiret One', cursive;
+    font-size: $extralarge-size;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 
@@ -291,139 +292,58 @@ p {
 
 }
 
-.custom-shape-divider-bottom-1629652111 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-bottom-1629652111 svg {
-    position: relative;
-    display: block;
-    width: calc(101% + 1.3px);
-    height: 150px;
-}
-
-.custom-shape-divider-bottom-1629652111 .shape-fill {
-    fill: $comp-color;
-}
-
-
-.custom-shape-divider-bottom-1629649744 {
-    position: absolute;
-    bottom: 0;
-    
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-bottom-1629649744 svg {
-    position: relative;
-    display: block;
-    width: calc(101% + 1.3px);
-    height: 100px;
-}
-
-.custom-shape-divider-bottom-1629649744 .shape-fill {
-    fill: #ffffff;
-}
-
 .opening-hours {
     width: 100%;
-    height: 500px;
+
     background-color:$secondary-color;
-    position: relative;
-    padding-bottom: 200px;
+
+    .container {
+        padding: 5em 3em 7em 3em;
+
+    }
+
 
   
  #opening-hours__header {
-    
+    font-size: $extralarge-size;
+    font-weight: 700;
 
-    &::before {
-        content: " ";
-        background-color: $primary-color;
-        height: 3px;
-        
-    }
+
        color: $primary-color ;
     }
 
-    h2 {
-        margin-top: -50px;
-    }
 
   
     p {
-        padding: 10px 150px;
-        margin: 0 auto;
-        text-align: left;
+        // padding: 20px 150px;
+        // margin: 0 auto;
+        text-transform: uppercase;
+        text-align: center;
          color: $primary-color;
-        font-size: $medium-size;
-        font-weight: 400;
-        font-family: 'Open Sans', sans-serif;    
+        font-size: $large-size;
+        font-weight: 700;
+        font-family: 'Poiret One', cursive;
     }
 
 }
 
-.custom-shape-divider-bottom-1629652476 {
-    position: absolute;
-    bottom: 500px;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
 
-.custom-shape-divider-bottom-1629652476 svg {
-    position: relative;
-    display: block;
-    width: calc(101% + 1.3px);
-    height: 150px;
-}
-
-.custom-shape-divider-bottom-1629652476 .shape-fill {
-    fill: $secondary-color;
-}
-
-
-
-
-.custom-shape-divider-bottom-1629650781 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-bottom-1629650781 svg {
-    position: relative;
-    display: block;
-    width: calc(101% + 1.3px);
-    height: 150px;
-   
-}
-
-.custom-shape-divider-bottom-1629650781 .shape-fill {
-    fill: $primary-color;
-}
 
 /*Menu section*/
 
 .menu-section {
-    margin-top: -100px;
+ 
    background-color: $primary-color;
-    padding-bottom: $extralarge-size;
+
+  padding: 3em;
 
 
 
  h2{
+    font-size: $extralarge-size;
+    font-family: 'Poiret One', cursive;
+  
+    text-transform: uppercase;
     font-weight: 700;
 
     }
@@ -522,8 +442,10 @@ footer {
             }
         }
 
-        .order {
+        .follow-us {
             font-size: $extralarge-size;
+            text-transform: uppercase;
+
     
             font-family: 'Archivo Narrow', sans-serif;
         }
@@ -542,11 +464,10 @@ footer {
   
 
 
-@import "./media-queries/min769";
-@import "./media-queries/min601";
-@import "./media-queries/min501";
-@import "./media-queries/min414";
-@import "./media-queries/min375";
-@import "./media-queries/min360";
-@import "./media-queries/min320";
+@import "./media-queries/max900";
+@import "./media-queries/max768";
+@import "./media-queries/max600";
+@import "./media-queries/max500";
+@import "./media-queries/max360";
+@import "./media-queries/max320";
 
