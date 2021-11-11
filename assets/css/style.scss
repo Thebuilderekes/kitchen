@@ -256,6 +256,13 @@ width: 100%;
   padding: 5em 3em 10em 3em;
     background-color: $primary-color;
 
+
+    .about-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
    h2 {
     font-family: 'Poiret One', cursive;
     font-size: $extralarge-size;
@@ -266,7 +273,6 @@ width: 100%;
 
 p {
     font-family: 'Open Sans', sans-serif;
-    text-align: left;
     font-size: 18px;
 }
 .wave-wrapper {
@@ -391,7 +397,10 @@ footer {
              justify-content: center;
              
             li{
-                padding: 0 $normal-size;
+                padding: $medium-size $large-size;
+                margin: 0 1em;
+                border:  1px solid white;
+                border-radius: 5px;
                 
             }
         }

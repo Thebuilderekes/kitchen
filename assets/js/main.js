@@ -10,14 +10,22 @@ const navLink =   document.querySelectorAll(  ".nav-links");
 const ulEl = document.getElementById("ul-el");
 
 
+window.addEventListener("mouseup", function(event){
+  const ulEl = document.getElementById("ul-el");
+  if(event.target != ulEl) {
 
+    ulEl.style.display = "none";
+    closeMenu.style.display = "none";
+    openMenu.style.display = "block" 
+  }
+
+})
 
 
 if(openMenu.style.display = "block" ){
    ulEl.style.display = "none";
-  closeMenu.style.display = "none"
+  closeMenu.style.display = "none";
 }
-
 function openNav(){
     openMenu.style.display = "none";
     ulEl.style.display = "block";
