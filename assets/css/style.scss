@@ -54,6 +54,13 @@ ul {
 a {
     text-decoration: none;
 }
+
+
+.off-display {
+    display:none;
+}
+
+
 /*Header section */
 header {
   position: relative;
@@ -70,10 +77,6 @@ header {
       background-size: cover;
     
 
-
-  
-   
- 
       /*Navigation section */
       .wrapper {
 
@@ -97,8 +100,7 @@ header {
           
       }
       
-  
-      
+     
       nav {
         width: 100%;
         display: block;
@@ -106,9 +108,8 @@ header {
         z-index: 1;
 
                 ul {
-                    /* margin-top: 50px;  */
+                   display: none;
                     width: 100%;
-                    // margin-top: 90px;
                     top: 12%;
                     text-decoration: none;
                     list-style: none;
@@ -127,10 +128,9 @@ header {
                                     a{
                                     text-decoration: none;
                                     color: $primary-color;
-                             
-                                    font-family: 'Open Sans', sans-serif;
-                                    font-size: $medium-size;
-                                  
+                                    font-family: 'Poiret One', cursive;
+                                    font-size: $large-size;
+                    
                                     &:hover {
                                         color: goldenrod;
                                     }
@@ -144,9 +144,7 @@ header {
       }
       
       
-    
-      
-      
+        
       @keyframes smooth {
           from {
             opacity: 0;
@@ -154,17 +152,13 @@ header {
           to {
             opacity: 1;
           }
-      }
-      
-      
-      
+      }    
      
  }
 
 
  .whatsapp-chat {
-
-     float: right;
+         float: right;
      position: fixed;
      top: 80%;
      left: 90%;
@@ -186,17 +180,13 @@ header {
     position: absolute;
     top:35%;
     left: 5%;
- 
-
 
   h1 {
-    
         color: $comp-color;
         font-size: $extralarge-size;
         max-width: 40rem; 
         padding-bottom: 10px;
         font-family: 'Archivo Black', sans-serif;
-     
         line-height: 1.2;
         text-align: left;
         z-index: -1;
@@ -238,16 +228,12 @@ header {
         padding-top: 7px;
         padding-left: 35px;
         padding-right: 10px;
-        border-radius: 5px;
-        
+        border-radius: 5px ;
        font-family: 'Archivo Narrow', sans-serif;
        font-size: $medium-size;
        background-color: #0DF94E;
        font-weight: 700;
-    //    position: absolute;
-    // top:95%;
-    // left: 40%;
-    // transform: translate(-50%, -50%);
+
 
             
     &:hover {
@@ -260,10 +246,6 @@ header {
 }
 
   }
-
-
-
-
 
 /* about-section */
 
@@ -294,7 +276,6 @@ p {
 
 .opening-hours {
     width: 100%;
-
     background-color:$secondary-color;
 
     .container {
@@ -302,21 +283,15 @@ p {
 
     }
 
-
-  
  #opening-hours__header {
     font-size: $extralarge-size;
     font-weight: 700;
-
-
-       color: $primary-color ;
+   color: $primary-color ;
     }
 
 
   
     p {
-        // padding: 20px 150px;
-        // margin: 0 auto;
         text-transform: uppercase;
         text-align: center;
          color: $primary-color;
@@ -332,17 +307,13 @@ p {
 /*Menu section*/
 
 .menu-section {
- 
    background-color: $primary-color;
-
   padding: 3em;
-
 
 
  h2{
     font-size: $extralarge-size;
     font-family: 'Poiret One', cursive;
-  
     text-transform: uppercase;
     font-weight: 700;
 
@@ -388,7 +359,6 @@ article {
 
 }
 
-
 }
 
 
@@ -408,6 +378,7 @@ footer {
         width: 100%;
         height: 600px;
         background-color: $secondary-color;
+
         h4 {
             color: $primary-color;
             font-family: 'Archivo Narrow', sans-serif;
@@ -419,7 +390,6 @@ footer {
              justify-content: center;
              
             li{
-               
                 padding: 0 $normal-size;
                 
             }
@@ -462,8 +432,6 @@ footer {
 }
 
   
-
-
 @import "./media-queries/max900";
 @import "./media-queries/max768";
 @import "./media-queries/max600";
