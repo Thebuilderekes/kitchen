@@ -178,7 +178,6 @@ header .hero-text .buttons {
 }
 
 header .hero-text .btn {
-  width: 30%;
   margin-right: 5%;
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 1.5em;
@@ -193,7 +192,6 @@ header .hero-text .btn:hover {
 }
 
 header .hero-text .btn2 {
-  width: 30%;
   text-decoration: none;
   color: #000000;
   padding-top: 7px;
@@ -1286,8 +1284,6 @@ footer .main-footer .copyright {
             transform: translateY(-6px);
   }
   header .main-header .hero-text .btn2 {
-    width: 40%;
-    height: 50%;
     margin-right: 5%;
     text-decoration: none;
     color: #000000;
@@ -1600,7 +1596,7 @@ footer .main-footer .copyright {
     width: 40%;
     height: 50%;
     margin-right: 5%;
-    padding: 10px 0px 10px 35px;
+    padding: 12px 0px 10px 35px;
     text-decoration: none;
     color: #000000;
     border-radius: 5px;
