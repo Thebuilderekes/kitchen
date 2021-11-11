@@ -155,8 +155,7 @@
         }
       .btn {
       
-         width: 40%;
-         height: 50%;
+    
           margin-right: 5%;
           padding: 10px 0;
          font-family: 'Archivo Narrow', sans-serif;
@@ -174,18 +173,16 @@
       }
     
       .btn2 {
-        width: 40%;
-        height: 50%;
-         margin-right: 5%;
-         padding: 10px 0 10px 20px;
-          text-decoration: none;
-          color: #000000;
-          border-radius: 5px;
-          
-         font-family: 'Archivo Narrow', sans-serif;
-         font-size: $normal-size;
-         background-color: #0DF94E;
-         font-weight: 700;
+      
+        margin-right: 5%;
+padding: 10px 0 10px 40px;
+text-decoration: none;
+color: #000000;
+border-radius: 5px;
+font-family: 'Archivo Narrow', sans-serif;
+font-size: 1em;
+background-color: #0DF94E;
+font-weight: 700;
       //    position: absolute;
       // top:95%;
       // left: 40%;

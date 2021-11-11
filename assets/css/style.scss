@@ -398,10 +398,10 @@ footer {
              justify-content: center;
              
             li{
-                padding: $medium-size $large-size;
+                padding: $medium-size $medium-size;
                 margin: 0 1em;
                 border:  1px solid white;
-                border-radius: 5px;
+                border-radius: 50%;
                 
             }
         }

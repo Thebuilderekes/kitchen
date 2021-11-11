@@ -365,10 +365,10 @@ footer .main-footer .social-icons {
 }
 
 footer .main-footer .social-icons li {
-  padding: 1.5em 2.5em;
+  padding: 1.5em 1.5em;
   margin: 0 1em;
   border: 1px solid white;
-  border-radius: 5px;
+  border-radius: 50%;
 }
 
 footer .main-footer .order-now-btn {
@@ -971,8 +971,6 @@ footer .main-footer .copyright {
     display: flex;
   }
   header .main-header .hero-text .btn {
-    width: 40%;
-    height: 50%;
     margin-right: 5%;
     padding: 10px 0;
     font-family: 'Archivo Narrow', sans-serif;
@@ -986,10 +984,8 @@ footer .main-footer .copyright {
             transform: translateY(-6px);
   }
   header .main-header .hero-text .btn2 {
-    width: 40%;
-    height: 50%;
     margin-right: 5%;
-    padding: 10px 0 10px 20px;
+    padding: 10px 0 10px 40px;
     text-decoration: none;
     color: #000000;
     border-radius: 5px;
@@ -1590,7 +1586,6 @@ footer .main-footer .copyright {
     width: 40%;
     height: 50%;
     margin-right: 5%;
-    padding: 10px 0;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1em;
     color: #000000;
@@ -1605,7 +1600,7 @@ footer .main-footer .copyright {
     width: 40%;
     height: 50%;
     margin-right: 5%;
-    padding: 10px 0 10px 20px;
+    padding: 10px 0px 10px 35px;
     text-decoration: none;
     color: #000000;
     border-radius: 5px;
@@ -1910,7 +1905,7 @@ footer .main-footer .copyright {
     width: 40%;
     height: 50%;
     margin-right: 5%;
-    padding: 10px 0 10px 20px;
+    padding: 10px 0 10px 26px;
     text-decoration: none;
     color: #000000;
     border-radius: 5px;
