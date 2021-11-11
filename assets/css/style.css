@@ -215,7 +215,7 @@ header .hero-text .btn2:hover {
 .about-section {
   width: 100%;
   height: 100%;
-  padding: 5em 3em 10em 3em;
+  padding: 5em 3em 8em 3em;
   background-color: #f5f3f3;
 }
 
@@ -240,7 +240,8 @@ header .hero-text .btn2:hover {
 
 .about-section p {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
+  text-align: center;
 }
 
 .about-section .wave-wrapper {
@@ -274,7 +275,7 @@ header .hero-text .btn2:hover {
 /*Menu section*/
 .menu-section {
   background-color: #f5f3f3;
-  padding: 3em;
+  padding-top: 2em;
 }
 
 .menu-section h2 {
@@ -585,7 +586,7 @@ footer .main-footer .copyright {
   /* about-section */
   .about-section {
     height: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     background-color: #f5f3f3;
   }
   .about-section h2 {
@@ -839,6 +840,7 @@ footer .main-footer .copyright {
             transform: translateY(-6px);
   }
   .about-section h2 {
+    margin-top: 1em;
     font-size: 3.75em;
     font-family: 'Poiret One', cursive;
     text-transform: uppercase;
@@ -1007,10 +1009,11 @@ footer .main-footer .copyright {
   /* about-section */
   .about-section {
     height: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     background-color: #f5f3f3;
   }
   .about-section h2 {
+    margin-top: 1.5em;
     font-size: 2.5em;
     font-family: 'Poiret One', cursive;
     text-transform: uppercase;
@@ -1018,8 +1021,7 @@ footer .main-footer .copyright {
   }
   .about-section p {
     font-family: "Open Sans", sans-serif;
-    text-align: left;
-    font-size: 18px;
+    font-size: 16px;
   }
   .about-section .wave-wrapper {
     position: relative;
@@ -1318,10 +1320,11 @@ footer .main-footer .copyright {
     font-family: 'Poiret One', cursive;
     text-transform: uppercase;
     font-weight: 700;
+    margin-top: 1em;
   }
   .about-section p {
     font-family: "Open Sans", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
   }
   .about-section .wave-wrapper {
     position: relative;
@@ -1628,6 +1631,7 @@ footer .main-footer .copyright {
     height: 100%;
     margin-bottom: 100px;
     background-color: #f5f3f3;
+    padding: 5em 2em 5em 2em;
   }
   header .about-section h2 {
     font-size: 2.5em;
@@ -1702,9 +1706,6 @@ footer .main-footer .copyright {
     font-weight: 700;
     border: 1px solid #fbf485;
     padding: 0 7px;
-  }
-  .about-section, .menu-section {
-    padding-bottom: 2.5em;
   }
   /* Footer section */
   footer .main-footer {
@@ -1944,7 +1945,7 @@ footer .main-footer .copyright {
   header .about-section p {
     font-family: "Open Sans", sans-serif;
     text-align: left;
-    font-size: 18px;
+    font-size: 16px;
   }
   header .about-section .wave-wrapper {
     position: relative;

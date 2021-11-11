@@ -215,10 +215,11 @@
     .about-section{
     
     height: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
       background-color: $primary-color;
     
      h2 {
+       margin-top: $medium-size;
          font-size: $large-size;
     font-family: 'Poiret One', cursive;
     text-transform: uppercase;
@@ -228,8 +229,8 @@
     
     p {
       font-family: "Open Sans", sans-serif;
-      text-align: left;
-      font-size: 18px;
+    
+      font-size: 16px;
     }
     .wave-wrapper {
       position: relative;

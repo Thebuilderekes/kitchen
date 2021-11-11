@@ -253,7 +253,7 @@ header {
 .about-section{
 width: 100%;
   height: 100%;
-  padding: 5em 3em 10em 3em;
+  padding: 5em 3em 8em 3em;
     background-color: $primary-color;
 
 
@@ -273,7 +273,8 @@ width: 100%;
 
 p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
+    text-align: center;
 }
 .wave-wrapper {
     position: relative;
@@ -315,7 +316,7 @@ p {
 
 .menu-section {
    background-color: $primary-color;
-  padding: 3em;
+  padding-top: 2em;
 
 
  h2{
