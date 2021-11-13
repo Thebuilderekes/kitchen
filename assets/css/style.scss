@@ -40,6 +40,8 @@ body{
 html {
     width: 100%;
     scroll-behavior: smooth;
+    overflow-x: hidden;
+
 }
 h3 {
     font-size: $medium-size;
@@ -400,7 +402,7 @@ footer {
              justify-content: center;
              
             li{
-                padding: $medium-size $medium-size;
+                padding: 0.5em 0.5em;
                 margin: 0 1em;
                 border:  1px solid white;
                 border-radius: 50%;
@@ -454,6 +456,7 @@ footer {
 @import "./media-queries/max768";
 @import "./media-queries/max600";
 @import "./media-queries/max500";
+@import "./media-queries/max375";
 @import "./media-queries/max360";
 @import "./media-queries/max320";
 
