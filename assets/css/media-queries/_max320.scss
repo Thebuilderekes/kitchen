@@ -4,8 +4,8 @@
    
     body{
       width: 100%;
-      height: 100%;
-      background-color: #f5f3f3;
+      height: 100%;  
+        background-color: #eeeeee;
       overflow-x: hidden;
       
     }
@@ -165,9 +165,10 @@
           margin-right: 5%;
           padding: 10px 0;
          font-family: 'Archivo Narrow', sans-serif;
+         letter-spacing: 1px;
          font-size: $normal-size;
          color: #000000;
-         background-color: #0DF94E;
+
          font-weight: 700;
       
     
@@ -185,17 +186,12 @@
          padding: 10px 0 10px 26px;
           text-decoration: none;
           color: #000000;
-          border-radius: 5px;
-          
+          border-radius: 5px; 
          font-family: 'Archivo Narrow', sans-serif;
          font-size: $normal-size;
-         background-color: #0DF94E;
+         letter-spacing: 1px;
          font-weight: 700;
-      //    position: absolute;
-      // top:95%;
-      // left: 40%;
-      // transform: translate(-50%, -50%);
-    
+   
               
       &:hover {
              transform: translateY(-6px);

@@ -18,8 +18,7 @@
     
     
         $primary-color: #f5f3f3;
-        $comp-color: #fbf485;
-        $button-color: #f6f098;;
+        $comp-color: #f5e61e;
         $secondary-color: #3b3d49;
         $extralarge-size: 3.75em; // 60px
         $large-size: 2.5em; // 40px
@@ -36,7 +35,7 @@
     body{
         width: 100%;
         height: 100%;
-        background-color: #f5f3f3;
+        background-color: #eeeeee;
         overflow-x: hidden;
         
     }
@@ -219,7 +218,6 @@
            font-family: 'Archivo Narrow', sans-serif;
            font-size: $medium-size;
            color: #000000;
-           background-color: #0DF94E;
            font-weight: 700;
         
     
@@ -242,7 +240,6 @@
             
            font-family: 'Archivo Narrow', sans-serif;
            font-size: $medium-size;
-           background-color: #0DF94E;
            font-weight: 700;
         //    position: absolute;
         // top:95%;
@@ -402,6 +399,8 @@
             width: 100%;
             height: 600px;
             background-color: $secondary-color;
+
+
             h4 {
                 color: $primary-color;
                 font-family: 'Archivo Narrow', sans-serif;
@@ -419,28 +418,13 @@
                 }
             }
     
-            .order-now-btn {
-                display: none;
-                margin: auto;
-                font-size: 50px;
-                padding: 10px 0;
-                margin-bottom: 20px;
-                text-align: center;
-                width: 500px;
-                background-color: $comp-color;
-             color: #000000;
-                font-weight: 700;
-    
-                &:hover {
-                    transform: translateY(-5px);
-                }
-            }
     
             .follow-us {
                 font-size: $extralarge-size;
         
                 font-family: 'Archivo Black', sans-serif;
             }
+
             p{
                 font-size: $medium-size;
                 color: $primary-color;

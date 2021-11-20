@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +11,7 @@
 body {
   width: 100%;
   height: 100%;
-  background-color: #f5f3f3;
+  background-color: #eeeeee;
   overflow-x: hidden;
 }
 
@@ -46,14 +44,16 @@ header {
   position: relative;
   width: 100%;
   height: 100%;
-  /*Hero-section */
+  /*===================================================*/
+  /*===============HERO SECTION==================*/
+  /*===================================================*/
 }
 
 header .main-header {
   width: 100%;
   height: 100vh;
-  background-image: -webkit-gradient(linear, left top, right top, from(#00000046), color-stop(35%, rgba(0, 0, 0, 0.294)), to(#0000003a)), url(../img/back-img.jpg);
-  background-image: linear-gradient(90deg, #00000046 0%, rgba(0, 0, 0, 0.294) 35%, #0000003a 100%), url(../img/back-img.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(#00000083), color-stop(35%, rgba(0, 0, 0, 0.555)), to(#0000007a)), url(../img/back-img.jpg);
+  background-image: linear-gradient(90deg, #00000083 0%, rgba(0, 0, 0, 0.555) 35%, #0000007a 100%), url(../img/back-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   /*Navigation section */
@@ -88,6 +88,9 @@ header .main-header .wrapper nav {
 }
 
 header .main-header .wrapper nav ul {
+  box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.75);
   display: none;
   width: 100%;
   top: 12%;
@@ -157,7 +160,7 @@ header .hero-text {
 }
 
 header .hero-text h1 {
-  color: #fbf485;
+  color: #f5e61e;
   font-size: 3.75em;
   max-width: 40rem;
   padding-bottom: 10px;
@@ -183,8 +186,10 @@ header .hero-text .btn {
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 1.5em;
   color: #000000;
-  background-color: #0DF94E;
+  background-color: #eeeeee;
   font-weight: 700;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 header .hero-text .btn:hover {
@@ -193,16 +198,16 @@ header .hero-text .btn:hover {
 }
 
 header .hero-text .btn2 {
-  text-decoration: none;
+  background-color: #f5e61e;
   color: #000000;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-decoration: none;
   padding-top: 7px;
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 5px;
-  font-family: 'Archivo Narrow', sans-serif;
-  font-size: 1.5em;
-  background-color: #0DF94E;
-  font-weight: 700;
 }
 
 header .hero-text .btn2:hover {
@@ -210,12 +215,14 @@ header .hero-text .btn2:hover {
           transform: translateY(-6px);
 }
 
-/* about-section */
+/*===================================================*/
+/*===============ABOUT SECTION==================*/
+/*===================================================*/
 .about-section {
   width: 100%;
   height: 100%;
   background-color: #eeeeee;
-  padding-top: 50px;
+  padding-top: 5em;
 }
 
 .about-section .about-img {
@@ -249,6 +256,9 @@ header .hero-text .btn2:hover {
   position: relative;
 }
 
+/*=======================================================*/
+/*===============OPEN HOURS SECTION==================*/
+/*===================================================*/
 .opening-hours {
   width: 100%;
   background-color: #3b3d49;
@@ -256,6 +266,13 @@ header .hero-text .btn2:hover {
 
 .opening-hours .container {
   padding: 5em 3em 7em 3em;
+}
+
+.opening-hours .container .seating {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-weight: lighter;
+  font-size: 24px;
+  letter-spacing: 1px;
 }
 
 .opening-hours #opening-hours__header {
@@ -273,10 +290,12 @@ header .hero-text .btn2:hover {
   font-family: 'Poiret One', cursive;
 }
 
-/*Menu section*/
+/*===================================================*/
+/*===============MENU SECTION==================*/
+/*===================================================*/
 .menu-section {
   background-color: #eeeeee;
-  padding-top: 2em;
+  padding-top: 5em;
 }
 
 .menu-section h2 {
@@ -318,10 +337,10 @@ header .hero-text .btn2:hover {
 
 .menu-section article .buy-btn {
   text-decoration: none;
-  color: #fbf485;
+  color: #f5e61e;
   font-size: 1.5em;
   font-weight: 700;
-  border: 1px solid #fbf485;
+  border: 1px solid #f5e61e;
   padding: 0 7px;
 }
 
@@ -329,7 +348,9 @@ header .hero-text .btn2:hover {
   padding-bottom: 2.5em;
 }
 
-/* Footer section */
+/*===================================================*/
+/*===============FOOTER SECTION==================*/
+/*===================================================*/
 footer .main-footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -377,24 +398,6 @@ footer .main-footer .social-icons li:hover {
   border: 1px solid #17181a;
 }
 
-footer .main-footer .order-now-btn {
-  display: none;
-  margin: auto;
-  font-size: 50px;
-  padding: 10px 0;
-  margin-bottom: 20px;
-  text-align: center;
-  width: 500px;
-  background-color: #fbf485;
-  color: #000000;
-  font-weight: 700;
-}
-
-footer .main-footer .order-now-btn:hover {
-  -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
-}
-
 footer .main-footer .follow-us {
   font-size: 3.75em;
   text-transform: uppercase;
@@ -422,7 +425,7 @@ footer .main-footer .copyright {
   body {
     width: 100%;
     height: 100%;
-    background-color: #f5f3f3;
+    background-color: #eeeeee;
     overflow-x: hidden;
   }
   html {
@@ -537,7 +540,7 @@ footer .main-footer .copyright {
     left: 5%;
   }
   header .hero-text h1 {
-    color: #fbf485;
+    color: #f5e61e;
     font-size: 3.75em;
     max-width: 40rem;
     padding-bottom: 10px;
@@ -561,7 +564,6 @@ footer .main-footer .copyright {
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1.5em;
     color: #000000;
-    background-color: #0DF94E;
     font-weight: 700;
   }
   header .hero-text .btn:hover {
@@ -578,7 +580,6 @@ footer .main-footer .copyright {
     border-radius: 5px;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1.5em;
-    background-color: #0DF94E;
     font-weight: 700;
   }
   header .hero-text .btn2:hover {
@@ -661,10 +662,10 @@ footer .main-footer .copyright {
   }
   .menu-section article .buy-btn {
     text-decoration: none;
-    color: #fbf485;
+    color: #f5e61e;
     font-size: 1.5em;
     font-weight: 700;
-    border: 1px solid #fbf485;
+    border: 1px solid #f5e61e;
     padding: 0 7px;
   }
   .about-section, .menu-section {
@@ -706,22 +707,6 @@ footer .main-footer .copyright {
   }
   footer .main-footer .social-icons li {
     padding: 0.5em 0.5em;
-  }
-  footer .main-footer .order-now-btn {
-    display: none;
-    margin: auto;
-    font-size: 50px;
-    padding: 10px 0;
-    margin-bottom: 20px;
-    text-align: center;
-    width: 500px;
-    background-color: #fbf485;
-    color: #000000;
-    font-weight: 700;
-  }
-  footer .main-footer .order-now-btn:hover {
-    -webkit-transform: translateY(-5px);
-            transform: translateY(-5px);
   }
   footer .main-footer .follow-us {
     font-size: 3.75em;
@@ -795,7 +780,7 @@ footer .main-footer .copyright {
   }
   .hero-text h1 {
     width: 100;
-    color: #fbf485;
+    color: #f5e61e;
     font-size: 2.5em;
     font-weight: 700;
     font-family: 'Archivo Black', sans-serif;
@@ -814,7 +799,6 @@ footer .main-footer .copyright {
     margin-right: 20px;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1.5em;
-    background-color: #0DF94E;
     font-weight: 700;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
@@ -839,7 +823,6 @@ footer .main-footer .copyright {
     border-radius: 5px;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1.5em;
-    background-color: #0DF94E;
     font-weight: 700;
   }
   .hero-text .btn2:hover {
@@ -868,7 +851,7 @@ footer .main-footer .copyright {
   body {
     width: 100%;
     height: 100%;
-    background-color: #f5f3f3;
+    background-color: #eeeeee;
     overflow-x: hidden;
   }
   html {
@@ -963,7 +946,7 @@ footer .main-footer .copyright {
     left: 5%;
   }
   header .main-header .hero-text h1 {
-    color: #fbf485;
+    color: #f5e61e;
     font-size: 2.5em;
     padding-bottom: 10px;
     margin: 7px;
@@ -984,9 +967,8 @@ footer .main-footer .copyright {
     margin-right: 5%;
     padding: 10px 0;
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 1em;
+    font-size: 1.5em;
     color: #000000;
-    background-color: #0DF94E;
     font-weight: 700;
   }
   header .main-header .hero-text .btn:hover {
@@ -1000,8 +982,7 @@ footer .main-footer .copyright {
     color: #000000;
     border-radius: 5px;
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 1em;
-    background-color: #0DF94E;
+    font-size: 1.5em;
     font-weight: 700;
   }
   header .main-header .hero-text .btn2:hover {
@@ -1089,10 +1070,10 @@ footer .main-footer .copyright {
   }
   .menu-section article .buy-btn {
     text-decoration: none;
-    color: #fbf485;
+    color: #f5e61e;
     font-size: 1.5em;
     font-weight: 700;
-    border: 1px solid #fbf485;
+    border: 1px solid #f5e61e;
     padding: 0 7px;
   }
   .about-section, .menu-section {
@@ -1135,22 +1116,6 @@ footer .main-footer .copyright {
   footer .main-footer .social-icons li {
     padding: 0.5em 0.5em;
   }
-  footer .main-footer .order-now-btn {
-    display: none;
-    margin: auto;
-    font-size: 50px;
-    padding: 10px 0;
-    margin-bottom: 20px;
-    text-align: center;
-    width: 500px;
-    background-color: #fbf485;
-    color: #000000;
-    font-weight: 700;
-  }
-  footer .main-footer .order-now-btn:hover {
-    -webkit-transform: translateY(-5px);
-            transform: translateY(-5px);
-  }
   footer .main-footer .follow-us {
     font-size: 3.75em;
     font-family: 'Archivo Black', sans-serif;
@@ -1169,7 +1134,7 @@ footer .main-footer .copyright {
   body {
     width: 100%;
     height: 100%;
-    background-color: #f5f3f3;
+    background-color: #eeeeee;
     overflow-x: hidden;
   }
   html {
@@ -1264,7 +1229,7 @@ footer .main-footer .copyright {
     left: 5%;
   }
   header .main-header .hero-text h1 {
-    color: #fbf485;
+    color: #f5e61e;
     font-size: 2.5em;
     padding-bottom: 10px;
     margin: 7px;
@@ -1289,7 +1254,6 @@ footer .main-footer .copyright {
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1em;
     color: #000000;
-    background-color: #0DF94E;
     font-weight: 700;
   }
   header .main-header .hero-text .btn:hover {
@@ -1303,7 +1267,6 @@ footer .main-footer .copyright {
     border-radius: 5px;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1em;
-    background-color: #0DF94E;
     font-weight: 700;
   }
   header .main-header .hero-text .btn2:hover {
@@ -1394,10 +1357,10 @@ footer .main-footer .copyright {
   }
   .menu-section article .buy-btn {
     text-decoration: none;
-    color: #fbf485;
+    color: #f5e61e;
     font-size: 1.5em;
     font-weight: 700;
-    border: 1px solid #fbf485;
+    border: 1px solid #f5e61e;
     padding: 0 7px;
   }
   .about-section, .menu-section {
@@ -1439,22 +1402,6 @@ footer .main-footer .copyright {
   footer .main-footer .social-icons li {
     padding: 0.5em 0.5em;
   }
-  footer .main-footer .order-now-btn {
-    display: none;
-    margin: auto;
-    font-size: 50px;
-    padding: 10px 0;
-    margin-bottom: 20px;
-    text-align: center;
-    width: 500px;
-    background-color: #fbf485;
-    color: #000000;
-    font-weight: 700;
-  }
-  footer .main-footer .order-now-btn:hover {
-    -webkit-transform: translateY(-5px);
-            transform: translateY(-5px);
-  }
   footer .main-footer p {
     font-size: 1.5em;
     color: #f5f3f3;
@@ -1468,7 +1415,7 @@ footer .main-footer .copyright {
   body {
     width: 100%;
     height: 100%;
-    background-color: #f5f3f3;
+    background-color: #eeeeee;
     overflow-x: hidden;
   }
   html {
@@ -1573,7 +1520,7 @@ footer .main-footer .copyright {
     left: 5%;
   }
   header .main-header .hero-text h1 {
-    color: #fbf485;
+    color: #f5e61e;
     font-size: 1.5em;
     padding-bottom: 10px;
     margin: 7px;
@@ -1597,7 +1544,6 @@ footer .main-footer .copyright {
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1em;
     color: #000000;
-    background-color: #0DF94E;
     font-weight: 700;
   }
   header .main-header .hero-text .btn:hover {
@@ -1614,7 +1560,6 @@ footer .main-footer .copyright {
     border-radius: 5px;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1em;
-    background-color: #0DF94E;
     font-weight: 700;
   }
   header .main-header .hero-text .btn2:hover {
@@ -1703,10 +1648,10 @@ footer .main-footer .copyright {
   }
   header .menu-section article .buy-btn {
     text-decoration: none;
-    color: #fbf485;
+    color: #f5e61e;
     font-size: 1.5em;
     font-weight: 700;
-    border: 1px solid #fbf485;
+    border: 1px solid #f5e61e;
     padding: 0 7px;
   }
   /* Footer section */
@@ -1745,22 +1690,6 @@ footer .main-footer .copyright {
   footer .main-footer .social-icons li {
     padding: 0.5em 0.5em;
   }
-  footer .main-footer .order-now-btn {
-    display: none;
-    margin: auto;
-    font-size: 50px;
-    padding: 10px 0;
-    margin-bottom: 20px;
-    text-align: center;
-    width: 500px;
-    background-color: #fbf485;
-    color: #000000;
-    font-weight: 700;
-  }
-  footer .main-footer .order-now-btn:hover {
-    -webkit-transform: translateY(-5px);
-            transform: translateY(-5px);
-  }
   footer .main-footer .follow-us {
     font-size: 1.5em;
     text-transform: uppercase;
@@ -1780,7 +1709,7 @@ footer .main-footer .copyright {
   body {
     width: 100%;
     height: 100%;
-    background-color: #f5f3f3;
+    background-color: #eeeeee;
     overflow-x: hidden;
   }
   html {
@@ -1885,7 +1814,7 @@ footer .main-footer .copyright {
     left: 5%;
   }
   header .main-header .hero-text h1 {
-    color: #fbf485;
+    color: #f5e61e;
     font-size: 1.5em;
     padding-bottom: 10px;
     margin: 7px;
@@ -1909,7 +1838,6 @@ footer .main-footer .copyright {
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1em;
     color: #000000;
-    background-color: #0DF94E;
     font-weight: 700;
   }
   header .main-header .hero-text .btn:hover {
@@ -1926,7 +1854,6 @@ footer .main-footer .copyright {
     border-radius: 5px;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1em;
-    background-color: #0DF94E;
     font-weight: 700;
   }
   header .main-header .hero-text .btn2:hover {
@@ -2015,10 +1942,10 @@ footer .main-footer .copyright {
   }
   header .menu-section article .buy-btn {
     text-decoration: none;
-    color: #fbf485;
+    color: #f5e61e;
     font-size: 1.5em;
     font-weight: 700;
-    border: 1px solid #fbf485;
+    border: 1px solid #f5e61e;
     padding: 0 7px;
   }
   /* Footer section */
@@ -2057,22 +1984,6 @@ footer .main-footer .copyright {
   footer .main-footer .social-icons li {
     padding: 0.5em 0.5em;
   }
-  footer .main-footer .order-now-btn {
-    display: none;
-    margin: auto;
-    font-size: 50px;
-    padding: 10px 0;
-    margin-bottom: 20px;
-    text-align: center;
-    width: 500px;
-    background-color: #fbf485;
-    color: #000000;
-    font-weight: 700;
-  }
-  footer .main-footer .order-now-btn:hover {
-    -webkit-transform: translateY(-5px);
-            transform: translateY(-5px);
-  }
   footer .main-footer .follow-us {
     font-size: 1.5em;
     text-transform: uppercase;
@@ -2092,7 +2003,7 @@ footer .main-footer .copyright {
   body {
     width: 100%;
     height: 100%;
-    background-color: #f5f3f3;
+    background-color: #eeeeee;
     overflow-x: hidden;
   }
   html {
@@ -2188,7 +2099,7 @@ footer .main-footer .copyright {
     left: 5%;
   }
   header .main-header .hero-text h1 {
-    color: #fbf485;
+    color: #f5e61e;
     font-size: 2.5em;
     padding-bottom: 10px;
     margin: 7px;
@@ -2211,9 +2122,9 @@ footer .main-footer .copyright {
     margin-right: 5%;
     padding: 10px 0;
     font-family: 'Archivo Narrow', sans-serif;
+    letter-spacing: 1px;
     font-size: 1em;
     color: #000000;
-    background-color: #0DF94E;
     font-weight: 700;
   }
   header .main-header .hero-text .btn:hover {
@@ -2230,7 +2141,7 @@ footer .main-footer .copyright {
     border-radius: 5px;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1em;
-    background-color: #0DF94E;
+    letter-spacing: 1px;
     font-weight: 700;
   }
   header .main-header .hero-text .btn2:hover {
@@ -2322,10 +2233,10 @@ footer .main-footer .copyright {
   }
   header .menu-section article .buy-btn {
     text-decoration: none;
-    color: #fbf485;
+    color: #f5e61e;
     font-size: 1.5em;
     font-weight: 700;
-    border: 1px solid #fbf485;
+    border: 1px solid #f5e61e;
     padding: 0 7px;
   }
   .about-section, .menu-section {
@@ -2375,7 +2286,7 @@ footer .main-footer .copyright {
     margin-bottom: 20px;
     text-align: center;
     width: 500px;
-    background-color: #fbf485;
+    background-color: #f5e61e;
     color: #000000;
     font-weight: 700;
   }

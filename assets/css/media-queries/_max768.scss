@@ -122,11 +122,8 @@
      margin-right: 20px;
      font-family: 'Archivo Narrow', sans-serif;
      font-size: $medium-size;
-     background-color: #0DF94E;;
      font-weight: 700;
-  //    position: absolute;
-  // top:95%;
-  // left: 0;
+
   transform: translate(-50%, -50%);
 
           
@@ -145,16 +142,10 @@
       justify-items: center;
       align-items: center;
       padding-left: 40px;
-      border-radius: 5px;
-      
+      border-radius: 5px;    
      font-family: 'Archivo Narrow', sans-serif;
      font-size: $medium-size;
-     background-color: #0DF94E;;
      font-weight: 700;
-  //    position: absolute;
-  // top:95%;
-  // left: 40%;
-  // transform: translate(-50%, -50%);
 
           
   &:hover {
