@@ -37,7 +37,7 @@
   
       width: 100%;
        height: 100vh;
-      background-image: linear-gradient( 90deg, #00000046 0%, rgba(0, 0, 0, 0.294) 35%, #0000003a 100%), url(/assets/img/back-img-small.jpg);
+      background-image: linear-gradient( 90deg, #00000083 0%, rgba(0, 0, 0, 0.555) 35%, #0000007a 100%),  url(/assets/img/back-img-small.jpg);
       background-repeat: no-repeat;
       background-size: cover;
   
@@ -141,10 +141,10 @@
   
   
   h1 {
-    
+       
         color: $comp-color;
-        font-size: $medium-size;
-        padding-bottom: 10px;
+        font-size: $large-size;
+        padding-bottom: 30px;
          margin: 7px;
         font-family: 'Archivo Black', sans-serif;
          line-height: 1.2;

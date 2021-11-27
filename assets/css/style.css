@@ -22,7 +22,7 @@ html {
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-family: 'Archivo Narrow', sans-serif;
   color: #f5f3f3;
 }
@@ -115,7 +115,7 @@ header .main-header .wrapper nav ul li a {
   text-decoration: none;
   color: #f5f3f3;
   font-family: 'Poiret One', cursive;
-  font-size: 2.5em;
+  font-size: 2.5rem;
 }
 
 header .main-header .wrapper nav ul li a:hover {
@@ -161,7 +161,7 @@ header .hero-text {
 
 header .hero-text h1 {
   color: #f5e61e;
-  font-size: 3.75em;
+  font-size: 3.75rem;
   max-width: 40rem;
   padding-bottom: 10px;
   font-family: 'Archivo Black', sans-serif;
@@ -172,7 +172,7 @@ header .hero-text h1 {
 
 header .hero-text p {
   color: #f5f3f3;
-  font-size: 2.5em;
+  font-size: 2.5rem;
 }
 
 header .hero-text .buttons {
@@ -184,7 +184,7 @@ header .hero-text .buttons {
 header .hero-text .btn {
   margin-right: 5%;
   font-family: 'Archivo Narrow', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   color: #000000;
   background-color: #eeeeee;
   font-weight: 700;
@@ -202,7 +202,7 @@ header .hero-text .btn2 {
   color: #000000;
   font-family: 'Archivo Narrow', sans-serif;
   font-weight: 700;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   text-decoration: none;
   padding-top: 7px;
   padding-left: 20px;
@@ -239,7 +239,7 @@ header .hero-text .btn2:hover {
 
 .about-section h2 {
   font-family: 'Poiret One', cursive;
-  font-size: 3.75em;
+  font-size: 3.75rem;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
@@ -276,7 +276,7 @@ header .hero-text .btn2:hover {
 }
 
 .opening-hours #opening-hours__header {
-  font-size: 3.75em;
+  font-size: 3.75rem;
   font-weight: 700;
   color: #f5f3f3;
 }
@@ -285,7 +285,7 @@ header .hero-text .btn2:hover {
   text-transform: uppercase;
   text-align: center;
   color: #f5f3f3;
-  font-size: 2.5em;
+  font-size: 2.5rem;
   font-weight: 700;
   font-family: 'Poiret One', cursive;
 }
@@ -299,7 +299,7 @@ header .hero-text .btn2:hover {
 }
 
 .menu-section h2 {
-  font-size: 3.75em;
+  font-size: 3.75rem;
   font-family: 'Poiret One', cursive;
   text-transform: uppercase;
   font-weight: 700;
@@ -332,20 +332,20 @@ header .hero-text .btn2:hover {
 
 .menu-section article p {
   color: #f5f3f3;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 .menu-section article .buy-btn {
   text-decoration: none;
   color: #f5e61e;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-weight: 700;
   border: 1px solid #f5e61e;
   padding: 0 7px;
 }
 
 .about-section, .menu-section {
-  padding-bottom: 2.5em;
+  padding-bottom: 2.5rem;
 }
 
 /*===================================================*/
@@ -399,19 +399,19 @@ footer .main-footer .social-icons li:hover {
 }
 
 footer .main-footer .follow-us {
-  font-size: 3.75em;
+  font-size: 3.75rem;
   text-transform: uppercase;
   font-family: 'Archivo Black', sans-serif;
 }
 
 footer .main-footer p {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   color: #f5f3f3;
   font-family: 'Archivo Narrow', sans-serif;
 }
 
 footer .main-footer .copyright {
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1350px) {
@@ -432,7 +432,7 @@ footer .main-footer .copyright {
     width: 100%;
   }
   h3 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-family: 'Archivo Narrow', sans-serif;
     color: #f5f3f3;
   }
@@ -449,8 +449,8 @@ footer .main-footer .copyright {
   header .main-header {
     width: 100%;
     height: 100vh;
-    background-image: -webkit-gradient(linear, left top, right top, from(#00000046), color-stop(35%, rgba(0, 0, 0, 0.294)), to(#0000003a)), url(../img/back-img.jpg);
-    background-image: linear-gradient(90deg, #00000046 0%, rgba(0, 0, 0, 0.294) 35%, #0000003a 100%), url(../img/back-img.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(#00000083), color-stop(35%, rgba(0, 0, 0, 0.555)), to(#0000007a)), url(../img/back-img.jpg);
+    background-image: linear-gradient(90deg, #00000083 0%, rgba(0, 0, 0, 0.555) 35%, #0000007a 100%), url(../img/back-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /*Navigation section */
@@ -502,7 +502,7 @@ footer .main-footer .copyright {
     text-decoration: none;
     color: #f5f3f3;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
   header .main-header .wrapper nav ul li a:hover {
     color: goldenrod;
@@ -541,7 +541,7 @@ footer .main-footer .copyright {
   }
   header .hero-text h1 {
     color: #f5e61e;
-    font-size: 3.75em;
+    font-size: 3.75rem;
     max-width: 40rem;
     padding-bottom: 10px;
     font-family: 'Archivo Black', sans-serif;
@@ -551,7 +551,7 @@ footer .main-footer .copyright {
   }
   header .hero-text p {
     color: #f5f3f3;
-    font-size: 2.5em;
+    font-size: 2.5rem;
   }
   header .hero-text .buttons {
     display: -webkit-box;
@@ -562,7 +562,7 @@ footer .main-footer .copyright {
     width: 30%;
     margin-right: 5%;
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: #000000;
     font-weight: 700;
   }
@@ -579,7 +579,7 @@ footer .main-footer .copyright {
     padding-right: 10px;
     border-radius: 5px;
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 700;
   }
   header .hero-text .btn2:hover {
@@ -588,7 +588,7 @@ footer .main-footer .copyright {
   }
   .section-header {
     font-family: 'Archivo Black', sans-serif;
-    padding: 2.5em 0 1em 0;
+    padding: 2.5rem 0 1rem 0;
   }
   /* about-section */
   .about-section {
@@ -597,7 +597,7 @@ footer .main-footer .copyright {
     background-color: #f5f3f3;
   }
   .about-section h2 {
-    font-size: 3.75em;
+    font-size: 3.75rem;
     font-family: 'Poiret One', cursive;
     text-transform: uppercase;
     font-weight: 700;
@@ -622,14 +622,14 @@ footer .main-footer .copyright {
   }
   .opening-hours p {
     color: #f5f3f3;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     font-weight: 400;
     font-family: 'Poiret One', cursive;
   }
   /*Menu section*/
   .menu-section {
     background-color: #f5f3f3;
-    padding-bottom: 3.75em;
+    padding-bottom: 3.75rem;
   }
   .menu-section h2 {
     font-weight: 700;
@@ -658,18 +658,18 @@ footer .main-footer .copyright {
   }
   .menu-section article p {
     color: #f5f3f3;
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
   .menu-section article .buy-btn {
     text-decoration: none;
     color: #f5e61e;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 700;
     border: 1px solid #f5e61e;
     padding: 0 7px;
   }
   .about-section, .menu-section {
-    padding-bottom: 2.5em;
+    padding-bottom: 2.5rem;
     background-color: #eeeeee;
   }
   /* Footer section */
@@ -709,16 +709,16 @@ footer .main-footer .copyright {
     padding: 0.5em 0.5em;
   }
   footer .main-footer .follow-us {
-    font-size: 3.75em;
+    font-size: 3.75rem;
     font-family: 'Archivo Black', sans-serif;
   }
   footer .main-footer p {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: #f5f3f3;
     font-family: 'Archivo Narrow', sans-serif;
   }
   footer .main-footer .copyright {
-    font-size: 1em;
+    font-size: 1rem;
   }
 }
 
@@ -729,8 +729,8 @@ footer .main-footer .copyright {
   .main-header {
     width: 100%;
     height: 80vh;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.534)), color-stop(35%, rgba(0, 0, 0, 0.514)), to(rgba(0, 0, 0, 0.527))), url(../img/back-img.jpg);
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.534) 0%, rgba(0, 0, 0, 0.514) 35%, rgba(0, 0, 0, 0.527) 100%), url(../img/back-img.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(#00000083), color-stop(35%, rgba(0, 0, 0, 0.555)), to(#0000007a)), url(../img/back-img.jpg);
+    background-image: linear-gradient(90deg, #00000083 0%, rgba(0, 0, 0, 0.555) 35%, #0000007a 100%), url(../img/back-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;
@@ -781,7 +781,7 @@ footer .main-footer .copyright {
   .hero-text h1 {
     width: 100;
     color: #f5e61e;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     font-weight: 700;
     font-family: 'Archivo Black', sans-serif;
   }
@@ -798,7 +798,7 @@ footer .main-footer .copyright {
     height: 50px;
     margin-right: 20px;
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 700;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
@@ -822,7 +822,7 @@ footer .main-footer .copyright {
     padding-left: 40px;
     border-radius: 5px;
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 700;
   }
   .hero-text .btn2:hover {
@@ -833,8 +833,8 @@ footer .main-footer .copyright {
     background-color: #eeeeee;
   }
   .about-section h2 {
-    margin-top: 1em;
-    font-size: 3.75em;
+    margin-top: 1rem;
+    font-size: 3.75rem;
     font-family: 'Poiret One', cursive;
     text-transform: uppercase;
     font-weight: 700;
@@ -859,7 +859,7 @@ footer .main-footer .copyright {
     overflow-x: hidden;
   }
   h3 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-family: 'Archivo Narrow', sans-serif;
     color: #f5f3f3;
   }
@@ -875,8 +875,8 @@ footer .main-footer .copyright {
   header .main-header {
     width: 100%;
     height: 100vh;
-    background-image: -webkit-gradient(linear, left top, right top, from(#00000046), color-stop(35%, rgba(0, 0, 0, 0.294)), to(#0000003a)), url(/assets/img/back-img-small.jpg);
-    background-image: linear-gradient(90deg, #00000046 0%, rgba(0, 0, 0, 0.294) 35%, #0000003a 100%), url(/assets/img/back-img-small.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(#00000083), color-stop(35%, rgba(0, 0, 0, 0.555)), to(#0000007a)), url(/assets/img/back-img-small.jpg);
+    background-image: linear-gradient(90deg, #00000083 0%, rgba(0, 0, 0, 0.555) 35%, #0000007a 100%), url(/assets/img/back-img-small.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /*Navigation section */
@@ -947,7 +947,8 @@ footer .main-footer .copyright {
   }
   header .main-header .hero-text h1 {
     color: #f5e61e;
-    font-size: 2.5em;
+    font-size: 2.5rem;
+    padding: 10px;
     padding-bottom: 10px;
     margin: 7px;
     font-family: 'Archivo Black', sans-serif;
@@ -956,7 +957,7 @@ footer .main-footer .copyright {
   }
   header .main-header .hero-text p {
     color: #f5f3f3;
-    font-size: 2.5em;
+    font-size: 2.5rem;
   }
   header .main-header .hero-text .buttons {
     display: -webkit-box;
@@ -967,7 +968,7 @@ footer .main-footer .copyright {
     margin-right: 5%;
     padding: 10px 0;
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: #000000;
     font-weight: 700;
   }
@@ -982,7 +983,7 @@ footer .main-footer .copyright {
     color: #000000;
     border-radius: 5px;
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 700;
   }
   header .main-header .hero-text .btn2:hover {
@@ -991,7 +992,7 @@ footer .main-footer .copyright {
   }
   .section-header {
     font-family: 'Archivo Black', sans-serif;
-    padding: 2.5em 0 1em 0;
+    padding: 2.5rem 0 1rem 0;
   }
   /* about-section */
   .about-section {
@@ -1000,8 +1001,8 @@ footer .main-footer .copyright {
     background-color: #eeeeee;
   }
   .about-section h2 {
-    margin-top: 1.5em;
-    font-size: 2.5em;
+    margin-top: 1.5rem;
+    font-size: 2.5rem;
     font-family: 'Poiret One', cursive;
     text-transform: uppercase;
     font-weight: 700;
@@ -1027,17 +1028,17 @@ footer .main-footer .copyright {
   .opening-hours p {
     margin: 10px;
     color: #f5f3f3;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 400;
     font-family: 'Poiret One', cursive;
   }
   /*Menu section*/
   .menu-section {
     background-color: #eeeeee;
-    padding-bottom: 3.75em;
+    padding-bottom: 3.75rem;
   }
   .menu-section h2 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     font-family: 'Poiret One', cursive;
     text-transform: uppercase;
     font-weight: 700;
@@ -1066,18 +1067,18 @@ footer .main-footer .copyright {
   }
   .menu-section article p {
     color: #f5f3f3;
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
   .menu-section article .buy-btn {
     text-decoration: none;
     color: #f5e61e;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 700;
     border: 1px solid #f5e61e;
     padding: 0 7px;
   }
   .about-section, .menu-section {
-    padding-bottom: 2.5em;
+    padding-bottom: 2.5rem;
     background-color: #eeeeee;
   }
   /* Footer section */
@@ -1117,16 +1118,16 @@ footer .main-footer .copyright {
     padding: 0.5em 0.5em;
   }
   footer .main-footer .follow-us {
-    font-size: 3.75em;
+    font-size: 3.75rem;
     font-family: 'Archivo Black', sans-serif;
   }
   footer .main-footer p {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: #f5f3f3;
     font-family: 'Archivo Narrow', sans-serif;
   }
   footer .main-footer .copyright {
-    font-size: 1em;
+    font-size: 1rem;
   }
 }
 
@@ -1142,7 +1143,7 @@ footer .main-footer .copyright {
     overflow-x: hidden;
   }
   h3 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-family: 'Archivo Narrow', sans-serif;
     color: #f5f3f3;
   }
@@ -1158,8 +1159,8 @@ footer .main-footer .copyright {
   header .main-header {
     width: 100%;
     height: 100vh;
-    background-image: -webkit-gradient(linear, left top, right top, from(#00000046), color-stop(35%, rgba(0, 0, 0, 0.294)), to(#0000003a)), url(/assets/img/back-img-small.jpg);
-    background-image: linear-gradient(90deg, #00000046 0%, rgba(0, 0, 0, 0.294) 35%, #0000003a 100%), url(/assets/img/back-img-small.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(#00000083), color-stop(35%, rgba(0, 0, 0, 0.555)), to(#0000007a)), url(/assets/img/back-img-small.jpg);
+    background-image: linear-gradient(90deg, #00000083 0%, rgba(0, 0, 0, 0.555) 35%, #0000007a 100%), url(/assets/img/back-img-small.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /*Navigation section */
@@ -1230,7 +1231,7 @@ footer .main-footer .copyright {
   }
   header .main-header .hero-text h1 {
     color: #f5e61e;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     padding-bottom: 10px;
     margin: 7px;
     font-family: 'Archivo Black', sans-serif;
@@ -1239,7 +1240,7 @@ footer .main-footer .copyright {
   }
   header .main-header .hero-text p {
     color: #f5f3f3;
-    font-size: 2.5em;
+    font-size: 2.5rem;
   }
   header .main-header .hero-text .buttons {
     display: -webkit-box;
@@ -1252,7 +1253,7 @@ footer .main-footer .copyright {
     margin-right: 5%;
     padding: 10px 0;
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 1em;
+    font-size: 1rem;
     color: #000000;
     font-weight: 700;
   }
@@ -1275,7 +1276,7 @@ footer .main-footer .copyright {
   }
   .section-header {
     font-family: 'Archivo Black', sans-serif;
-    padding: 2.5em 0 1em 0;
+    padding: 2.5rem 0 1rem 0;
   }
   /* about-section */
   .about-section {
@@ -1283,7 +1284,7 @@ footer .main-footer .copyright {
     background-color: #eeeeee;
   }
   .about-section h2 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     font-family: 'Poiret One', cursive;
     text-transform: uppercase;
     font-weight: 700;
@@ -1308,23 +1309,23 @@ footer .main-footer .copyright {
     color: #f5f3f3;
   }
   .opening-hours h2 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
   .opening-hours p {
     margin: 10px;
     text-align: center;
     color: #f5f3f3;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 400;
     font-family: 'Poiret One', cursive;
   }
   /*Menu section*/
   .menu-section {
     background-color: #f5f3f3;
-    padding-bottom: 3.75em;
+    padding-bottom: 3.75rem;
   }
   .menu-section h2 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     font-family: 'Poiret One', cursive;
     text-transform: uppercase;
     font-weight: 700;
@@ -1353,18 +1354,18 @@ footer .main-footer .copyright {
   }
   .menu-section article p {
     color: #f5f3f3;
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
   .menu-section article .buy-btn {
     text-decoration: none;
     color: #f5e61e;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 700;
     border: 1px solid #f5e61e;
     padding: 0 7px;
   }
   .about-section, .menu-section {
-    padding-bottom: 2.5em;
+    padding-bottom: 2.5rem;
   }
   /* Footer section */
   footer .main-footer {
@@ -1403,11 +1404,11 @@ footer .main-footer .copyright {
     padding: 0.5em 0.5em;
   }
   footer .main-footer p {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: #f5f3f3;
   }
   footer .main-footer .copyright {
-    font-size: 1em;
+    font-size: 1rem;
   }
 }
 
@@ -1423,7 +1424,7 @@ footer .main-footer .copyright {
     overflow-x: hidden;
   }
   h3 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-family: 'Archivo Narrow', sans-serif;
     color: #f5f3f3;
   }
@@ -1441,8 +1442,8 @@ footer .main-footer .copyright {
   header .main-header {
     width: 100%;
     height: 100vh;
-    background-image: -webkit-gradient(linear, left top, right top, from(#00000046), color-stop(35%, rgba(0, 0, 0, 0.294)), to(#0000003a)), url(/assets/img/back-img-small.jpg);
-    background-image: linear-gradient(90deg, #00000046 0%, rgba(0, 0, 0, 0.294) 35%, #0000003a 100%), url(/assets/img/back-img-small.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(#00000083), color-stop(35%, rgba(0, 0, 0, 0.555)), to(#0000007a)), url(/assets/img/back-img-small.jpg);
+    background-image: linear-gradient(90deg, #00000083 0%, rgba(0, 0, 0, 0.555) 35%, #0000007a 100%), url(/assets/img/back-img-small.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /*Navigation section */
@@ -1464,10 +1465,10 @@ footer .main-footer .copyright {
   }
   header .main-header nav ul li {
     padding: 10px 0;
-    font-size: 1em;
+    font-size: 1rem;
   }
   header .main-header nav ul li a {
-    font-size: 1em;
+    font-size: 1rem;
   }
   header .main-header .container {
     padding-top: 20px;
@@ -1521,16 +1522,16 @@ footer .main-footer .copyright {
   }
   header .main-header .hero-text h1 {
     color: #f5e61e;
-    font-size: 1.5em;
-    padding-bottom: 10px;
-    margin: 7px;
+    font-size: 2.5rem;
+    padding-bottom: 30px;
+    margin: 11px;
     font-family: 'Archivo Black', sans-serif;
     line-height: 1.2;
     z-index: -1;
   }
   header .main-header .hero-text p {
     color: #f5f3f3;
-    font-size: 2.5em;
+    font-size: 2.5rem;
   }
   header .main-header .hero-text .buttons {
     display: -webkit-box;
@@ -1542,7 +1543,7 @@ footer .main-footer .copyright {
     height: 50%;
     margin-right: 5%;
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 1em;
+    font-size: 1rem;
     color: #000000;
     font-weight: 700;
   }
@@ -1559,7 +1560,7 @@ footer .main-footer .copyright {
     color: #000000;
     border-radius: 5px;
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 700;
   }
   header .main-header .hero-text .btn2:hover {
@@ -1572,7 +1573,7 @@ footer .main-footer .copyright {
   }
   header .section-header {
     font-family: 'Archivo Black', sans-serif;
-    padding: 2.5em 0 1em 0;
+    padding: 2.5rem 0 1rem 0;
   }
   header .about-section {
     width: 100%;
@@ -1581,7 +1582,7 @@ footer .main-footer .copyright {
     background-color: #eeeeee;
   }
   header .about-section h2 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     font-family: 'Poiret One', cursive;
     text-transform: uppercase;
     font-weight: 700;
@@ -1606,7 +1607,7 @@ footer .main-footer .copyright {
   header .opening-hours p {
     margin: 10px;
     color: #f5f3f3;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 400;
     font-family: 'Archivo Narrow', sans-serif;
   }
@@ -1615,7 +1616,7 @@ footer .main-footer .copyright {
     padding: 1em;
   }
   header .menu-section h2 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     font-family: 'Poiret One', cursive;
     text-transform: uppercase;
     font-weight: 700;
@@ -1644,12 +1645,12 @@ footer .main-footer .copyright {
   }
   header .menu-section article p {
     color: #f5f3f3;
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
   header .menu-section article .buy-btn {
     text-decoration: none;
     color: #f5e61e;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 700;
     border: 1px solid #f5e61e;
     padding: 0 7px;
@@ -1691,17 +1692,17 @@ footer .main-footer .copyright {
     padding: 0.5em 0.5em;
   }
   footer .main-footer .follow-us {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     text-transform: uppercase;
     font-family: 'Archivo Black', sans-serif;
   }
   footer .main-footer p {
-    font-size: 1em;
+    font-size: 1rem;
     color: #f5f3f3;
     font-family: 'Archivo Narrow', sans-serif;
   }
   footer .main-footer .copyright {
-    font-size: 1em;
+    font-size: 1rem;
   }
 }
 
@@ -1717,7 +1718,7 @@ footer .main-footer .copyright {
     overflow-x: hidden;
   }
   h3 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-family: 'Archivo Narrow', sans-serif;
     color: #f5f3f3;
   }
@@ -1735,8 +1736,8 @@ footer .main-footer .copyright {
   header .main-header {
     width: 100%;
     height: 100vh;
-    background-image: -webkit-gradient(linear, left top, right top, from(#00000046), color-stop(35%, rgba(0, 0, 0, 0.294)), to(#0000003a)), url(/assets/img/back-img-small.jpg);
-    background-image: linear-gradient(90deg, #00000046 0%, rgba(0, 0, 0, 0.294) 35%, #0000003a 100%), url(/assets/img/back-img-small.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(#00000083), color-stop(35%, rgba(0, 0, 0, 0.555)), to(#0000007a)), url(/assets/img/back-img-small.jpg);
+    background-image: linear-gradient(90deg, #00000083 0%, rgba(0, 0, 0, 0.555) 35%, #0000007a 100%), url(/assets/img/back-img-small.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /*Navigation section */
@@ -1758,10 +1759,10 @@ footer .main-footer .copyright {
   }
   header .main-header nav ul li {
     padding: 10px 0;
-    font-size: 1em;
+    font-size: 1rem;
   }
   header .main-header nav ul li a {
-    font-size: 1em;
+    font-size: 1rem;
   }
   header .main-header .container {
     padding-top: 20px;
@@ -1815,8 +1816,8 @@ footer .main-footer .copyright {
   }
   header .main-header .hero-text h1 {
     color: #f5e61e;
-    font-size: 1.5em;
-    padding-bottom: 10px;
+    font-size: 2.5rem;
+    padding-bottom: 30px;
     margin: 7px;
     font-family: 'Archivo Black', sans-serif;
     line-height: 1.2;
@@ -1824,7 +1825,7 @@ footer .main-footer .copyright {
   }
   header .main-header .hero-text p {
     color: #f5f3f3;
-    font-size: 2.5em;
+    font-size: 2.5rem;
   }
   header .main-header .hero-text .buttons {
     display: -webkit-box;
@@ -1836,7 +1837,7 @@ footer .main-footer .copyright {
     height: 50%;
     margin-right: 5%;
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 1em;
+    font-size: 1rem;
     color: #000000;
     font-weight: 700;
   }
@@ -1853,7 +1854,7 @@ footer .main-footer .copyright {
     color: #000000;
     border-radius: 5px;
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 700;
   }
   header .main-header .hero-text .btn2:hover {
@@ -1866,7 +1867,7 @@ footer .main-footer .copyright {
   }
   header .section-header {
     font-family: 'Archivo Black', sans-serif;
-    padding: 2.5em 0 1em 0;
+    padding: 2.5rem 0 1rem 0;
   }
   header .about-section {
     width: 100%;
@@ -1875,7 +1876,7 @@ footer .main-footer .copyright {
     background-color: #eeeeee;
   }
   header .about-section h2 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     font-family: 'Poiret One', cursive;
     text-transform: uppercase;
     font-weight: 700;
@@ -1900,7 +1901,7 @@ footer .main-footer .copyright {
   header .opening-hours p {
     margin: 10px;
     color: #f5f3f3;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 400;
     font-family: 'Archivo Narrow', sans-serif;
   }
@@ -1909,7 +1910,7 @@ footer .main-footer .copyright {
     padding: 1em;
   }
   header .menu-section h2 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     font-family: 'Poiret One', cursive;
     text-transform: uppercase;
     font-weight: 700;
@@ -1938,12 +1939,12 @@ footer .main-footer .copyright {
   }
   header .menu-section article p {
     color: #f5f3f3;
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
   header .menu-section article .buy-btn {
     text-decoration: none;
     color: #f5e61e;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 700;
     border: 1px solid #f5e61e;
     padding: 0 7px;
@@ -1985,17 +1986,17 @@ footer .main-footer .copyright {
     padding: 0.5em 0.5em;
   }
   footer .main-footer .follow-us {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     text-transform: uppercase;
     font-family: 'Archivo Black', sans-serif;
   }
   footer .main-footer p {
-    font-size: 1em;
+    font-size: 1rem;
     color: #f5f3f3;
     font-family: 'Archivo Narrow', sans-serif;
   }
   footer .main-footer .copyright {
-    font-size: 1em;
+    font-size: 1rem;
   }
 }
 
@@ -2011,7 +2012,7 @@ footer .main-footer .copyright {
     overflow-x: hidden;
   }
   h3 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-family: 'Archivo Narrow', sans-serif;
     color: #f5f3f3;
   }
@@ -2029,8 +2030,8 @@ footer .main-footer .copyright {
   header .main-header {
     width: 100%;
     height: 100vh;
-    background-image: -webkit-gradient(linear, left top, right top, from(#00000046), color-stop(35%, rgba(0, 0, 0, 0.294)), to(#0000003a)), url(/assets/img/back-img-small.jpg);
-    background-image: linear-gradient(90deg, #00000046 0%, rgba(0, 0, 0, 0.294) 35%, #0000003a 100%), url(/assets/img/back-img-small.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(#00000083), color-stop(35%, rgba(0, 0, 0, 0.555)), to(#0000007a)), url(/assets/img/back-img-small.jpg);
+    background-image: linear-gradient(90deg, #00000083 0%, rgba(0, 0, 0, 0.555) 35%, #0000007a 100%), url(/assets/img/back-img-small.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /*Hero-section */
@@ -2100,7 +2101,7 @@ footer .main-footer .copyright {
   }
   header .main-header .hero-text h1 {
     color: #f5e61e;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     padding-bottom: 10px;
     margin: 7px;
     font-family: 'Archivo Black', sans-serif;
@@ -2109,7 +2110,7 @@ footer .main-footer .copyright {
   }
   header .main-header .hero-text p {
     color: #f5f3f3;
-    font-size: 2.5em;
+    font-size: 2.5rem;
   }
   header .main-header .hero-text .buttons {
     display: -webkit-box;
@@ -2123,7 +2124,7 @@ footer .main-footer .copyright {
     padding: 10px 0;
     font-family: 'Archivo Narrow', sans-serif;
     letter-spacing: 1px;
-    font-size: 1em;
+    font-size: 1rem;
     color: #000000;
     font-weight: 700;
   }
@@ -2140,7 +2141,7 @@ footer .main-footer .copyright {
     color: #000000;
     border-radius: 5px;
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 1em;
+    font-size: 1rem;
     letter-spacing: 1px;
     font-weight: 700;
   }
@@ -2154,7 +2155,7 @@ footer .main-footer .copyright {
   }
   header .section-header {
     font-family: 'Archivo Black', sans-serif;
-    padding: 2.5em 0 1em 0;
+    padding: 2.5rem 0 1rem 0;
   }
   header .about-section {
     height: 100%;
@@ -2162,7 +2163,7 @@ footer .main-footer .copyright {
     background-color: #f5f3f3;
   }
   header .about-section h2 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-family: 'Poiret One', cursive;
     text-transform: uppercase;
     font-weight: 700;
@@ -2186,21 +2187,21 @@ footer .main-footer .copyright {
     color: #0DF94E;
   }
   header .opening-hours h2 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
   header .opening-hours p {
     margin: 10px;
     color: #f5f3f3;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 400;
     font-family: 'Archivo Narrow', sans-serif;
   }
   header .menu-section {
     background-color: #f5f3f3;
-    padding-bottom: 3.75em;
+    padding-bottom: 3.75rem;
   }
   header .menu-section h2 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     font-family: 'Poiret One', cursive;
     text-transform: uppercase;
     font-weight: 700;
@@ -2229,18 +2230,18 @@ footer .main-footer .copyright {
   }
   header .menu-section article p {
     color: #f5f3f3;
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
   header .menu-section article .buy-btn {
     text-decoration: none;
     color: #f5e61e;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 700;
     border: 1px solid #f5e61e;
     padding: 0 7px;
   }
   .about-section, .menu-section {
-    padding-bottom: 2.5em;
+    padding-bottom: 2.5rem;
   }
   /* Footer section */
   footer .main-footer {
@@ -2295,16 +2296,16 @@ footer .main-footer .copyright {
             transform: translateY(-5px);
   }
   footer .main-footer .follow-us {
-    font-size: 3.75em;
+    font-size: 3.75rem;
     font-family: 'Archivo Narrow', sans-serif;
   }
   footer .main-footer p {
-    font-size: 1em;
+    font-size: 1rem;
     color: #f5f3f3;
     font-family: 'Archivo Narrow', sans-serif;
   }
   footer .main-footer .copyright {
-    font-size: 1em;
+    font-size: 1rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
