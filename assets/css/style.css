@@ -313,15 +313,13 @@ header .hero-text .btn2:hover {
   -webkit-box-shadow: -2px 9px 5px -6px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -2px 9px 5px -6px rgba(0, 0, 0, 0.75);
   border-radius: 10px;
+  -webkit-transition: 1s all;
+  transition: 1s all;
 }
 
 .menu-section article:hover {
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
 }
 
 .menu-section article .food {
@@ -337,6 +335,7 @@ header .hero-text .btn2:hover {
 
 .menu-section article .buy-btn {
   text-decoration: none;
+  text-transform: uppercase;
   color: #f5e61e;
   font-size: 1.5rem;
   font-weight: 700;

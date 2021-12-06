@@ -355,11 +355,11 @@ article {
 -webkit-box-shadow: -2px 9px 5px -6px rgba(0,0,0,0.75);
 -moz-box-shadow: -2px 9px 5px -6px rgba(0,0,0,0.75);
     border-radius: 10px;
+    transition: 1s all;
 
     &:hover {
         transform: translateY(-10px);
-        animation-duration: 4s;
-        animation-delay: 2s;
+
     }
 
 
@@ -377,6 +377,7 @@ article {
 
    .buy-btn {
        text-decoration: none;
+       text-transform: uppercase;
        color: $comp-color;
        font-size: $medium-size;
        font-weight: 700;
