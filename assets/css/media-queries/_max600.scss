@@ -22,7 +22,6 @@
     }
     
     
-    
     a {
       text-decoration: none;
     }
@@ -42,8 +41,6 @@
          background-size: cover;
     
     
-     
-    
         /*Navigation section */
         .container {
     
@@ -55,8 +52,6 @@
               display: flex;
               justify-content: space-evenly;
 
-
-
     
               .show {
                   animation: smooth 1s ease;
@@ -66,8 +61,6 @@
               }
             
         }
-        
-    
         
         nav {
       
@@ -93,9 +86,6 @@
         }
         
         
-      
-        
-        
         @keyframes smooth {
             from {
               opacity: 0;
@@ -104,13 +94,9 @@
               opacity: 1;
             }
         }
-        
-        
-        
-       
+         
     }
-    
-    
+  
     .whatsapp-chat {
        float: right;
        position: fixed;
@@ -118,17 +104,12 @@
        left: 90%;
        z-index: 10;
     }
-    
-    
-    
-    
+      
     /*Hero-section */
     .hero-text {
       position: absolute;
       top:35%;
       left: 5%;
-    
-    
     
     h1 {
       
@@ -142,8 +123,7 @@
             z-index: -1;
        
     }
-    
-      
+        
       p{
           color: $primary-color;
           font-size: $large-size;
@@ -153,19 +133,16 @@
             display: flex;
     
         }
+
       .btn {
-      
-    
           margin-right: 5%;
           padding: 10px 0;
          font-family: 'Archivo Narrow', sans-serif;
          font-size: $medium-size;
          color: #000000;
-
-         font-weight: 700;
+        font-weight: 700;
       
-    
-              
+         
       &:hover {
              transform: translateY(-6px);
     
@@ -173,15 +150,14 @@
       }
     
       .btn2 {
-      
-        margin-right: 5%;
-padding: 10px 0 10px 40px;
-text-decoration: none;
-color: #000000;
-border-radius: 5px;
-font-family: 'Archivo Narrow', sans-serif;
-font-size: $medium-size;
-font-weight: 700;
+         margin-right: 5%;
+        padding: 10px 0 10px 40px;
+        text-decoration: none;
+        color: #000000;
+        border-radius: 5px;
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: $medium-size;
+        font-weight: 700;
 
               
       &:hover {
@@ -210,7 +186,6 @@ font-weight: 700;
     margin-bottom: 50px;
     background-color: #eeeeee;
 
-    
      h2 {
        margin-top: $medium-size;
          font-size: $large-size;
@@ -220,18 +195,17 @@ font-weight: 700;
     }
     
     
-    p {
-      font-family: "Open Sans", sans-serif;
-    
-      font-size: 16px;
-    }
-    .wave-wrapper {
-      position: relative;
-    }
+            p {
+              font-family: "Open Sans", sans-serif;
+            
+              font-size: 16px;
+            }
+            .wave-wrapper {
+              position: relative;
+            }
     
     }
 
-    
     .opening-hours {
       width: 100%;
       height: 500px;
@@ -243,16 +217,12 @@ font-weight: 700;
     #opening-hours__header {
       
       font-family: 'Poiret One', cursive;
-         color: $primary-color;
+     color: $primary-color;
       }
-    
-    
-    
     
       p {
        
-      margin: 10px;
-     
+          margin: 10px;
            color: $primary-color;
           font-size: $medium-size;
           font-weight: 400;
