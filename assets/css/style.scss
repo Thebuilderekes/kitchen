@@ -112,7 +112,7 @@ header {
 -moz-box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.75);
                    display: none;
                     width: 100%;
-                    top: 12%;
+                    top: 13%;
                     text-decoration: none;
                     list-style: none;
                     background-color: $secondary-color;
@@ -131,7 +131,7 @@ header {
                                     text-decoration: none;
                                     color: $primary-color;
                                     font-family: 'Poiret One', cursive;
-                                    font-size: $large-size;
+                                    font-size: $medium-size;
                     
                                     &:hover {
                                         color: goldenrod;
@@ -441,7 +441,16 @@ footer {
     
             font-family: 'Archivo Black', sans-serif;
         }
+
+
+        .main-footer-p {
+             width: 80%; 
+             margin: 0 auto;
+        }
+
+
         p{
+     
             font-size: $medium-size;
             color: $primary-color;
             font-family: 'Archivo Narrow', sans-serif;
