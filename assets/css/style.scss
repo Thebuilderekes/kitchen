@@ -104,7 +104,7 @@ header {
         width: 100%;
         display: block;
         position: relative;
-        z-index: 1;
+      
 
                 ul {
                     box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.75);
@@ -112,8 +112,11 @@ header {
 -moz-box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.75);
                    display: none;
                     width: 100%;
-                    top: 13%;
+                    height : 100%;
+                    top: 0;
+                    z-index: 20;
                     text-decoration: none;
+
                     list-style: none;
                     background-color: $secondary-color;
                     position: fixed;
@@ -121,9 +124,17 @@ header {
             
                 
                         li {
-
+                            
                             text-align: center;
                             padding: 10px 0;
+
+
+                           &:first-child {
+                               display: block;
+                               float: right;
+                           }
+
+                           clear: both;
                             &:not(:last-child){
                                 border-bottom: 1px solid #41434b;
                             }
@@ -131,7 +142,7 @@ header {
                                     text-decoration: none;
                                     color: $primary-color;
                                     font-family: 'Poiret One', cursive;
-                                    font-size: $medium-size;
+                                    font-size: $extralarge-size;
                     
                                     &:hover {
                                         color: goldenrod;
